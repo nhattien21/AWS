@@ -1,6 +1,6 @@
 ---
 title: "WEEK 4 WORKLOG"
-date: "2025-11-10"
+date: "2026-05-08"
 weight: 1
 chapter: false
 pre: " <b> 1.4 </b> "
@@ -21,11 +21,11 @@ pre: " <b> 1.4 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **Lên ý tưởng & Yêu cầu dự án**: Nghiên cứu, chọn đề tài, và liệt kê các yêu cầu chức năng/kỹ thuật cho dự án cuối khóa. | 29/09/2025 | 29/09/2025 | |
-| 2 (Thứ Ba) | **Thiết kế kiến trúc AWS**: Vẽ sơ đồ kiến trúc (VPC, Subnets, EC2, S3, IAM Roles) và thiết kế chính sách đặt tên/gắn thẻ. | 30/09/2025 | 30/09/2025 | |
-| 3 (Thứ Tư) | **Triển khai hạ tầng mạng (Networking)**: Tạo VPC, Public/Private Subnets, Internet Gateway, NAT Gateway, và cấu hình Route Tables. | 01/10/2025 | 01/10/2025 | |
-| 4 (Thứ Năm) | **Triển khai máy chủ web**: Tạo EC2 instance, cấu hình Security Group (HTTP/HTTPS), và cài đặt web server NGINX. | 02/10/2025 | 02/10/2025 | |
-| 5 (Thứ Sáu) | **Triển khai ứng dụng**: Chuẩn bị mã nguồn (HTML/CSS), tải lên EC2, và cấu hình NGINX để phục vụ trang web. | 03/10/2025 | 03/10/2025 | |
+| 1 (Thứ Hai) | **Lên ý tưởng & Yêu cầu dự án**: Nghiên cứu, chọn đề tài, và liệt kê các yêu cầu chức năng/kỹ thuật cho dự án cuối khóa. | 08/05/2026 | 08/05/2026 | |
+| 2 (Thứ Ba) | **Thiết kế kiến trúc AWS**: Vẽ sơ đồ kiến trúc (VPC, Subnets, EC2, S3, IAM Roles) và thiết kế chính sách đặt tên/gắn thẻ. | 11/05/2026 | 11/05/2026 | |
+| 3 (Thứ Tư) | **Triển khai hạ tầng mạng (Networking)**: Tạo VPC, Public/Private Subnets, Internet Gateway, NAT Gateway, và cấu hình Route Tables. | 12/05/2026 | 12/05/2026 | |
+| 4 (Thứ Năm) | **Triển khai máy chủ web**: Tạo EC2 instance, cấu hình Security Group (HTTP/HTTPS), và cài đặt web server NGINX. | 13/05/2026 | 13/05/2026 | |
+| 5 (Thứ Sáu) | **Triển khai ứng dụng**: Chuẩn bị mã nguồn (HTML/CSS), tải lên EC2, và cấu hình NGINX để phục vụ trang web. | 14/05/2026 | 14/05/2026 | |
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "WEEK 5 WORKLOG"
-date: "2025-11-10"
+date: "2026-05-15"
 weight: 1
 chapter: false
 pre: " <b> 1.5 </b> "
@@ -21,11 +21,11 @@ pre: " <b> 1.5 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **S3 Integration (Part 1)**: Create an S3 Bucket and configure its Bucket Policy for public read access. | 06/10/2025 | 06/10/2025 | |
-| 2 (Tue) | **Deploy AWS WAF**: Create a Web ACL, add basic security rules (e.g., block suspicious IPs), and associate it with the ALB. | 07/10/2025 | 07/10/2025 | |
-| 3 (Wed) | **Review & Document**: Check Security Groups (least privilege), review EC2 Right-sizing, and write architecture documentation. | 08/10/2025 | 08/10/2025 | |
-| 4 (Thu) | **S3 Integration (Part 2)**: Update the application's HTML/CSS source code to use image links from the S3 Bucket. | 09/10/2025 | 09/10/2025 | |
-| 5 (Fri) | **Learn IaC**: Read an overview of Infrastructure as Code and watch an introductory video on AWS CloudFormation basics (Stacks, Templates). | 10/10/2025 | 10/10/2025 | |
+| 1 (Mon) | **S3 Integration (Part 1)**: Create an S3 Bucket and configure its Bucket Policy for public read access. | 15/05/2026 | 15/05/2026 | |
+| 2 (Tue) | **Deploy AWS WAF**: Create a Web ACL, add basic security rules (e.g., block suspicious IPs), and associate it with the ALB. | 18/05/2026 | 18/05/2026 | |
+| 3 (Wed) | **Review & Document**: Check Security Groups (least privilege), review EC2 Right-sizing, and write architecture documentation. | 19/05/2026 | 19/05/2026 | |
+| 4 (Thu) | **S3 Integration (Part 2)**: Update the application's HTML/CSS source code to use image links from the S3 Bucket. | 20/05/2026 | 20/05/2026 | |
+| 5 (Fri) | **Learn IaC**: Read an overview of Infrastructure as Code and watch an introductory video on AWS CloudFormation basics (Stacks, Templates). | 21/05/2026 | 21/05/2026 | |
 
 ---
 

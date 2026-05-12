@@ -1,6 +1,6 @@
 ---
 title: "WEEK 9 WORKLOG"
-date: "2025-11-10"
+date: "2026-06-12"
 weight: 1
 chapter: false
 pre: " <b> 1.9 </b> "
@@ -23,11 +23,11 @@ pre: " <b> 1.9 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **Tìm hiểu AWS Lambda**: Nghiên cứu về Serverless, tạo một hàm Lambda đơn giản (kích hoạt từ S3) và đánh giá cách tích hợp vào CI/CD. | 03/11/2025 | 03/11/2025 | |
-| 2 (Thứ Ba) | **Tìm hiểu CI & Jenkins**: Nghiên cứu các công cụ CI (Jenkins, Travis CI), thực hành cài đặt và cấu hình **Jenkins** (tạo pipeline) để kiểm tra tự động. | 04/11/2025 | 04/11/2025 | |
-| 3 (Thứ Tư) | **Tìm hiểu Docker**: Nghiên cứu về container. Thực hành viết **Dockerfile** cho ứng dụng Node.js, build image (`docker build`) và chạy container (`docker run`). | 05/11/2025 | 05/11/2025 | |
-| 4 (Thứ Năm) | **Tìm hiểu AWS CodeDeploy**: Nghiên cứu dịch vụ CodeDeploy. Thực hành triển khai ứng dụng mẫu (từ CodeCommit) lên EC2 và gỡ lỗi tập lệnh (script). | 06/11/2025 | 06/11/2025 | |
-| 5 (Thứ Sáu) | **Tìm hiểu Monitoring & Báo cáo**: Xem lại tài liệu CI/CD. Tìm hiểu về các công cụ giám sát container (Prometheus, Grafana, cAdvisor). | 07/11/2025 | 07/11/2025 | |
+| 1 (Thứ Hai) | **Tìm hiểu AWS Lambda**: Nghiên cứu về Serverless, tạo một hàm Lambda đơn giản (kích hoạt từ S3) và đánh giá cách tích hợp vào CI/CD. | 12/06/2026 | 12/06/2026 | |
+| 2 (Thứ Ba) | **Tìm hiểu CI & Jenkins**: Nghiên cứu các công cụ CI (Jenkins, Travis CI), thực hành cài đặt và cấu hình **Jenkins** (tạo pipeline) để kiểm tra tự động. | 15/06/2026 | 15/06/2026 | |
+| 3 (Thứ Tư) | **Tìm hiểu Docker**: Nghiên cứu về container. Thực hành viết **Dockerfile** cho ứng dụng Node.js, build image (`docker build`) và chạy container (`docker run`). | 16/06/2026 | 16/06/2026 | |
+| 4 (Thứ Năm) | **Tìm hiểu AWS CodeDeploy**: Nghiên cứu dịch vụ CodeDeploy. Thực hành triển khai ứng dụng mẫu (từ CodeCommit) lên EC2 và gỡ lỗi tập lệnh (script). | 17/06/2026 | 17/06/2026 | |
+| 5 (Thứ Sáu) | **Tìm hiểu Monitoring & Báo cáo**: Xem lại tài liệu CI/CD. Tìm hiểu về các công cụ giám sát container (Prometheus, Grafana, cAdvisor). | 18/06/2026 | 18/06/2026 | |
 
 ---
 

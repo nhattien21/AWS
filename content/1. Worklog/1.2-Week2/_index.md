@@ -1,6 +1,6 @@
 ---
 title: "WEEK 2 WORKLOG"
-date: "2025-11-10"
+date: "2026-04-24"
 weight: 1
 chapter: false
 pre: " <b> 1.2 </b> "
@@ -20,11 +20,11 @@ pre: " <b> 1.2 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **Lab 08 – AWS CloudWatch (Part 1)**: Configure EC2; create CloudWatch Alarm (CPU) and CloudWatch Dashboard. | 15/09/2025 | 15/09/2025 | |
-| 2 (Tue) | **Lab 08 – AWS CloudWatch (Part 2)**: Install and configure the CloudWatch Agent on EC2 to collect and push application logs. | 16/09/2025 | 16/09/2025 | |
-| 3 (Wed) | **Learn AWS Organizations (Part 1)**: Create a new member account and structure accounts using Organizational Units (OUs). | 17/09/2025 | 17/09/2025 | |
-| 4 (Thu) | **Deploy AWS Storage Gateway**: Prepare S3 Bucket; launch EC2 instance and install Storage Gateway. | 18/09/2025 | 18/09/2025 | |
-| 5 (Fri) | **Learn AWS Organizations (Part 2)**: Invite an existing AWS account to the Organization; practice `Switch Role` access. | 19/09/2025 | 19/09/2025 | |
+| 1 (Mon) | **Lab 08 – AWS CloudWatch (Part 1)**: Configure EC2; create CloudWatch Alarm (CPU) and CloudWatch Dashboard. | 24/04/2026 | 24/04/2026 | |
+| 2 (Tue) | **Lab 08 – AWS CloudWatch (Part 2)**: Install and configure the CloudWatch Agent on EC2 to collect and push application logs. | 27/04/2026 | 27/04/2026 | |
+| 3 (Wed) | **Learn AWS Organizations (Part 1)**: Create a new member account and structure accounts using Organizational Units (OUs). | 28/04/2026 | 28/04/2026 | |
+| 4 (Thu) | **Deploy AWS Storage Gateway**: Prepare S3 Bucket; launch EC2 instance and install Storage Gateway. | 29/04/2026 | 29/04/2026 | |
+| 5 (Fri) | **Learn AWS Organizations (Part 2)**: Invite an existing AWS account to the Organization; practice `Switch Role` access. | 30/04/2026 | 30/04/2026 | |
 
 ---
 

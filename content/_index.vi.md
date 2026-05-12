@@ -1,27 +1,27 @@
 ---
 title: "Báo cáo thực tập"
-date: "2025-09-08"
+date: "2026-04-17"
 weight: 1
 chapter: false
 ---
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Lê Hoàng Thái
+&emsp; **Họ và tên:** Nguyễn Nhật Tiến
 
-&emsp; **Số điện thoại:** 0368412821
+&emsp; **Số điện thoại:** 0342572815
 
-&emsp; **Email:** thai26112003@gmail.com
+&emsp; **Email:** nhattienys20gg@gmail.com
 
 &emsp; **Trường:** Đại học Công nghệ TP.HCM (HUTECH)
 
-&emsp; **Ngành:** An toàn Thông tin
+&emsp; **Ngành:** Công nghệ thông tin
 
-&emsp; **Lớp:** 22DATA1 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
+&emsp; **Lớp:** 22DTHG6 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
 
-&emsp; **Vị trí thực tập:** FCJ Cloud Intern
+&emsp; **Vị trí thực tập:** FCJ Cloud Engineer
 
-&emsp; **Thời gian thực tập:** Từ ngày 16/09/2025 đến ngày 16/12/2025
+&emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 10/7/2026
 
 ![Your profile photo](/images/hoangthai.png)
 

@@ -1,6 +1,6 @@
 ---
 title: "WEEK 11 WORKLOG"
-date: "2025-11-10"
+date: "2026-06-26"
 weight: 11
 chapter: false
 pre: " <b> 1.11 </b> "
@@ -23,11 +23,11 @@ pre: " <b> 1.11 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **K8s Quản lý Tài nguyên & Scaling**: Học về Resource Quotas, Limit Ranges. Thực hành cấu hình **Horizontal Pod Autoscaler (HPA)**. | 17/11/2025 | 17/11/2025 | |
-| 2 (Thứ Ba) | **K8s Security (Network)**: Thực hành cấu hình **Network Policies** để kiểm soát lưu lượng mạng giữa các Pod. Nghiên cứu các tool giám sát (Prometheus, Grafana, ELK). | 18/11/2025 | 18/11/2025 | |
-| 3 (Thứ Tư) | **K8s Security (Access)**: Thực hành cấu hình **RBAC** (Roles, RoleBindings) để quản lý quyền truy cập. Nghiên cứu các tool quản lý log (Fluentd, ELK). | 19/11/2025 | 19/11/2025 | |
-| 4 (Thứ Năm) | **Tìm hiểu ALB Content-based Routing**: Nghiên cứu và viết tài liệu chi tiết về cách ALB định tuyến lưu lượng dựa trên nội dung (path, header). | 20/11/2025 | 20/11/2025 | |
-| 5 (Thứ Sáu) | **Cấu hình ALB & HTTP/2**: Thực hành cấu hình **Content-based Routing** (vd: `/api/*`). Gỡ lỗi. Nghiên cứu về hỗ trợ **HTTP/2** trên ALB. | 21/11/2025 | 21/11/2025 | |
+| 1 (Thứ Hai) | **K8s Quản lý Tài nguyên & Scaling**: Học về Resource Quotas, Limit Ranges. Thực hành cấu hình **Horizontal Pod Autoscaler (HPA)**. | 26/06/2026 | 26/06/2026 | |
+| 2 (Thứ Ba) | **K8s Security (Network)**: Thực hành cấu hình **Network Policies** để kiểm soát lưu lượng mạng giữa các Pod. Nghiên cứu các tool giám sát (Prometheus, Grafana, ELK). | 29/06/2026 | 29/06/2026 | |
+| 3 (Thứ Tư) | **K8s Security (Access)**: Thực hành cấu hình **RBAC** (Roles, RoleBindings) để quản lý quyền truy cập. Nghiên cứu các tool quản lý log (Fluentd, ELK). | 30/06/2026 | 30/06/2026 | |
+| 4 (Thứ Năm) | **Tìm hiểu ALB Content-based Routing**: Nghiên cứu và viết tài liệu chi tiết về cách ALB định tuyến lưu lượng dựa trên nội dung (path, header). | 01/07/2026 | 01/07/2026 | |
+| 5 (Thứ Sáu) | **Cấu hình ALB & HTTP/2**: Thực hành cấu hình **Content-based Routing** (vd: `/api/*`). Gỡ lỗi. Nghiên cứu về hỗ trợ **HTTP/2** trên ALB. | 02/07/2026 | 02/07/2026 | |
 
 ---
 

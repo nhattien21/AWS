@@ -1,6 +1,6 @@
 ---
 title: "WEEK 4 WORKLOG"
-date: "2025-11-10"
+date: "2026-05-08"
 weight: 1
 chapter: false
 pre: " <b> 1.4 </b> "
@@ -21,11 +21,11 @@ pre: " <b> 1.4 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **Project Ideation & Requirements**: Research, select a topic, and list functional/technical requirements for the final project. | 29/09/2025 | 29/09/2025 | |
-| 2 (Tue) | **Design AWS Architecture**: Draw the architecture diagram (VPC, Subnets, EC2, S3, IAM) and design a naming/tagging policy. | 30/09/2025 | 30/09/2025 | |
-| 3 (Wed) | **Deploy Network Infrastructure**: Create VPC, Public/Private Subnets, Internet Gateway, NAT Gateway, and configure Route Tables. | 01/10/2025 | 01/10/2025 | |
-| 4 (Thu) | **Deploy Web Server**: Launch EC2 instance, configure Security Group (HTTP/HTTPS), and install NGINX web server. | 02/10/2025 | 02/10/2025 | |
-| 5 (Fri) | **Deploy Application**: Prepare source code (HTML/CSS), upload to EC2, and configure NGINX to serve the website. | 03/10/2025 | 03/10/2025 | |
+| 1 (Mon) | **Project Ideation & Requirements**: Research, select a topic, and list functional/technical requirements for the final project. | 08/05/2026 | 08/05/2026 | |
+| 2 (Tue) | **Design AWS Architecture**: Draw the architecture diagram (VPC, Subnets, EC2, S3, IAM) and design a naming/tagging policy. | 11/05/2026 | 11/05/2026 | |
+| 3 (Wed) | **Deploy Network Infrastructure**: Create VPC, Public/Private Subnets, Internet Gateway, NAT Gateway, and configure Route Tables. | 12/05/2026 | 12/05/2026 | |
+| 4 (Thu) | **Deploy Web Server**: Launch EC2 instance, configure Security Group (HTTP/HTTPS), and install NGINX web server. | 13/05/2026 | 13/05/2026 | |
+| 5 (Fri) | **Deploy Application**: Prepare source code (HTML/CSS), upload to EC2, and configure NGINX to serve the website. | 14/05/2026 | 14/05/2026 | |
 
 ---
 

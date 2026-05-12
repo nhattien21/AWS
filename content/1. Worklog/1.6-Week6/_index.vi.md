@@ -1,6 +1,6 @@
 ---
 title: "WEEK 6 WORKLOG"
-date: "2025-11-10"
+date: "2026-05-22"
 weight: 1
 chapter: false
 pre: " <b> 1.6 </b> "
@@ -22,11 +22,11 @@ pre: " <b> 1.6 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **Tìm hiểu CloudFormation & YAML**: Nghiên cứu các section (Parameters, Resources, Outputs) và cú pháp YAML. Viết template đơn giản tạo S3 Bucket. | 13/10/2025 | 13/10/2025 | |
-| 2 (Thứ Ba) | **Triển khai Stack & Parameters**: Deploy stack S3. Thêm `Parameters` (ví dụ: tùy chỉnh tên Bucket) vào template và học cách cập nhật stack. | 14/10/2025 | 14/10/2025 | |
-| 3 (Thứ Tư) | **Viết template Mạng**: Viết template mới tạo hạ tầng mạng (VPC, Public Subnet, IGW, Route Table). Sử dụng `Outputs` để hiển thị IDs. | 15/10/2025 | 15/10/2025 | |
-| 4 (Thứ Năm) | **Viết template EC2**: Mở rộng template mạng, thêm `Resources` cho Security Group (SSH, HTTP) và EC2 instance (chỉ định AMI, Type). | 16/10/2025 | 16/10/2025 | |
-| 5 (Thứ Sáu) | **Triển khai & Dọn dẹp**: Deploy stack hoàn chỉnh (VPC + Subnet + EC2). Kiểm tra SSH/HTTP. Học cách xóa stack (`aws cloudformation delete-stack`). | 17/10/2025 | 17/10/2025 | |
+| 1 (Thứ Hai) | **Tìm hiểu CloudFormation & YAML**: Nghiên cứu các section (Parameters, Resources, Outputs) và cú pháp YAML. Viết template đơn giản tạo S3 Bucket. | 22/05/2026 | 22/05/2026 | |
+| 2 (Thứ Ba) | **Triển khai Stack & Parameters**: Deploy stack S3. Thêm `Parameters` (ví dụ: tùy chỉnh tên Bucket) vào template và học cách cập nhật stack. | 25/05/2026 | 25/05/2026 | |
+| 3 (Thứ Tư) | **Viết template Mạng**: Viết template mới tạo hạ tầng mạng (VPC, Public Subnet, IGW, Route Table). Sử dụng `Outputs` để hiển thị IDs. | 26/05/2026 | 26/05/2026 | |
+| 4 (Thứ Năm) | **Viết template EC2**: Mở rộng template mạng, thêm `Resources` cho Security Group (SSH, HTTP) và EC2 instance (chỉ định AMI, Type). | 27/05/2026 | 27/05/2026 | |
+| 5 (Thứ Sáu) | **Triển khai & Dọn dẹp**: Deploy stack hoàn chỉnh (VPC + Subnet + EC2). Kiểm tra SSH/HTTP. Học cách xóa stack (`aws cloudformation delete-stack`). | 28/05/2026 | 28/05/2026 | |
 
 ---
 

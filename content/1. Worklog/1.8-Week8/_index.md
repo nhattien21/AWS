@@ -1,6 +1,6 @@
 ---
 title: "WEEK 8 WORKLOG"
-date: "2025-11-10"
+date: "2026-06-05"
 weight: 1
 chapter: false
 pre: " <b> 1.8 </b> "
@@ -22,11 +22,11 @@ pre: " <b> 1.8 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **Terraform Apply & Variables**: Run `terraform apply` to create S3. Refactor code to use `variables` and a `.tfvars` file. | 27/10/2025 | 27/10/2025 | |
-| 2 (Tue) | **Terraform Practice**: (Consolidation day) Continue practicing and reinforcing knowledge of Terraform variables and `.tfvars`. | 28/10/2025 | 28/10/2025 | |
-| 3 (Wed) | **Learn CI/CD & CodePipeline**: Configure a basic CI/CD pipeline (CodeCommit to S3) using **AWS CodePipeline**. Begin learning **AWS CodeDeploy**. | 29/10/2025 | 29/10/2025 | |
-| 4 (Thu) | **Integrate Testing in Pipeline**: Learn and configure an automated testing stage in CodePipeline (using **AWS CodeBuild**). | 30/10/2025 | 30/10/2025 | |
-| 5 (Fri) | **Practice CodeDeploy**: Deploy a sample application from CodeCommit to an EC2 instance using **AWS CodeDeploy**; debug deployment scripts. | 31/10/2025 | 31/10/2025 | |
+| 1 (Mon) | **Terraform Apply & Variables**: Run `terraform apply` to create S3. Refactor code to use `variables` and a `.tfvars` file. | 05/06/2026 | 05/06/2026 | |
+| 2 (Tue) | **Terraform Practice**: (Consolidation day) Continue practicing and reinforcing knowledge of Terraform variables and `.tfvars`. | 08/06/2026 | 08/06/2026 | |
+| 3 (Wed) | **Learn CI/CD & CodePipeline**: Configure a basic CI/CD pipeline (CodeCommit to S3) using **AWS CodePipeline**. Begin learning **AWS CodeDeploy**. | 09/06/2026 | 09/06/2026 | |
+| 4 (Thu) | **Integrate Testing in Pipeline**: Learn and configure an automated testing stage in CodePipeline (using **AWS CodeBuild**). | 10/06/2026 | 10/06/2026 | |
+| 5 (Fri) | **Practice CodeDeploy**: Deploy a sample application from CodeCommit to an EC2 instance using **AWS CodeDeploy**; debug deployment scripts. | 11/06/2026 | 11/06/2026 | |
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "WEEK 10 WORKLOG"
-date: "2025-11-10"
+date: "2026-06-19"
 weight: 10
 chapter: false
 pre: " <b> 1.10 </b> "
@@ -23,11 +23,11 @@ pre: " <b> 1.10 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **Learn Kubernetes**: Study K8s architecture (Pod, Node, Cluster). Write a `deployment.yaml` file and deploy an app (`kubectl apply`) on Minikube. | 10/11/2025 | 10/11/2025 | |
-| 2 (Tue) | **Learn Monitoring & CI/CD Report**: (Repeated) Review CI/CD docs. Research monitoring tools (Prometheus, Grafana). | 11/11/2025 | 11/11/2025 | |
-| 3 (Wed) | **Learn Monitoring & CI/CD Report**: (Repeated) Review CI/CD docs. Research monitoring tools (Prometheus, Grafana). | 12/11/2025 | 12/11/2025 | |
-| 4 (Thu) | **Learn Monitoring & CI/CD Report**: (Repeated) Review CI/CD docs. Research monitoring tools (Prometheus, Grafana). | 13/11/2025 | 13/11/2025 | |
-| 5 (Fri) | **Learn Backup (Velero)**: Install and configure **Velero** (using Helm). Practice backup (`velero backup create`) and restore (`velero restore create`). | 14/11/2025 | 14/11/2025 | |
+| 1 (Mon) | **Learn Kubernetes**: Study K8s architecture (Pod, Node, Cluster). Write a `deployment.yaml` file and deploy an app (`kubectl apply`) on Minikube. | 19/06/2026 | 19/06/2026 | |
+| 2 (Tue) | **Learn Monitoring & CI/CD Report**: (Repeated) Review CI/CD docs. Research monitoring tools (Prometheus, Grafana). | 22/06/2026 | 22/06/2026 | |
+| 3 (Wed) | **Learn Monitoring & CI/CD Report**: (Repeated) Review CI/CD docs. Research monitoring tools (Prometheus, Grafana). | 23/06/2026 | 23/06/2026 | |
+| 4 (Thu) | **Learn Monitoring & CI/CD Report**: (Repeated) Review CI/CD docs. Research monitoring tools (Prometheus, Grafana). | 24/06/2026 | 24/06/2026 | |
+| 5 (Fri) | **Learn Backup (Velero)**: Install and configure **Velero** (using Helm). Practice backup (`velero backup create`) and restore (`velero restore create`). | 25/06/2026 | 25/06/2026 | |
 
 ---
 

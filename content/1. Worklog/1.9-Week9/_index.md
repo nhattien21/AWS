@@ -1,6 +1,6 @@
 ---
 title: "WEEK 9 WORKLOG"
-date: "2025-11-10"
+date: "2026-06-12"
 weight: 1
 chapter: false
 pre: " <b> 1.9 </b> "
@@ -23,11 +23,11 @@ pre: " <b> 1.9 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **Learn AWS Lambda**: Study Serverless, create a simple Lambda function (S3-triggered), and evaluate its use in CI/CD. | 03/11/2025 | 03/11/2025 | |
-| 2 (Tue) | **Learn CI & Jenkins**: Research CI tools (Jenkins, Travis CI), practice installing and configuring **Jenkins** (creating a pipeline). | 04/11/2025 | 04/11/2025 | |
-| 3 (Wed) | **Learn Docker**: Study container concepts. Practice writing a **Dockerfile** for a Node.js app, building (`docker build`), and running (`docker run`). | 05/11/2025 | 05/11/2025 | |
-| 4 (Thu) | **Learn AWS CodeDeploy**: Study the CodeDeploy service. Practice deploying an app from CodeCommit to EC2 and debugging the scripts. | 06/11/2025 | 06/11/2025 | |
-| 5 (Fri) | **Learn Monitoring & Reporting**: Review CI/CD documentation. Research container monitoring tools (Prometheus, Grafana, cAdvisor). | 07/11/2025 | 07/11/2025 | |
+| 1 (Mon) | **Learn AWS Lambda**: Study Serverless, create a simple Lambda function (S3-triggered), and evaluate its use in CI/CD. | 12/06/2026 | 12/06/2026 | |
+| 2 (Tue) | **Learn CI & Jenkins**: Research CI tools (Jenkins, Travis CI), practice installing and configuring **Jenkins** (creating a pipeline). | 15/06/2026 | 15/06/2026 | |
+| 3 (Wed) | **Learn Docker**: Study container concepts. Practice writing a **Dockerfile** for a Node.js app, building (`docker build`), and running (`docker run`). | 16/06/2026 | 16/06/2026 | |
+| 4 (Thu) | **Learn AWS CodeDeploy**: Study the CodeDeploy service. Practice deploying an app from CodeCommit to EC2 and debugging the scripts. | 17/06/2026 | 17/06/2026 | |
+| 5 (Fri) | **Learn Monitoring & Reporting**: Review CI/CD documentation. Research container monitoring tools (Prometheus, Grafana, cAdvisor). | 18/06/2026 | 18/06/2026 | |
 
 ---
 

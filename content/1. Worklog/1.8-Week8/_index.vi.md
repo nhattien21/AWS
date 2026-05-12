@@ -1,6 +1,6 @@
 ---
 title: "WEEK 8 WORKLOG"
-date: "2025-11-10"
+date: "2026-06-05"
 weight: 1
 chapter: false
 pre: " <b> 1.8 </b> "
@@ -23,11 +23,11 @@ pre: " <b> 1.8 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **Terraform Apply & Variables**: Chạy `terraform apply` để tạo S3 bucket. Refactor code, thêm `variable` và file `.tfvars` để quản lý tên bucket. | 27/10/2025 | 27/10/2025 | |
-| 2 (Thứ Ba) | **Terraform Practice**: (Tiếp tục thực hành và củng cố kiến thức về Terraform variables và `.tfvars` từ ngày hôm trước). | 28/10/2025 | 28/10/2025 | |
-| 3 (Thứ Tư) | **Tìm hiểu CI/CD & CodePipeline**: Cấu hình pipeline CI/CD cơ bản (từ CodeCommit đến S3) bằng **AWS CodePipeline**. Bắt đầu tìm hiểu về **AWS CodeDeploy**. | 29/10/2025 | 29/10/2025 | |
-| 4 (Thứ Năm) | **Tích hợp Testing vào Pipeline**: Tìm hiểu và cấu hình các bước kiểm tra tự động (automated testing, vd: unit tests) vào CodePipeline (sử dụng AWS CodeBuild). | 30/10/2025 | 30/10/2025 | |
-| 5 (Thứ Sáu) | **Thực hành CodeDeploy**: Thực hành triển khai một ứng dụng mẫu (từ CodeCommit) lên EC2 instance bằng **AWS CodeDeploy**, xử lý lỗi tập lệnh (script). | 31/10/2025 | 31/10/2025 | |
+| 1 (Thứ Hai) | **Terraform Apply & Variables**: Chạy `terraform apply` để tạo S3 bucket. Refactor code, thêm `variable` và file `.tfvars` để quản lý tên bucket. | 05/06/2026 | 05/06/2026 | |
+| 2 (Thứ Ba) | **Terraform Practice**: (Tiếp tục thực hành và củng cố kiến thức về Terraform variables và `.tfvars` từ ngày hôm trước). | 08/06/2026 | 08/06/2026 | |
+| 3 (Thứ Tư) | **Tìm hiểu CI/CD & CodePipeline**: Cấu hình pipeline CI/CD cơ bản (từ CodeCommit đến S3) bằng **AWS CodePipeline**. Bắt đầu tìm hiểu về **AWS CodeDeploy**. | 09/06/2026 | 09/06/2026 | |
+| 4 (Thứ Năm) | **Tích hợp Testing vào Pipeline**: Tìm hiểu và cấu hình các bước kiểm tra tự động (automated testing, vd: unit tests) vào CodePipeline (sử dụng AWS CodeBuild). | 10/06/2026 | 10/06/2026 | |
+| 5 (Thứ Sáu) | **Thực hành CodeDeploy**: Thực hành triển khai một ứng dụng mẫu (từ CodeCommit) lên EC2 instance bằng **AWS CodeDeploy**, xử lý lỗi tập lệnh (script). | 11/06/2026 | 11/06/2026 | |
 
 ---
 

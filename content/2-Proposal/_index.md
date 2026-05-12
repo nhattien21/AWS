@@ -1,6 +1,6 @@
 ---
 title: "Proposal"
-date: "2025-09-08"
+date: "2026-25-06"
 weight: 2
 chapter: false
 pre: " <b> 2. </b> "

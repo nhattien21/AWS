@@ -1,6 +1,6 @@
 ---
 title: "WEEK 12 WORKLOG"
-date: "2025-11-10"
+date: "2026-07-03"
 weight: 12
 chapter: false
 pre: " <b> 1.12 </b> "
@@ -21,11 +21,11 @@ pre: " <b> 1.12 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **Tìm hiểu & Cấu hình HTTP/2**: Nghiên cứu và cấu hình ALB Listener (HTTPS) để hỗ trợ **HTTP/2**. Nghiên cứu sơ bộ về **WebSocket**. | 24/11/2025 | 24/11/2025 | |
-| 2 (Thứ Ba) | **Cấu hình WebSocket**: Cấu hình ALB Listener để hỗ trợ **WebSocket** và kiểm tra kết nối. Tối ưu hóa cài đặt timeout. | 25/11/2025 | 25/11/2025 | |
-| 3 (Thứ Tư) | **Cấu hình Sticky Sessions (Phần 1)**: Cấu hình **Sticky Sessions** (Target Group Attributes) để duy trì phiên làm việc. Thực hiện **Health Checks**. | 26/11/2025 | 26/11/2025 | |
-| 4 (Thứ Năm) | **Cấu hình Sticky Sessions (Phần 2)**: (Nội dung lặp lại) Kiểm tra và xác nhận tính năng Sticky Sessions hoạt động. | 27/11/2025 | 27/11/2025 | |
-| 5 (Thứ Sáu) | **Kiểm thử Hiệu suất (Performance Testing)**: Sử dụng công cụ (JMeter/Gatling) để kiểm thử tải ALB. Phân tích kết quả và hoàn thành báo cáo. | 28/11/2025 | 28/11/2025 | |
+| 1 (Thứ Hai) | **Tìm hiểu & Cấu hình HTTP/2**: Nghiên cứu và cấu hình ALB Listener (HTTPS) để hỗ trợ **HTTP/2**. Nghiên cứu sơ bộ về **WebSocket**. | 03/07/2026 | 03/07/2026 | |
+| 2 (Thứ Ba) | **Cấu hình WebSocket**: Cấu hình ALB Listener để hỗ trợ **WebSocket** và kiểm tra kết nối. Tối ưu hóa cài đặt timeout. | 06/07/2026 | 06/07/2026 | |
+| 3 (Thứ Tư) | **Cấu hình Sticky Sessions (Phần 1)**: Cấu hình **Sticky Sessions** (Target Group Attributes) để duy trì phiên làm việc. Thực hiện **Health Checks**. | 07/07/2026 | 07/07/2026 | |
+| 4 (Thứ Năm) | **Cấu hình Sticky Sessions (Phần 2)**: (Nội dung lặp lại) Kiểm tra và xác nhận tính năng Sticky Sessions hoạt động. | 08/07/2026 | 08/07/2026 | |
+| 5 (Thứ Sáu) | **Kiểm thử Hiệu suất (Performance Testing)**: Sử dụng công cụ (JMeter/Gatling) để kiểm thử tải ALB. Phân tích kết quả và hoàn thành báo cáo. | 10/07/2026 | 10/07/2026 | |
 
 ---
 

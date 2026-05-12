@@ -1,6 +1,6 @@
 ---
 title: "WEEK 6 WORKLOG"
-date: "2025-11-10"
+date: "2026-05-22"
 weight: 1
 chapter: false
 pre: " <b> 1.6 </b> "
@@ -22,11 +22,11 @@ pre: " <b> 1.6 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **Learn CloudFormation & YAML**: Study sections (Parameters, Resources) and YAML syntax. Write a simple S3 Bucket template. | 13/10/2025 | 13/10/2025 | |
-| 2 (Tue) | **Deploy Stack & Parameters**: Deploy the S3 stack. Add `Parameters` (e.g., custom bucket name) to the template and learn to update the stack. | 14/10/2025 | 14/10/2025 | |
-| 3 (Wed) | **Write Network Template**: Write a new template for network infrastructure (VPC, Public Subnet, IGW, Route Table). Use `Outputs`. | 15/10/2025 | 15/10/2025 | |
-| 4 (Thu) | **Write EC2 Template**: Extend the network template, adding `Resources` for a Security Group (SSH, HTTP) and an EC2 instance (specifying AMI). | 16/10/2025 | 16/10/2025 | |
-| 5 (Fri) | **Deploy & Cleanup**: Deploy the complete stack (VPC + EC2). Test SSH/HTTP access. Learn to delete the stack (`aws cloudformation delete-stack`). | 17/10/2025 | 17/10/2025 | |
+| 1 (Mon) | **Learn CloudFormation & YAML**: Study sections (Parameters, Resources) and YAML syntax. Write a simple S3 Bucket template. | 22/05/2026 | 22/05/2026 | |
+| 2 (Tue) | **Deploy Stack & Parameters**: Deploy the S3 stack. Add `Parameters` (e.g., custom bucket name) to the template and learn to update the stack. | 25/05/2026 | 25/05/2026 | |
+| 3 (Wed) | **Write Network Template**: Write a new template for network infrastructure (VPC, Public Subnet, IGW, Route Table). Use `Outputs`. | 26/05/2026 | 26/05/2026 | |
+| 4 (Thu) | **Write EC2 Template**: Extend the network template, adding `Resources` for a Security Group (SSH, HTTP) and an EC2 instance (specifying AMI). | 27/05/2026 | 27/05/2026 | |
+| 5 (Fri) | **Deploy & Cleanup**: Deploy the complete stack (VPC + EC2). Test SSH/HTTP access. Learn to delete the stack (`aws cloudformation delete-stack`). | 28/05/2026 | 28/05/2026 | |
 
 ---
 

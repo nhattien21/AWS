@@ -1,6 +1,6 @@
 ---
 title: "WEEK 5 WORKLOG"
-date: "2025-11-10"
+date: "2026-05-15"
 weight: 1
 chapter: false
 pre: " <b> 1.5 </b> "
@@ -21,11 +21,11 @@ pre: " <b> 1.5 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **Tích hợp S3 (Phần 1)**: Tạo S3 Bucket và cấu hình Bucket Policy cho phép truy cập công khai (public read). | 06/10/2025 | 06/10/2025 | |
-| 2 (Thứ Ba) | **Triển khai AWS WAF**: Tạo một Web ACL, thêm các Rule bảo mật cơ bản (chặn IP) và gắn vào tài nguyên (ALB). | 07/10/2025 | 07/10/2025 | |
-| 3 (Thứ Tư) | **Rà soát & Viết tài liệu**: Kiểm tra Security Group (chỉ mở port cần thiết), xem xét EC2 Right-sizing, viết tài liệu kiến trúc. | 08/10/2025 | 08/10/2025 | |
-| 4 (Thứ Năm) | **Tích hợp S3 (Phần 2)**: Cập nhật mã nguồn ứng dụng (HTML/CSS) để sử dụng link ảnh từ S3 Bucket đã tạo. | 09/10/2025 | 09/10/2025 | |
-| 5 (Thứ Sáu) | **Tìm hiểu IaC**: Đọc tài liệu tổng quan về IaC và xem video giới thiệu về các khái niệm cơ bản của AWS CloudFormation (Stacks, Templates). | 10/10/2025 | 10/10/2025 | |
+| 1 (Thứ Hai) | **Tích hợp S3 (Phần 1)**: Tạo S3 Bucket và cấu hình Bucket Policy cho phép truy cập công khai (public read). | 15/05/2026 | 15/05/2026 | |
+| 2 (Thứ Ba) | **Triển khai AWS WAF**: Tạo một Web ACL, thêm các Rule bảo mật cơ bản (chặn IP) và gắn vào tài nguyên (ALB). | 18/05/2026 | 18/05/2026 | |
+| 3 (Thứ Tư) | **Rà soát & Viết tài liệu**: Kiểm tra Security Group (chỉ mở port cần thiết), xem xét EC2 Right-sizing, viết tài liệu kiến trúc. | 19/05/2026 | 19/05/2026 | |
+| 4 (Thứ Năm) | **Tích hợp S3 (Phần 2)**: Cập nhật mã nguồn ứng dụng (HTML/CSS) để sử dụng link ảnh từ S3 Bucket đã tạo. | 20/05/2026 | 20/05/2026 | |
+| 5 (Thứ Sáu) | **Tìm hiểu IaC**: Đọc tài liệu tổng quan về IaC và xem video giới thiệu về các khái niệm cơ bản của AWS CloudFormation (Stacks, Templates). | 21/05/2026 | 21/05/2026 | |
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "WEEK 12 WORKLOG"
-date: "2025-11-10"
+date: "2026-07-03"
 weight: 12
 chapter: false
 pre: " <b> 1.12 </b> "
@@ -21,11 +21,11 @@ pre: " <b> 1.12 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **Configure HTTP/2**: Set up the ALB Listener (HTTPS) to support **HTTP/2**. Conduct initial research on **WebSocket**. | 24/11/2025 | 24/11/2025 | |
-| 2 (Tue) | **Configure WebSocket**: Configure the ALB Listener to support **WebSocket** and test the connection. Optimize timeout settings. | 25/11/2025 | 25/11/2025 | |
-| 3 (Wed) | **Configure Sticky Sessions (Part 1)**: Configure **Sticky Sessions** (Target Group Attributes) to maintain user sessions. Run **Health Checks**. | 26/11/2025 | 26/11/2025 | |
-| 4 (Thu) | **Configure Sticky Sessions (Part 2)**: (Repeated) Verify and confirm that the Sticky Sessions feature is working correctly. | 27/11/2025 | 27/11/2025 | |
-| 5 (Fri) | **Performance Testing**: Use a tool (JMeter/Gatling) to load test the ALB. Analyze the results and prepare the final report. | 28/11/2025 | 28/11/2025 | |
+| 1 (Mon) | **Configure HTTP/2**: Set up the ALB Listener (HTTPS) to support **HTTP/2**. Conduct initial research on **WebSocket**. | 03/07/2026 | 03/07/2026 | |
+| 2 (Tue) | **Configure WebSocket**: Configure the ALB Listener to support **WebSocket** and test the connection. Optimize timeout settings. | 06/07/2026 | 06/07/2026 | |
+| 3 (Wed) | **Configure Sticky Sessions (Part 1)**: Configure **Sticky Sessions** (Target Group Attributes) to maintain user sessions. Run **Health Checks**. | 07/07/2026 | 07/07/2026 | |
+| 4 (Thu) | **Configure Sticky Sessions (Part 2)**: (Repeated) Verify and confirm that the Sticky Sessions feature is working correctly. | 08/07/2026 | 08/07/2026 | |
+| 5 (Fri) | **Performance Testing**: Use a tool (JMeter/Gatling) to load test the ALB. Analyze the results and prepare the final report. | 10/07/2026 | 10/07/2026 | |
 
 ---
 

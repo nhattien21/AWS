@@ -1,6 +1,6 @@
 ---
 title: "WEEK 11 WORKLOG"
-date: "2025-11-10"
+date: "2026-06-26"
 weight: 11
 chapter: false
 pre: " <b> 1.11 </b> "
@@ -23,11 +23,11 @@ pre: " <b> 1.11 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **K8s Resource Mgmt & Scaling**: Learn Resource Quotas, Limit Ranges. Practice configuring **Horizontal Pod Autoscaler (HPA)**. | 17/11/2025 | 17/11/2025 | |
-| 2 (Tue) | **K8s Security (Network)**: Practice configuring **Network Policies** to control pod traffic. Research monitoring tools (Prometheus, ELK). | 18/11/2025 | 18/11/2025 | |
-| 3 (Wed) | **K8s Security (Access)**: Practice configuring **RBAC** (Roles, RoleBindings). Research logging tools (Fluentd, ELK). | 19/11/2025 | 19/11/2025 | |
-| 4 (Thu) | **Learn ALB Content-based Routing**: Research and write detailed documentation on how ALB routes traffic based on content (path, header). | 20/11/2025 | 20/11/2025 | |
-| 5 (Fri) | **Configure ALB & HTTP/2**: Practice configuring **Content-based Routing** (e.g., `/api/*`). Debug. Research **HTTP/2** support on ALB. | 21/11/2025 | 21/11/2025 | |
+| 1 (Mon) | **K8s Resource Mgmt & Scaling**: Learn Resource Quotas, Limit Ranges. Practice configuring **Horizontal Pod Autoscaler (HPA)**. | 26/06/2026 | 26/06/2026 | |
+| 2 (Tue) | **K8s Security (Network)**: Practice configuring **Network Policies** to control pod traffic. Research monitoring tools (Prometheus, ELK). | 29/06/2026 | 29/06/2026 | |
+| 3 (Wed) | **K8s Security (Access)**: Practice configuring **RBAC** (Roles, RoleBindings). Research logging tools (Fluentd, ELK). | 30/06/2026 | 30/06/2026 | |
+| 4 (Thu) | **Learn ALB Content-based Routing**: Research and write detailed documentation on how ALB routes traffic based on content (path, header). | 01/07/2026 | 01/07/2026 | |
+| 5 (Fri) | **Configure ALB & HTTP/2**: Practice configuring **Content-based Routing** (e.g., `/api/*`). Debug. Research **HTTP/2** support on ALB. | 02/07/2026 | 02/07/2026 | |
 
 ---
 

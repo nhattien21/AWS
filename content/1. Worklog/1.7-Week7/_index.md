@@ -1,6 +1,6 @@
 ---
 title: "WEEK 7 WORKLOG"
-date: "2025-11-10"
+date: "2026-05-29"
 weight: 1
 chapter: false
 pre: " <b> 1.7 </b> "
@@ -22,11 +22,11 @@ pre: " <b> 1.7 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **Learn Serverless**: Study AWS Lambda, write CloudFormation (for IAM Role, Lambda Function) and integrate API Gateway. | 20/10/2025 | 20/10/2025 | |
-| 2 (Tue) | **CloudFormation StackSets**: Learn StackSets, write an S3 template, and deploy it to multiple accounts/regions. | 21/10/2025 | 21/10/2025 | |
-| 3 (Wed) | **Start Terraform**: Write the first `main.tf` file (AWS provider, `aws_s3_bucket` resource). Run `terraform init` and `plan`. | 22/10/2025 | 22/10/2025 | |
-| 4 (Thu) | **CloudFormation Cleanup**: (Consolidation day) Deploy, test (SSH/HTTP), and delete a complete stack (`delete-stack`). | 23/10/2025 | 23/10/2025 | |
-| 5 (Fri) | **Complete Terraform Intro**: Run `terraform apply` to create S3 bucket. Learn to use `variables` and `.tfvars` files. | 24/10/2025 | 24/10/2025 | |
+| 1 (Mon) | **Learn Serverless**: Study AWS Lambda, write CloudFormation (for IAM Role, Lambda Function) and integrate API Gateway. | 29/05/2026 | 29/05/2026 | |
+| 2 (Tue) | **CloudFormation StackSets**: Learn StackSets, write an S3 template, and deploy it to multiple accounts/regions. | 01/06/2026 | 01/06/2026 | |
+| 3 (Wed) | **Start Terraform**: Write the first `main.tf` file (AWS provider, `aws_s3_bucket` resource). Run `terraform init` and `plan`. | 02/06/2026 | 02/06/2026 | |
+| 4 (Thu) | **CloudFormation Cleanup**: (Consolidation day) Deploy, test (SSH/HTTP), and delete a complete stack (`delete-stack`). | 03/06/2026 | 03/06/2026 | |
+| 5 (Fri) | **Complete Terraform Intro**: Run `terraform apply` to create S3 bucket. Learn to use `variables` and `.tfvars` files. | 04/06/2026 | 04/06/2026 | |
 
 ---
 

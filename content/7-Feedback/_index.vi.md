@@ -1,6 +1,6 @@
 ---
 title: "Chia sẻ, đóng góp ý kiến"
-date: "2025-09-08"
+date: "2026-7-10"
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
@@ -10,7 +10,7 @@ pre: " <b> 7. </b> "
 ## Bản tiếng Việt
 
 ### 1. Môi trường làm việc
-Môi trường làm việc tại FCJ rất thân thiện, cởi mở và chuyên nghiệp. Tôi cảm thấy thoải mái khi trao đổi công việc với mọi người và luôn nhận được sự hỗ trợ khi gặp khó khăn. Không gian làm việc sạch sẽ, yên tĩnh giúp tôi tập trung hiệu quả. Nếu có thêm các hoạt động gắn kết nhóm, tôi nghĩ sẽ giúp mọi người gần gũi và hiểu nhau hơn.
+Môi trường làm việc tại FCJ rất thân thiện, cởi mở và chuyên nghiệp. Tôi cảm thấy thoải mái khi trao đổi công việc với mọi người và nhận được sự hỗ trợ khi gặp khó khăn. Không gian làm việc sạch sẽ, yên tĩnh. Nếu có thêm các hoạt động gắn kết nhóm, tôi nghĩ sẽ giúp mọi người gần gũi và hiểu nhau hơn.
 
 ### 2. Hỗ trợ từ Mentor và Admin
 Mentor hướng dẫn chi tiết, giải thích rõ ràng khi tôi chưa hiểu và luôn khuyến khích tôi tự tìm cách giải quyết vấn đề. Admin rất nhiệt tình trong việc hỗ trợ các thủ tục, cung cấp tài liệu và tạo điều kiện tốt để tôi hoàn thành công việc.

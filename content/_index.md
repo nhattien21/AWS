@@ -1,29 +1,29 @@
 ---
 title: "Internship Report"
-date: "2025-09-08"
+date: "2025-04-17"
 weight: 1
 chapter: false
 ---
 
 # Internship Report
 ### Student Information:
-&emsp; **Full Name:** Le Hoang Thai
+&emsp; **Full Name:** Nguyen Nhat Tien
 
-&emsp; **Phone Number:** 0368412821
+&emsp; **Phone Number:** 0342572815
 
-&emsp; **Email:** thai26112003@gmail.com
+&emsp; **Email:** nhattienys20gg@gmail.com
 
 &emsp; **University:** Ho Chi Minh City University of Technology (HUTECH)
 
 &emsp; **Major:** Information Security
 
-&emsp; **Class:** 22DATA1 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
+&emsp; **Class:** 22DTHG6 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
-&emsp; **Internship Position:** FCJ Cloud Intern
+&emsp; **Internship Position:** FCJ Cloud Engineer
 
-&emsp; **Internship Duration:** From September 16, 2025 to December 16, 2025
+&emsp; **Internship Duration:** From April 17, 2026 to July 10, 2026
 
-![Your profile photo](/images/hoangthai.png)
+![Your profile photo](/images/nhattien.png)
 
 
 

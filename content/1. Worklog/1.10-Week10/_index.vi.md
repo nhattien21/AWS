@@ -1,6 +1,6 @@
 ---
 title: "WEEK 10 WORKLOG"
-date: "2025-11-10"
+date: "2026-06-19"
 weight: 10
 chapter: false
 pre: " <b> 1.10 </b> "
@@ -23,11 +23,11 @@ pre: " <b> 1.10 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **Tìm hiểu Kubernetes**: Học về kiến trúc (Pod, Node, Cluster). Viết file `deployment.yaml` và deploy ứng dụng (`kubectl apply`) lên Minikube. | 10/11/2025 | 10/11/2025 | |
-| 2 (Thứ Ba) | **Tìm hiểu Monitoring & Báo cáo CI/CD**: (Nội dung lặp lại) Ôn tập tài liệu CI/CD. Tìm hiểu về các công cụ giám sát (Prometheus, Grafana). | 11/11/2025 | 11/11/2025 | |
-| 3 (Thứ Tư) | **Tìm hiểu Monitoring & Báo cáo CI/CD**: (Nội dung lặp lại) Ôn tập tài liệu CI/CD. Tìm hiểu về các công cụ giám sát (Prometheus, Grafana). | 12/11/2025 | 12/11/2025 | |
-| 4 (Thứ Năm) | **Tìm hiểu Monitoring & Báo cáo CI/CD**: (Nội dung lặp lại) Ôn tập tài liệu CI/CD. Tìm hiểu về các công cụ giám sát (Prometheus, Grafana). | 13/11/2025 | 13/11/2025 | |
-| 5 (Thứ Sáu) | **Tìm hiểu Backup (Velero)**: Cài đặt và cấu hình **Velero** (dùng Helm). Thực hành sao lưu (`velero backup create`) và phục hồi (`velero restore create`) tài nguyên. | 14/11/2025 | 14/11/2025 | |
+| 1 (Thứ Hai) | **Tìm hiểu Kubernetes**: Học về kiến trúc (Pod, Node, Cluster). Viết file `deployment.yaml` và deploy ứng dụng (`kubectl apply`) lên Minikube. | 19/06/2026 | 19/06/2026 | |
+| 2 (Thứ Ba) | **Tìm hiểu Monitoring & Báo cáo CI/CD**: (Nội dung lặp lại) Ôn tập tài liệu CI/CD. Tìm hiểu về các công cụ giám sát (Prometheus, Grafana). | 22/06/2026 | 22/06/2026 | |
+| 3 (Thứ Tư) | **Tìm hiểu Monitoring & Báo cáo CI/CD**: (Nội dung lặp lại) Ôn tập tài liệu CI/CD. Tìm hiểu về các công cụ giám sát (Prometheus, Grafana). | 23/06/2026 | 23/06/2026 | |
+| 4 (Thứ Năm) | **Tìm hiểu Monitoring & Báo cáo CI/CD**: (Nội dung lặp lại) Ôn tập tài liệu CI/CD. Tìm hiểu về các công cụ giám sát (Prometheus, Grafana). | 24/06/2026 | 24/06/2026 | |
+| 5 (Thứ Sáu) | **Tìm hiểu Backup (Velero)**: Cài đặt và cấu hình **Velero** (dùng Helm). Thực hành sao lưu (`velero backup create`) và phục hồi (`velero restore create`) tài nguyên. | 25/06/2026 | 25/06/2026 | |
 
 ---
 

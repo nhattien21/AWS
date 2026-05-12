@@ -1,6 +1,6 @@
 ---
 title: "WEEK 1 WORKLOG"
-date: "2025-11-10"
+date: "2026-04-17"
 weight: 1
 chapter: false
 pre: " <b> 1.1 </b> "
@@ -21,11 +21,11 @@ pre: " <b> 1.1 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **Lab 02 – Introduction to AWS IAM**: Thực hành tạo và quản lý IAM Users, Groups, Roles, và Policies; thực hiện Switch Role. | 08/09/2025 | 08/09/2025 | |
-| 2 (Thứ Ba) | **Tìm hiểu và triển khai Amazon EC2**: Khởi chạy EC2 instance (Windows & Linux); cài đặt Apache web server; thực hành tạo Snapshot và AMI. | 09/09/2025 | 09/09/2025 | |
-| 3 (Thứ Tư) | **Thực hành Lab về Security Group**: Cấu hình Security Group (stateful firewall) để cho phép và chặn truy cập (HTTP, SSH) vào EC2 instance. | 10/09/2025 | 10/09/2025 | |
-| 4 (Thứ Năm) | **Triển khai hệ thống tự động co giãn**: Cấu hình Launch Template, Auto Scaling Group (với chính sách co giãn theo CPU), và Application Load Balancer (ALB) để phân phối tải. | 11/09/2025 | 11/09/2025 | |
-| 5 (Thứ Sáu) | **Lab: Gán IAM Role cho EC2 truy cập S3**: Tạo IAM Role với quyền S3 read-only và gán cho EC2; sử dụng AWS CLI để kiểm tra truy cập an toàn. | 12/09/2025 | 12/09/2025 | |
+| 1 (Thứ Hai) | **Lab 02 – Introduction to AWS IAM**: Thực hành tạo và quản lý IAM Users, Groups, Roles, và Policies; thực hiện Switch Role. | 17/04/2026 | 17/04/2026 | |
+| 2 (Thứ Ba) | **Tìm hiểu và triển khai Amazon EC2**: Khởi chạy EC2 instance (Windows & Linux); cài đặt Apache web server; thực hành tạo Snapshot và AMI. | 20/04/2026 | 20/04/2026 | |
+| 3 (Thứ Tư) | **Thực hành Lab về Security Group**: Cấu hình Security Group (stateful firewall) để cho phép và chặn truy cập (HTTP, SSH) vào EC2 instance. | 21/04/2026 | 21/04/2026 | |
+| 4 (Thứ Năm) | **Triển khai hệ thống tự động co giãn**: Cấu hình Launch Template, Auto Scaling Group (với chính sách co giãn theo CPU), và Application Load Balancer (ALB) để phân phối tải. | 22/04/2026 | 22/04/2026 | |
+| 5 (Thứ Sáu) | **Lab: Gán IAM Role cho EC2 truy cập S3**: Tạo IAM Role với quyền S3 read-only và gán cho EC2; sử dụng AWS CLI để kiểm tra truy cập an toàn. | 23/04/2026 | 23/04/2026 | |
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "WEEK 3 WORKLOG"
-date: "2025-11-10"
+date: "2026-05-01"
 weight: 1
 chapter: false
 pre: " <b> 1.3 </b> "
@@ -21,10 +21,10 @@ pre: " <b> 1.3 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **Deploy AWS Storage Gateway**: Prepare environment (S3 Bucket, EC2) and proceed with Storage Gateway installation and activation. | 22/09/2025 | 22/09/2025 | |
-| 2 (Tue) | **Lab 26 – AWS WAF**: Deploy a web app on S3 and configure AWS WAF with Web ACLs, using AWS Managed Rules for protection. | 23/09/2025 | 23/09/2025 | |
-| 3 (Wed) | **Lab 27 – Manage Resources**: Practice creating, editing, and deleting Tags on EC2. Use Tag Editor and Resource Groups to manage resources. | 24/09/2025 | 24/09/2025 | |
-| 4 (Thu) | **Learn Workshop Process**: Spend time researching and understanding the guides and basic steps for conducting a workshop. | 25/09/2025 | 25/09/2025 | |
+| 1 (Mon) | **Deploy AWS Storage Gateway**: Prepare environment (S3 Bucket, EC2) and proceed with Storage Gateway installation and activation. | 01/05/2026 | 01/05/2026 | |
+| 2 (Tue) | **Lab 26 – AWS WAF**: Deploy a web app on S3 and configure AWS WAF with Web ACLs, using AWS Managed Rules for protection. | 04/05/2026 | 04/05/2026 | |
+| 3 (Wed) | **Lab 27 – Manage Resources**: Practice creating, editing, and deleting Tags on EC2. Use Tag Editor and Resource Groups to manage resources. | 05/05/2026 | 05/05/2026 | |
+| 4 (Thu) | **Learn Workshop Process**: Spend time researching and understanding the guides and basic steps for conducting a workshop. | 06/05/2026 | 06/05/2026 | |
 
 ---
 

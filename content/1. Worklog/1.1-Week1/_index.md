@@ -1,6 +1,6 @@
 ---
 title: "WEEK 1 WORKLOG"
-date: "2025-11-10"
+date: "2026-04-17"
 weight: 1
 chapter: false
 pre: " <b> 1.1 </b> "
@@ -21,11 +21,11 @@ pre: " <b> 1.1 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **Lab 02 – Introduction to AWS IAM**: Practice creating/managing IAM Users, Groups, Roles, Policies; perform Switch Role. | 08/09/2025 | 08/09/2025 | |
-| 2 (Tue) | **Learn & Deploy Amazon EC2**: Launch EC2 instances (Windows & Linux); install Apache web server; practice creating Snapshots & AMIs. | 09/09/2025 | 09/09/2025 | |
-| 3 (Wed) | **Security Group Lab**: Configure Security Groups (stateful firewall) to allow and block access (HTTP, SSH) to an EC2 instance. | 10/09/2025 | 10/09/2025 | |
-| 4 (Thu) | **Deploy Auto-Scaling System**: Configure Launch Template, Auto Scaling Group (with CPU-based policy), and Application Load Balancer (ALB). | 11/09/2025 | 11/09/2025 | |
-| 5 (Fri) | **Lab: Assign IAM Role to EC2 for S3 Access**: Create an S3 read-only IAM Role, assign it to EC2; use AWS CLI to test secure access. | 12/09/2025 | 12/09/2025 | |
+| 1 (Mon) | **Lab 02 – Introduction to AWS IAM**: Practice creating/managing IAM Users, Groups, Roles, Policies; perform Switch Role. | 17/04/2026 | 17/04/2026 | |
+| 2 (Tue) | **Learn & Deploy Amazon EC2**: Launch EC2 instances (Windows & Linux); install Apache web server; practice creating Snapshots & AMIs. | 20/04/2026 | 20/04/2026 | |
+| 3 (Wed) | **Security Group Lab**: Configure Security Groups (stateful firewall) to allow and block access (HTTP, SSH) to an EC2 instance. | 21/04/2026 | 21/04/2026 | |
+| 4 (Thu) | **Deploy Auto-Scaling System**: Configure Launch Template, Auto Scaling Group (with CPU-based policy), and Application Load Balancer (ALB). | 22/04/2026 | 22/04/2026 | |
+| 5 (Fri) | **Lab: Assign IAM Role to EC2 for S3 Access**: Create an S3 read-only IAM Role, assign it to EC2; use AWS CLI to test secure access. | 23/04/2026 | 23/04/2026 | |
 
 ---
 
