@@ -15,7 +15,7 @@ chapter: false
 
 &emsp; **University:** Ho Chi Minh City University of Technology (HUTECH)
 
-&emsp; **Major:** Information Security
+&emsp; **Major:** information technology
 
 &emsp; **Class:** 22DTHG6 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
@@ -29,7 +29,7 @@ chapter: false
 
 ### Report Contents
 
-1.  [Worklog](1-Worklog/)
+1.  [Worklog](1-worklog/)
 2.  [Proposal](2-Proposal/)
 3.  [Translated Blogs](3-BlogsTranslated/)
 4.  [Participated Events](4-EventParticipated/)
