@@ -19,6 +19,8 @@ home = [ "HTML", "RSS", "JSON"]
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
+  # Thêm dòng này để ép hiển thị tất cả các thư mục con trên menu trái
+  menu_show_all = true
   
 [Languages]
 [Languages.en]
