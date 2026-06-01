@@ -27,7 +27,7 @@ chapter: false
 
 ### Nội dung báo cáo
 
-1.  [Worklog](1-worklog/)
+1.  [worklog](1.-worklog/)
 2.  [Proposal](2-Proposal/)
 3.  [Các bài blogs đã dịch](3-BlogsTranslated/)
 4.  [Các events đã tham gia](4-EventParticipated/)
