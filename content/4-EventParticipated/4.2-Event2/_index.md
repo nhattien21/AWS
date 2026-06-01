@@ -7,7 +7,7 @@ pre: " <b> 4.2. </b> "
 ---
 
 
-# Summary Report: “DevOps on AWS Workshop”
+# Summary Report: “FCAJ Community Day - Conference Call”
 
 ### Event Objectives
 

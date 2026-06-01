@@ -21,7 +21,7 @@ pre: " <b> 4.1. </b> "
 
 ### Agenda Overview
 
-**⏰ Time:** 8:30 AM – 12:00 PM, Saturday, November 15, 2025  
+**⏰ Time:** 8:30 AM – 12:00 PM, Saturday, May 15, 2026  
 **📍 Location:** AWS Vietnam Office  
 
 ---
