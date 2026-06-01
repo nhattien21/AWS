@@ -1,7 +1,7 @@
 ---
 title: "DevOps on AWS Workshop"
-date: "2025-11-17"
-weight: 1
+date: "2026-05-23"
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
@@ -22,7 +22,7 @@ pre: " <b> 4.2. </b> "
 
 ### Agenda Overview
 
-**Time:** 8:30 AM – 5:00 PM, Monday, November 17, 2025  
+**Time:** 9:00 AM – 12:00 AM, Thursday, May 23, 2025  
 **Location:** AWS Vietnam Office  
 
 ---
@@ -42,7 +42,7 @@ pre: " <b> 4.2. </b> "
 
 ---
 
-### 2. AWS DevOps Services – CI/CD Pipeline (9:00 – 10:30 AM)
+### 2. FCAJ Community Day - Conference Call (9:00 – 12:00 AM)
 
 The session covered a complete CI/CD pipeline built with AWS-native services.
 
