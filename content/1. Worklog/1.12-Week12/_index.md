@@ -36,4 +36,4 @@ pre: " <b> 1.12 </b> "
 * Configured and verified **Sticky Sessions** (Application-based cookie) on the Target Group, ensuring requests from a single client are routed to the same instance.
 * Successfully ran **Health Checks** to ensure all instances in the Target Group were healthy and ready to receive traffic.
 * Conducted **Performance Testing** against the ALB using load-generation tools (like JMeter/Gatling) to analyze key metrics (response time, error rate).
-* Completed the final workshop and prepared the final summary report for the 12-week internship.
+* Completed the final workshop and prepared the final summary report for the 12-week internship .

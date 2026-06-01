@@ -36,4 +36,4 @@ pre: " <b> 1.12 </b> "
 * Cấu hình và kiểm tra thành công tính năng **Sticky Sessions** (Application-based cookie) trên Target Group, đảm bảo các yêu cầu từ một client được chuyển hướng đến cùng một instance.
 * Thực hiện thành công các bài kiểm tra **Health Checks** để đảm bảo các instance trong Target Group ở trạng thái khỏe mạnh.
 * Thực hiện **Kiểm thử hiệu suất (Performance Testing)** cho ALB bằng cách sử dụng các công cụ tạo tải (như JMeter), phân tích các chỉ số (thời gian phản hồi, tỷ lệ lỗi) và xác định các điểm cần tối ưu.
-* Hoàn thành workshop cuối cùng và chuẩn bị báo cáo tổng kết cho toàn bộ 12 tuần thực tập.
+* Hoàn thành workshop cuối cùng và chuẩn bị báo cáo tổng kết cho toàn bộ 12 tuần thực tập .
