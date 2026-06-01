@@ -18,11 +18,11 @@ pre: " <b> 1.1 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **Lab 02 – Introduction to AWS IAM**: Thực hành tạo và quản lý IAM Users, Groups, Roles, và Policies; thực hiện Switch Role. | 17/04/2026 | 17/04/2026 | |
-| 2 (Thứ Ba) | **Tìm hiểu và triển khai Amazon EC2**: Khởi chạy EC2 instance (Windows & Linux); cài đặt Apache web server; thực hành tạo Snapshot và AMI. | 20/04/2026 | 20/04/2026 | |
-| 3 (Thứ Tư) | **Thực hành Lab về Security Group**: Cấu hình Security Group (stateful firewall) để cho phép và chặn truy cập (HTTP, SSH) vào EC2 instance. | 21/04/2026 | 21/04/2026 | |
-| 4 (Thứ Năm) | **Triển khai hệ thống tự động co giãn**: Cấu hình Launch Template, Auto Scaling Group (với chính sách co giãn theo CPU), và Application Load Balancer (ALB) để phân phối tải. | 22/04/2026 | 22/04/2026 | |
-| 5 (Thứ Sáu) | **Lab: Gán IAM Role cho EC2 truy cập S3**: Tạo IAM Role với quyền S3 read-only và gán cho EC2; sử dụng AWS CLI để kiểm tra truy cập an toàn. | 23/04/2026 | 23/04/2026 | |
+| 1 (Thứ Hai) | **Lab 02 – Introduction to AWS IAM**: Thực hành tạo và quản lý IAM Users, Groups, Roles, và Policies; thực hiện Switch Role. | 20/04/2026 | 20/04/2026 | |
+| 2 (Thứ Ba) | **Tìm hiểu và triển khai Amazon EC2**: Khởi chạy EC2 instance (Windows & Linux); cài đặt Apache web server; thực hành tạo Snapshot và AMI. | 21/04/2026 | 21/04/2026 | |
+| 3 (Thứ Tư) | **Thực hành Lab về Security Group**: Cấu hình Security Group (stateful firewall) để cho phép và chặn truy cập (HTTP, SSH) vào EC2 instance. | 22/04/2026 | 22/04/2026 | |
+| 4 (Thứ Năm) | **Triển khai hệ thống tự động co giãn**: Cấu hình Launch Template, Auto Scaling Group (với chính sách co giãn theo CPU), và Application Load Balancer (ALB) để phân phối tải. | 23/04/2026 | 23/04/2026 | |
+| 5 (Thứ Sáu) | **Lab: Gán IAM Role cho EC2 truy cập S3**: Tạo IAM Role với quyền S3 read-only và gán cho EC2; sử dụng AWS CLI để kiểm tra truy cập an toàn. | 24/04/2026 | 24/04/2026 | |
 
 ---
 
