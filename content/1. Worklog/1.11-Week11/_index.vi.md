@@ -28,7 +28,7 @@ pre: " <b> 1.11 </b> "
 | 3 (Thứ Tư) | **K8s Security (Access)**: Thực hành cấu hình **RBAC** (Roles, RoleBindings) để quản lý quyền truy cập. Nghiên cứu các tool quản lý log (Fluentd, ELK). | 30/06/2026 | 30/06/2026 | |
 | 4 (Thứ Năm) | **Tìm hiểu ALB Content-based Routing**: Nghiên cứu và viết tài liệu chi tiết về cách ALB định tuyến lưu lượng dựa trên nội dung (path, header). | 01/07/2026 | 01/07/2026 | |
 | 5 (Thứ Sáu) | **Cấu hình ALB & HTTP/2**: Thực hành cấu hình **Content-based Routing** (vd: `/api/*`). Gỡ lỗi. Nghiên cứu về hỗ trợ **HTTP/2** trên ALB. | 02/07/2026 | 02/07/2026 | |
-
+ 
 ---
 
 ### **Week 11 Achievements**

@@ -35,7 +35,7 @@ pre: " <b> 1.10 </b> "
 
 * Mastered the basic concepts of **Kubernetes (K8s)**, including **Cluster**, **Node**, and **Pod**.
 * Successfully wrote a `deployment.yaml` configuration file and deployed a Node.js application to a Minikube cluster using `kubectl apply`.
-* Troubleshot and resolved issues with setting up a local Kubernetes environment (used Minikube to solve resource constraints).
+* Troubleshot and resolved issues with setting up a local Kubernetes environment (used Minikube to solve resource constraints ).
 * Researched popular monitoring and visualization tools in the container ecosystem, including **Prometheus**, **Grafana**, and **cAdvisor**.
 * Mastered the concept of Disaster Recovery (DR) in Kubernetes.
 * Successfully installed and used **Velero** to perform backups (`backup`) and restores (`restore`) of cluster resources.

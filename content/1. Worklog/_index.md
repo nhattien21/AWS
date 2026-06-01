@@ -1,7 +1,7 @@
 ---
 title: "Worklog"
 date: "2026-04-17"
-weight: 1
+weight: 12
 chapter: false
 pre: " <b> 1. </b> "
 ---
@@ -12,15 +12,15 @@ pre: " <b> 1. </b> "
 
 **Week 3:** [Deploying Storage Gateway, AWS WAF, and Resource Tagging](1.3-week3/)
 
-**Week 4:** [Project 1: Design & Deploy a Web Application (VPC, EC2, NGINX)](1.4-week4/)
-
+**Week 4:** [Project 1: Design & deploy a Web Application (VPC, EC2, NGINX)](1.4-week4/)
+                  
 **Week 5:** [Project 1: S3 Integration, WAF, Optimization & IaC Introduction](1.5-week5/)
 
 **Week 6:** [IaC Deep Dive with CloudFormation (Templates, Stacks, Parameters)](1.6-week6/)
-
+ 
 **Week 7:** [Serverless (Lambda/API Gateway), CloudFormation StackSets & Terraform Intro](1.7-week7/)
 
-**Week 8:** [Terraform (Variables) & Building a CI/CD Pipeline (CodePipeline, CodeDeploy)](1.8-week8/)
+**Week 8:** [Terraform (Variables) & Building a CI/CD Pipeline (CodePipeline, CodeDeploy)](1.8-week8/) 
 
 **Week 9:** [CI/CD Tools Exploration: Jenkins, Docker, and AWS CodeDeploy](1.9-week9/)
 

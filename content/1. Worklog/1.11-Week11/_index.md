@@ -42,4 +42,4 @@ pre: " <b> 1.11 </b> "
 * Mastered and wrote detailed documentation for the **Content-based Routing** feature of AWS Application Load Balancer (ALB).
 * Successfully configured ALB Listener rules to route traffic to different Target Groups based on URL paths (e.g., `/api/*`).
 * Troubleshot and resolved configuration issues (e.g., HPA not scaling, Network Policy not applying).
-* Learned the benefits of and how to enable **HTTP/2** support on an ALB (via an HTTPS listener).
+* Learned the benefits of and how to enable **HTTP/2** support on an alb (via an HTTPS listener).
