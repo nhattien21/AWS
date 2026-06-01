@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.6 </b> "
 ---
 
-# **WEEK 6 WORKLOG**
-
 ### **Week 6 Objectives**
 
 * Tìm hiểu sâu về **Infrastructure as Code (IaC)** bằng cách sử dụng **AWS CloudFormation**.

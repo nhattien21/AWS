@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.3 </b> "
 ---
 
-# **WEEK 3 WORKLOG**
-
 ### **Week 3 Objectives**
 
 * Hiểu và triển khai dịch vụ lưu trữ hybrid **AWS Storage Gateway** (cài đặt, kích hoạt).

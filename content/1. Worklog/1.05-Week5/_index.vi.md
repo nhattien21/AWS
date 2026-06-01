@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.5 </b> "
 ---
 
-# **WEEK 5 WORKLOG**
-
 ### **Week 5 Objectives**
 
 * Tích hợp Amazon S3 vào ứng dụng web để lưu trữ và phục vụ tài nguyên tĩnh (hình ảnh).

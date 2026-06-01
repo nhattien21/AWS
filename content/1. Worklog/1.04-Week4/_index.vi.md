@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.4 </b> "
 ---
 
-# **WEEK 4 WORKLOG**
-
 ### **Week 4 Objectives**
 
 * Lên ý tưởng, xác định yêu cầu và thiết kế kiến trúc AWS cho dự án cuối khóa.

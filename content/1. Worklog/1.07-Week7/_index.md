@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.7 </b> "
 ---
 
-# **WEEK 7 WORKLOG**
-
 ### **Week 7 Objectives**
 
 * Learn and deploy a **Serverless** architecture using **AWS Lambda** and **API Gateway**.

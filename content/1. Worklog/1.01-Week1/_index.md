@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 1.1 </b> "
 ---
 
-
 ### **Week 1 Objectives**
 
 * Understand and practice core AWS IAM concepts (Users, Groups, Roles, Policies).

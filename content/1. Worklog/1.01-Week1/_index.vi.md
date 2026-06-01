@@ -5,8 +5,6 @@ weight: 1
 chapter: false
 pre: " <b> 1.1 </b> "
 ---
-
-
 ### **Week 1 Objectives**
 
 * Hiểu và thực hành về các khái niệm cốt lõi của AWS IAM (Users, Groups, Roles, Policies).

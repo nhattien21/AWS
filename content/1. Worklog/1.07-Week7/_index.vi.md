@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.7 </b> "
 ---
 
-# **WEEK 7 WORKLOG**
-
 ### **Week 7 Objectives**
 
 * Tìm hiểu và triển khai kiến trúc Serverless (phi máy chủ) bằng **AWS Lambda** và **API Gateway**.

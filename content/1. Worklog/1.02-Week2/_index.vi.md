@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.2 </b> "
 ---
 
-# **WEEK 2 WORKLOG**
-
 ### **Week 2 Objectives**
 
 * Hiểu và thực hành về dịch vụ giám sát **AWS CloudWatch** (Metrics, Alarms, Logs, Dashboards, Agent).

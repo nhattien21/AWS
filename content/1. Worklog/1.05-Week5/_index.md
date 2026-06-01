@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.5 </b> "
 ---
 
-# **WEEK 5 WORKLOG**
-
 ### **Week 5 Objectives**
 
 * Integrate Amazon S3 into the web application for storing and serving static assets (images).

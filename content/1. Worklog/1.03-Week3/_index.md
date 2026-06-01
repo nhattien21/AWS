@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.3 </b> "
 ---
 
-# **WEEK 3 WORKLOG**
-
 ### **Week 3 Objectives**
 
 * Understand and deploy the **AWS Storage Gateway** hybrid storage service (installation, activation).

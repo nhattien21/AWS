@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.2 </b> "
 ---
 
-# **WEEK 2 WORKLOG**
-
 ### **Week 2 Objectives**
 
 * Understand and practice with the **AWS CloudWatch** monitoring service (Metrics, Alarms, Logs, Dashboards, Agent).
