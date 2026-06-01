@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-**Tuần 1:** [Làm quen với AWS và các dịch vụ cơ bản (IAM, EC2, ASG, ALB)](1.01-week1/)
+**Tuần 1:** [Làm quen AWS và các dịch vụ cơ bản (IAM, EC2, ASG, ALB)](1.01-week1/)
 
 **Tuần 2:** [Giám sát (CloudWatch) và Quản lý Đa tài khoản (AWS Organizations)](1.02-week2/)
 
