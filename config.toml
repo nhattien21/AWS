@@ -1,4 +1,4 @@
-baseURL = "https://lehoangthai.github.io/proposal/"
+baseURL = "https://nhattien21.github.io/"  
 relativeURLs = false
 canonifyURLs = true
 
@@ -15,7 +15,7 @@ home = [ "HTML", "RSS", "JSON"]
   # Git hub repo link
   editURL = ""
   description = ""
-  author = "thienlh@thienlu.com"
+  author = "nhattienysm"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
