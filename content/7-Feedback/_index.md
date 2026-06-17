@@ -11,7 +11,7 @@ pre: " <b> 7. </b> "
 ## English Version
 
 ### 1. Working Environment
-The working environment at FCJ is friendly, open, and professional. I feel comfortable communicating with everyone and always receive support when facing difficulties. The workspace is clean and quiet, helping me focus. It would be great to have more team-building activities to strengthen relationships.
+The working environment at FCJ is friendly, open, and professional. I feel comfortable communicating with everyone and always receive support when facing difficulties. The workspace is clean and quiet.
 
 ### 2. Support from Mentor and Admin
 The mentor provides detailed guidance, explains clearly when I do not understand, and encourages me to solve problems independently. The admin team is very supportive with administrative tasks, provides necessary documents, and creates favorable conditions for me to complete my work effectively.

@@ -23,7 +23,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 10/7/2026
 
-![Your profile photo](/images/hoangthai.png)
+![Your profile photo](/images/nhattien.png)
 
 ### Nội dung báo cáo
 
