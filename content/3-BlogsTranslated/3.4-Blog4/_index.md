@@ -50,7 +50,7 @@ Hello everyone! With private key leaks happening constantly, "Key Management" ha
 **Summary**
 Turnkey’s solution leverages AWS Nitro Enclaves to establish a closed-loop key processing workflow within RAM, with automatic memory clearing after use. The total separation between State storage and the isolated hardware execution environment protects digital assets even if the virtual machine infrastructure is breached. Furthermore, thanks to remote attestation and reproducible build capabilities, the system allows users to verify the integrity and transparency of the entire cryptographic process.
 
-![Turnkey Infrastructure Diagram](/AWS/images/3-Blogs/Blog-1/blog1.png)
+![Turnkey Infrastructure Diagram](/images/blog1.png)
 
 ## Conclusion
 Turnkey’s solution leverages AWS Nitro Enclaves to establish a closed-loop key processing workflow within RAM, with automatic memory clearing after use. The total separation between State storage and the isolated hardware execution environment protects digital assets even if the virtual machine infrastructure is breached. Furthermore, thanks to remote attestation and reproducible build capabilities, the system allows users to verify the integrity and transparency of the entire cryptographic process.
