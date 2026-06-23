@@ -48,7 +48,7 @@ Chào anh em! Các vụ lộ private key liên tục diễn ra khiến bài toá
 
 **Tổng kết**
 Giải pháp của Turnkey tận dụng AWS Nitro Enclaves để thiết lập một quy trình xử lý khóa khép kín trong RAM và tự động giải phóng bộ nhớ sau khi sử dụng. Sự tách biệt hoàn toàn giữa lưu trữ trạng thái (State) và môi trường thực thi phần cứng cô lập (Execution) giúp bảo vệ tài sản số ngay cả khi hạ tầng máy chủ máy ảo bị xâm nhập. Đồng thời, nhờ cơ chế chứng thực từ xa và khả năng tái lập mã nguồn, hệ thống cho phép người dùng kiểm chứng tính toàn vẹn và minh bạch của toàn bộ quy trình mật mã.
-![Turnkey Infrastructure Diagram](/images/3-Blogs/Blog-1/blog1.png)
+![Turnkey Infrastructure Diagram](../../../static/images/3-Blogs/Blog-1/blog1.png)
 
 ## Kết luận
 Tổng kết Giải pháp của Turnkey tận dụng AWS Nitro Enclaves để thiết lập một quy trình xử lý khóa khép kín trong RAM và tự động giải phóng bộ nhớ sau khi sử dụng. Sự tách biệt hoàn toàn giữa lưu trữ trạng thái (State) và môi trường thực thi phần cứng cô lập (Execution) giúp bảo vệ tài sản số ngay cả khi hạ tầng máy chủ máy ảo bị xâm nhập. Đồng thời, nhờ cơ chế chứng thực từ xa và khả năng tái lập mã nguồn, hệ thống cho phép người dùng kiểm chứng tính toàn vẹn và minh bạch của toàn bộ quy trình mật mã.
