@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3.1. </b> "
 ---
 
-# Improving network observability with new AWS Outposts racks network metrics
+# [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey
 <span class="meta-info">by Adam Duffield | on 06 AUG 2025 | in</span> [Advanced (300)](https://aws.amazon.com/blogs/compute/category/learning-levels/advanced-300/), [Announcements](https://aws.amazon.com/blogs/compute/category/post-types/announcements/), [AWS Outposts](https://aws.amazon.com/blogs/compute/category/compute/aws-outposts/), [AWS Outposts rack](https://aws.amazon.com/blogs/compute/category/compute/aws-outposts/aws-outposts-rack/)  | [Permalink](https://aws.amazon.com/blogs/publicsector/integrate-ai-powered-coding-assistance-in-secure-environments-using-continue-and-amazon-bedrock/) 
 
 With [AWS Outposts racks](https://aws.amazon.com/outposts/rack/), you can extend AWS infrastructure, services, APIs, and tools to on-premises locations. Providing performant, stable, and resilient network connections to both the parent AWS Region as well as the local network is essential to maintaining uninterrupted service.
