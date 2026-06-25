@@ -7,9 +7,11 @@ pre: " <b> 3. </b> "
 ---
 
 
-###  [Blog 1 - Cải thiện khả năng quan sát mạng với các chỉ số mạng mới của AWS Outposts racks](3.4-Blog4/)
-Bài viết giới thiệu hai chỉ số mới của Amazon CloudWatch—VifConnectionStatus và VifBgpSessionState—giúp nâng cao khả năng giám sát mạng cho hệ thống AWS Outposts racks. Các chỉ số này hỗ trợ theo dõi tình trạng kết nối giữa thiết bị mạng Outposts (OND) và thiết bị mạng của khách hàng (CND), bao gồm cả lưu lượng qua service link và local gateway. Blog cũng hướng dẫn cách sử dụng các chỉ số này để giảm thời gian xử lý sự cố và tăng độ ổn định trong triển khai đám mây lai.
-###  [Blog 2 - Cách một nhà phát triển hạ tầng tận dụng chứng chỉ AI để thúc đẩy đổi mới](3.5-Blog5/)
-Bài viết kể về hành trình của Alexandra Fernandez, một nhà phát triển hạ tầng tại công ty tài chính, người đã chủ động theo đuổi các chứng chỉ AI của AWS để đón đầu xu hướng công nghệ. Với các chứng chỉ như AWS Certified AI Practitioner, cô đã áp dụng kiến thức vào dự án thực tế—xây dựng trợ lý ảo bằng Amazon Bedrock—cho thấy cách chuyên gia công nghệ có thể dùng chứng chỉ để đổi mới, chia sẻ tri thức cộng đồng, và chuẩn bị cho tương lai do AI dẫn dắt.
-###  [Blog 3 - Tăng cường bảo mật dựa trên AI với Khung Lược Đồ An Ninh Mạng Mở (OCSF)](3.6-Blog6/)
-Bài viết trình bày cách Khung Lược Đồ An Ninh Mạng Mở (OCSF) giúp các tổ chức khai thác tối đa sức mạnh của AI trong lĩnh vực an ninh mạng. Bằng cách chuẩn hóa dữ liệu sự kiện bảo mật từ nhiều công cụ và nền tảng khác nhau, OCSF hỗ trợ phát hiện mối đe dọa nhanh hơn, phản ứng sự cố hiệu quả hơn, và cải thiện vận hành tổng thể. Blog cũng nêu ví dụ thực tế từ công ty fintech eightcap, nơi OCSF giúp hợp nhất dữ liệu giám sát và tăng cường phân tích mối đe dọa bằng AI.
+###  [Blog 1 - [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey](3.4-Blog4/)
+Bài viết này giới thiệu mô hình quản lý khóa tích hợp (Enclave-Native Key Management) của Turnkey dựa trên hạ tầng phần cứng AWS Nitro Enclaves. Bài blog phân tích giải pháp cô lập hoàn toàn các khóa thô (raw keys) nhạy cảm trong RAM tại thời điểm ký giao dịch và cơ chế xác thực từ xa bằng toán học nhằm loại bỏ triệt để các rủi ro bảo mật, lỗ hổng rò rỉ dữ liệu và thách thức tuân thủ trong không gian Web3/DeFi.
+
+###  [Blog 2 - TỔNG HỢP: CÁC PHƯƠNG PHÁP BẢO MẬT CHUỖI CUNG ỨNG PHẦN MỀM THEO CHUẨN AWS WELL-ARCHITECTED](3.5-Blog5/)
+Bài viết tổng hợp 5 nhóm phương pháp cốt lõi dựa trên Trụ cột Bảo mật (Security Pillar) của framework AWS Well-Architected nhằm giảm thiểu rủi ro tấn công chuỗi cung ứng phần mềm. Các giải pháp bao gồm: loại bỏ thông tin xác thực dài hạn thông qua kết nối OIDC, ký xác thực sản phẩm đầu ra (artifact signing) bằng AWS Signer, quản lý dependency tập trung qua AWS CodeArtifact, quét tự động bằng Amazon Inspector và tăng cường giám sát API toàn diện với AWS CloudTrail.
+
+###  [Blog 3 - How AWS DevOps Agent uses multi-agent reasoning to find root causes](3.6-Blog6/)
+Bài viết khám phá cách thức AWS DevOps Agent sử dụng kiến trúc suy luận đa đặc vụ (multi-agent reasoning) để loại bỏ thiên kiến xác nhận (confirmation bias) khi điều tra sự cố. Được vận hành trong một không gian logic cô lập (Agent Space) dựa trên nền tảng Bản đồ kiến trúc động (Topology Graph), công cụ tự động giảm nhiễu cảnh báo ở giai đoạn Phân loại, áp dụng phản chứng (counter-evidence) để tìm Root Cause ở giai đoạn Điều tra, từ đó đưa ra các kế hoạch Giảm thiểu thiệt hại an toàn và Phòng ngừa chủ động dài hạn.

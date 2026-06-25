@@ -6,23 +6,86 @@ chapter: false
 pre: " <b> 3.2. </b> "
 ---
 
-# How an infrastructure developer leverages AI certification to drive innovation
-<span class="meta-info">by Tim Trsar | on 04 AUG 2025  | in</span> [AWS Training and Certification](https://aws.amazon.com/blogs/training-and-certification/category/aws-training-and-certification/), [Best Practices](https://aws.amazon.com/blogs/training-and-certification/category/post-types/best-practices/), [Generative AI](https://aws.amazon.com/blogs/training-and-certification/category/artificial-intelligence/generative-ai/) | [Permalink](https://aws.amazon.com/blogs/publicsector/integrate-ai-powered-coding-assistance-in-secure-environments-using-continue-and-amazon-bedrock/) 
+# SUMMARY: METHODS TO SECURE THE SOFTWARE SUPPLY CHAIN ACCORDING TO AWS WELL-ARCHITECTED FRAMEWORK
 
-At Amazon Web Services (AWS), we’re committed to democratizing [generative AI](https://aws.amazon.com/generative-ai/), making it accessible to professionals across all roles. Alexandra Fernandez, an infrastructure developer at a leading financial company, exemplifies how [AWS Certification](https://aws.amazon.com/certification/) programs are empowering technology professionals to embrace AI transformation, even before it becomes a requirement in their current roles.
+This article addresses the growing risks of software supply chain attacks (such as malicious code injected into open-source libraries). To counter these threats, AWS recommends applying principles from the Security Pillar of the AWS Well-Architected Framework.
 
-With 4 years of cloud technology experience, Alexandra recognized early that AI would fundamentally change how we work. “Whether you’re a writer, a social media manager, or a software engineer, AI will become an essential tool for increasing productivity,” she explains. This forward-thinking mindset aligns with how AWS has pioneered cloud computing so anyone can access powerful technology.
+Here are the 5 core method groups:
 
-## Applying knowledge to real-world projects
-As a member of the [AWS Community Builders](https://builder.aws.com/connect/community/community-builders) program, Alexandra didn’t wait for AI to become mandatory in her role. Instead, she proactively pursued the [AWS Certified AI Practitioner certification](https://aws.amazon.com/certification/certified-ai-practitioner/), applying her knowledge to real-world projects. She’s currently working on Kiu, a virtual agent powered by [Amazon Bedrock](https://aws.amazon.com/bedrock/), designed to accelerate [Amazon Web Services (AWS)](https://aws.amazon.com/aws/) learning and strengthen community connections. This practical application demonstrates how AWS is democratizing generative AI through Amazon Bedrock, making it a seamless way to build and scale generative AI applications.
+### 1. Identity & Access Management
+Attackers often target development environments (developer machines) or CI/CD pipelines to steal credentials.
+* **Eliminate Long-term Credentials:** Absolutely do not hardcode keys like AWS IAM Access Keys on personal computers or within the source code.
+* **Use Short-lived Credentials:** CI/CD environments (such as GitHub Actions, GitLab) should use OIDC (OpenID Connect) to acquire single-use temporary IAM credentials.
+* **Apply Least Privilege:** CI/CD pipelines should only be granted the minimum necessary permissions required to perform their tasks (e.g., only allowed to push images to a specific ECR repository, without deletion rights).
 
-Alexandra’s journey with AWS began 3 years ago when she won third place in the [AWS DeepRacer](https://aws.amazon.com/deepracer/) competition at the [AWS Summit](https://aws.amazon.com/events/summits/?ams%23interactive-card-vertical%23pattern-data-1911509906.filter=%257B%2522filters%2522%253A%255B%255D%257D) in Atlanta. This experience sparked her interest in [machine learning (ML)](https://aws.amazon.com/ai/machine-learning/) with AWS, leading to a methodical approach to certification: starting with [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/), progressing to [AWS Certified AI Practitioner](https://aws.amazon.com/certification/certified-ai-practitioner/), and most recently [AWS Certified Machine Learning Engineer – Associate](https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/), planning for more advanced ML certifications. This structured path reflects the AWS commitment to providing the most comprehensive set of data and AI services in the industry.
+### 2. Data Protection & Integrity
+You must ensure that your source code and executable files (artifacts) cannot be tampered with during transit.
+* **Centralized Dependency Management:** Use AWS CodeArtifact as a proxy to store and manage internal/external packages. This prevents typosquatting attacks (where malicious libraries are named similarly to legitimate ones) by allowing downloads only from approved sources.
+* **Artifact Signing:** Use AWS Signer to digitally sign container images or code snippets. Systems in the Production environment (e.g., Amazon EKS) must be configured to verify the signature's validity before allowing deployment.
 
-The impact of AWS Certification extends beyond individual achievement. As part of the AWS community, Alexandra actively contributes to both English- and Spanish-speaking AWS communities, sharing her knowledge and helping others prepare for an AI-driven future. This exemplifies the strength of the AWS community, which includes millions of customers and over 100,000 partners globally.
+### 3. Vulnerability Management
+Traditional static scanning tools (CVE) lack the capability to detect unknown Zero-day malware.
+* **Automated and Continuous Scanning in CI/CD:** Integrate Amazon Inspector directly into the build process. This tool analyzes behavior to detect potential malware (sleeper packages) even before they are publicly disclosed.
+* **Build an SBOM (Software Bill of Materials):** Always maintain a Software Bill of Materials (SBOM). It helps you track exactly which libraries your application uses, enabling an extremely rapid response when a new vulnerability (like Log4j) is announced.
 
-## Proactive and prepared
-“It’s about being prepared before these changes become mandatory,” Alexandra notes. Her experience shows how professionals use AWS Certification programs to stay ahead of technological developments while building practical skills. She’s already implementing prompt engineering and [Retrieval Augmented Generation (RAG)]( Retrieval Augmented Generation (RAG)) techniques in her projects, demonstrating how AWS provides the tools and training needed to transform ideas into reality.
+### 4. Infrastructure Protection
+* **Isolate CI/CD Environments:** The build/deployment system must run in an isolated environment, limiting external internet access to prevent malware from automatically downloading additional malicious payloads (call-home) during the build.
+* **Apply Defense in Depth:** Require MFA (Multi-Factor Authentication) and multi-approval workflows for critical changes in the Production environment.
 
-Alexandra’s story reflects a broader trend we’re seeing across industries: professionals taking initiative to build AI capabilities before they become essential job requirements. With AWS offering over 60% more services and 40% more features than the next closest cloud provider, we’re providing professionals like Fernandez the tools and training they need to drive innovation in their organizations.
+### 5. Detection & Incident Response
+Assuming that the system could be compromised, you need the capability to detect anomalies as early as possible.
+* **Advanced API Monitoring:** Always enable AWS CloudTrail to log every action. Set up alerts for anomalous behavior, such as a push image command (`ecr:PutImage`) originating from an unknown IP address instead of a valid CI/CD server.
+* **Use AI/ML for Threat Detection:** Activate Amazon GuardDuty to monitor and detect anomalous network flows or cryptojacking behavior that might occur if the supply chain is compromised.
 
-For technology professionals looking to follow Alexandra’s path, AWS offers comprehensive certification programs that provide practical, hands-on experience with cutting-edge AI technologies. As Fernandez’s experience shows, the journey to AI expertise doesn’t require an AI-specific role—it requires curiosity, dedication, and [the right learning resources](https://aws.amazon.com/training/learn-about/generative-ai/).
+> **Core Summary:** Supply chain security is not just about scanning source code; it is a comprehensive defense-in-depth strategy: From granting least privilege to CI/CD, managing library origins, and signing output artifacts, to continuously monitoring all behaviors within the AWS environment.
+
+---
+
+# [Security] Software Supply Chain Security according to AWS Well-Architected Standards 🛡️☁️
+
+Hello everyone in the AWS Study Group VN! 👋
+
+Recently, software supply chain attacks via the npm Registry—such as the Shai-Hulud, tea.xyz, or axios incidents—have become increasingly common. Attackers typically target two vulnerabilities: stealing maintainer accounts to inject malicious code, and user CI/CD environments unknowingly executing these packages.
+
+![Software Supply Chain Attack Flow Simulation](/images/image1.png)
+*Caption: Figure 1 - Simulation of a software supply chain attack flow: Attacker compromises the maintainer's system -> publishes an npm version containing malicious code -> users (developers/CI/CD systems) install it -> credentials are harvested and exfiltrated back to the attacker.*
+
+So, how can we protect our systems against these risks? Based on the AWS Well-Architected Framework (Security Pillar), today our team summarizes 5 best practices from the AWS Security Blog to help you strengthen your defenses:
+
+### 1. Eliminate Long-term Credentials and Apply Least Privilege
+Malware frequently scans CI/CD environments and developer machines searching for secrets (such as npm tokens or AWS IAM access keys).
+* **For Developers:** Use the `aws login` command to retrieve short-lived credentials instead of storing hardcoded keys on your local machine.
+* **For CI/CD:** Use OIDC (OpenID Connect) with GitHub Actions/GitLab CI to issue temporary credentials for each individual job run. If you must use a third-party tool that doesn't support OIDC, store secrets in AWS Secrets Manager and automate key rotation.
+
+### 2. Defense in Depth & Artifact Signing
+A compromised account should not mean "game over."
+* Enforce MFA and require multi-approval workflows for all deployments to the Production environment.
+* Use AWS Signer to create cryptographic signatures for your artifacts. The Amazon ECR managed signing feature can automatically sign container images when they are pushed to ECR. Subsequently, admission controllers on EKS (such as Kyverno) verify the signature's validity before allowing deployment.
+
+![Secure CI/CD Flow with AWS CodePipeline and AWS Signer](/images/image2.png)
+*Caption: Figure 2 - Secure CI/CD flow with AWS CodePipeline and AWS Signer: Developer pushes code -> ECR automatically triggers AWS Signer upon receiving a new image -> Signature is stored alongside the image -> Runtime environment (EKS/ECS) pulls and verifies the signature before deployment.*
+
+### 3. Centralized Dependency Management
+* Instead of letting developers pull packages directly from external registries, use AWS CodeArtifact to manage internal and external packages. You can define a list of safe upstreams, completely blocking typosquatting attacks (where bad actors create packages with names very similar to real ones).
+* **Verify npm provenance attestation:** A feature that helps verify the package you download was genuinely built from the correct source code and CI/CD workflow of the author, preventing artifact tampering.
+
+### 4. Automated and Continuous Scanning
+Traditional vulnerability scanning tools (which rely solely on CVE databases) are helpless against unreported Zero-day malware.
+* Integrate Amazon Inspector directly into your CI/CD workflow. Unlike standard CVE scanning, Inspector uses behavioral analysis at scale to detect "sleeper packages" (dormant malware) or packages conducting anomalous information harvesting even before they are officially assigned a malicious package ID (MAL-ID).
+* Always maintain SBOMs (Software Bills of Materials) to know exactly which dependencies your application runs, allowing you to isolate blast radiuses extremely fast during an incident.
+
+![Amazon Inspector and Automated Remediation Workflow](/images/image3.png)
+*Caption: Figure 3 - Amazon Inspector and automated response workflow: Inspector scans ECR, CodeArtifact, and Lambda while analyzing behavior to detect critical vulnerabilities (Malicious Package, Credential Harvesting). When detected, a finding event is sent to an automated remediation pipeline (EventBridge -> Security Hub -> SNS -> Lambda Remediation).*
+
+### 5. Enhanced Logging & Monitoring
+* Always enable AWS CloudTrail to audit all API calls. Watch closely for anomalous activities such as: `sts:AssumeRole` executions from unexpected IP ranges, or `ecr:PutImage` actions pushed directly from a developer machine bypassing the CI/CD pipeline.
+* Combine Amazon GuardDuty and EventBridge to detect threats in real-time and trigger automated responses if risks manifest.
+
+### Overall Architecture:
+![Overall Software Supply Chain Security Architecture](/images/image3.png)
+*Caption: Figure 4 - Comprehensive 5-stage software supply chain security architecture: Prevent credential leaks (IAM, Secrets Manager) -> Control Dependencies (CodeArtifact, CodeBuild) -> Artifact Signing & Scanning (Inspector, Signer, EKS/ECS) -> Monitor (GuardDuty, CloudTrail) -> Automated Response (SNS, Lambda).*
+
+---
+
+## Conclusion
+In summary: Supply chain security is not just about writing secure code; it is about building a defense-in-depth architecture, limiting privileges, and maintaining strict control over every single artifact introduced into the system.

@@ -1,55 +1,83 @@
 ---
-title: "Blog3"
-date: "2025-09-08"
+title: "Blog 3"
+date: "2026-05-27"
 weight: 1
 chapter: false
-pre: " <b> 3.3 </b> "
+pre: " <b> 3.3. </b> "
 ---
 
-# Powering AI-Driven Security with the Open Cybersecurity Schema Framework
-<span class="meta-info">by Rod Wallace | on 04 AUG 2025 in</span> [AWS Security Hub](https://aws.amazon.com/blogs/opensource/category/security-identity-compliance/aws-security-hub/), [Customer Solutions](https://aws.amazon.com/blogs/opensource/category/post-types/customer-solutions/), [Open Source](https://aws.amazon.com/blogs/opensource/category/open-source/), [Security](https://aws.amazon.com/blogs/opensource/category/security-identity-compliance/security/), [Security, Identity, & Compliance](https://aws.amazon.com/blogs/opensource/category/security-identity-compliance/), [Thought LeadershiLeadershi](https://aws.amazon.com/blogs/opensource/category/post-types/thought-leadership/) | [Permalink](https://aws.amazon.com/blogs/publicsector/) | [Comments]( Comments ) 
+# How AWS DevOps Agent uses multi-agent reasoning to find root causes
 
-As organizations continue to innovate and scale their operations, security teams face a fundamental challenge: the lack of a common language for security data across diverse tools and services. This fragmentation makes it increasingly difficult to efficiently process and analyze vast amounts of security data, limiting threat detection and response capabilities. This is where the [Open Cybersecurity Schema Framework (OCSF)](https://schema.ocsf.io/) comes into play, providing a standardized approach that helps organizations streamline their security operations, improve threat detection, and accelerate incident response – all while unlocking the full potential of their security data.
+Almost everyone has experienced this scenario: In the middle of the night, the system triggers an alert, the API returns a 500 error, you rush to check the container logs, and immediately spot a familiar exception. Relying on your experience, you instantly determine the cause, deploy a quick fix, and restart. But in the end, the server crashes anyway.
 
-By providing a standardized schema for security events, OCSF automatically normalizes data from various sources, creating a unified foundation for advanced analytics and AI-powered tools. This standardization is crucial for unleashing the full potential of generative AI in cybersecurity, allowing organizations to better identify patterns and correlations across multiple, disparate data sources.
+This phenomenon is known as **"Confirmation Bias"**. Faced with an incident, we tend to cling to the first hypothesis that pops into our heads, find a single piece of supporting evidence, stop looking, and consequently allow the true root cause to go undiscovered.
 
-With OCSF-compliant data, organizations can leverage generative AI to enhance their security operations in multiple ways. For example, generative AI can analyze OCSF-formatted security events to automatically map activities to MITRE ATT&CK® tactics and techniques, enhancing investigation capabilities with contextualized insights. These AI models can visualize and analyze complex attack sequences, making intricate threat patterns more intuitive and actionable for security teams, while also enabling predictive threat scenarios and proactive mitigation strategies.
+To solve this problem, AWS introduced the **AWS DevOps Agent**—an autonomous AI that utilizes a **"multi-agent reasoning"** architecture. It does not blindly sift through logs; instead, it operates methodically and reasons through complex incidents like a true SRE team.
 
-The real impact of these AI-powered capabilities becomes clear through practical implementation. Leading organizations are already leveraging OCSF to transform their security operations, enabling more sophisticated threat detection and automated response capabilities. One compelling example is eightcap, whose journey demonstrates how combining OCSF with AI can revolutionize security operations.
+---
 
-## OCSF in Action: eightcap’s AI-Powered Security Operations
-eightcap operates in a fast-moving fintech domain where foreign exchange, cryptocurrency, and derivatives platforms face relentless, evolving threats. In this environment, speed without structure creates noise. What eightcap needed was a new kind of signal architecture. That structure came through the Open Cybersecurity Schema Framework (OCSF).
+### CORE SUMMARY (TL;DR)
+* **The Problem:** Modern distributed systems do not lack telemetry data; rather, they lack **reasoning capabilities** to actively challenge and eliminate false hypotheses during incident investigations.
+* **The Architecture:** Operates within an isolated logical container called an **Agent Space** and relies on a living **Topology Graph** to understand the full architectural context before analyzing any logs.
+* **The 4-Step Lifecycle:** 1. *Triage:* Correlates and aggregates duplicate alarms at machine speed to minimize noise.
+  2. *Investigation:* Generates multiple competing hypotheses simultaneously, leveraging counter-evidence validation to uncover the true Root Cause.
+  3. *Mitigation:* Recommends a highly detailed remediation plan equipped with rollback procedures but **does not execute write actions** on the production environment.
+  4. *Prevention:* Clusters historical incidents to detect underlying patterns and outputs long-term architectural optimization suggestions.
 
-OCSF allowed eightcap to unify telemetry from AWS-native services, internal infrastructure, SaaS platforms, and trading systems. It eliminated brittle point-to-point integrations and provided a common language for reasoning across diverse sources. But for eightcap, OCSF wasn’t the destination. It was the foundation for something more radical: the Agentic Security Operations Center (SOC).
+---
 
-At the center of eightcap’s model are AI agents, modular reasoning systems (like autonomous co-pilots) embedded directly into core security workflows. These agents ingest structured data, form hypotheses, query systems, and assist (or act) in triaging and investigating events. They don’t rely on rigid playbooks. They adapt dynamically, responding to situations in real time based on what the data reveals. This is where OCSF becomes indispensable. Structured telemetry is the precondition for agentic reasoning. Without a shared schema, there is no shared understanding. With it, AI agents gain the clarity they need to reason effectively and take action.
+### 1. The Core Secret: Master the System Map (Topology Graph)
+Before diving into fixing errors, the AI does not immediately jump into reading logs. Investigating an incident effectively must start with a comprehensive understanding of the entire system's architectural context.
 
-As security teams drown in signals, the future belongs to those who can build workflows that think. eightcap’s Agentic SOC is designed around that future. In the years ahead, one of the most scarce and valuable resources in cybersecurity will not be compute or bandwidth, but context window: the ability to see enough, fast enough, to act intelligently. OCSF expands that window. It enables agents to connect signals across time, systems, and services. It allows for consistent reasoning about scope, intent, and impact, at speed. And it positions human analysts not as alert responders, but as strategic decision-makers supported by systems that understand their environment.
+The AWS DevOps Agent automatically constructs a living **Topology Graph**. This map clearly illustrates:
+* The structural relationships among services, databases, and infrastructure resources.
+* Real-time runtime communication patterns as the system operates.
+* Tight integration with CI/CD pipelines (such as GitLab CI/CD, GitHub Actions) to link resources directly back to recent code deployments.
 
-As security environments grow more complex, traditional SOCs respond by hiring. eightcap took a different path. By embedding intelligent agents into core workflows, the Agentic SOC reduces the need for manual analysis at scale. The result is a team that grows in capability, not size. OCSF doesn’t just improve data quality, it gives machines the language they need to think. eightcap is not alone in exploring these ideas, but it is among the first to operationalize them at scale, setting a precedent for what intelligent security operations can truly become. [Watch](https://www.youtube.com/watch?v=1bTC-3ZJT3E&feature=youtu.be) how eightcap transformed their security operations with OCSF.
+Without this foundation, both AI and human operators would be searching blindly through a vast sea of telemetry data. Every operation within this map is securely isolated within a logical container called an **Agent Space**, scoped strictly to a specific team or application.
 
-Dave Gruber, Principal Analyst at ESG, emphasizes the significance of this transformation: “The Open Cybersecurity Schema Framework (OCSF) is becoming increasingly significant as we enter the era of the agentic Security Operations Center (SOC). As SOCs evolve towards more autonomous and intelligent operations, OCSF’s standardized data schema serves as a crucial foundation for enabling seamless interaction between security tools, automated workflows, and human analysts. Organizations exploring or considering agentic capabilities in their SOC will find OCSF’s normalized data structure valuable for breaking down data silos, accelerating threat detection, and enabling more intelligent, context-aware security operations across their security stack. The framework’s ability to provide a common language for both human analysts and automated systems could be transformative for the next generation of security operations.”
-## Advancing OCSF: What’s New in v1.5 and v1.6
-As the OCSF community grows, so does the framework itself. Recent updates in versions 1.5 and 1.6 have significantly enhanced OCSF’s capabilities:
+---
 
-- Expanded MITRE framework integration, now offering comprehensive support for ATT&CK®, D3FEND®, and ATLAS®.
-- Introduction of a new graph-based object model, allowing for better representation of resource relationships and attack path graphing. This enhancement is particularly valuable for AI models analyzing complex attack paths and identifying potential vulnerabilities.
-- Enriched schemas for threat intelligence, campaigns, and actors, providing richer context for security analysis. This depth of information enables AI systems to draw more accurate conclusions and predict potential threats.
-- Addition of new event classes, including IAM Analysis Finding, Application Security Posture Finding, and Live Evidence Info, broadening OCSF’s applicability and the range of data available for AI models.
-- Standardized modeling support for anomalies and baselines in Detection Findings, crucial for training AI models to accurately identify deviations from normal behavior.
+### 2. The 4-Step Incident Lifecycle of Multi-Agent AI
+Rather than handling everything in a single step, the AWS DevOps Agent organizes incident response into 4 distinct phases, functioning as an operational flywheel:
 
-These enhancements significantly improve OCSF’s ability to support advanced AI-driven security analytics and operations.
+#### Step 1: Classification (Triage) - Optimized for Speed
+When an incident strikes, dozens of alarms from CloudWatch, Grafana, PagerDuty, or ServiceNow can flood in simultaneously.
+* The Agent immediately analyzes incoming signals and automatically correlates related alerts originating from the same event into a single, comprehensive investigation.
+* This dramatically reduces noise, preventing development teams from feeling overwhelmed and enabling them to focus on the core issue.
+* Naturally, the human operator retains full control: if the agent creates an incorrect correlation, you can easily unlink them to spawn separate investigations.
 
-## The Growing OCSF Ecosystem
-The OCSF community has grown significantly since its inception, now with over 1,100 contributors and 200+ organizations. This collaborative approach ensures that OCSF continues to evolve to meet the dynamic needs of the cybersecurity landscape. The community’s diverse expertise allows for rapid iteration and improvement of the framework, addressing emerging threats and new use cases as they arise.
+#### Step 2: Deep Analysis (Investigation) - The Art of Counter-Evidence
+This is where the Agent showcases a reasoning engine fundamentally different from conventional AI troubleshooting. Instead of following a single intuitive path, the Agent generates **multiple competing root-cause hypotheses simultaneously**.
 
-In addition, the rapid adoption of OCSF across the industry demonstrates its transformative potential. We’re witnessing a diverse range of sectors embracing OCSF, from healthcare giants like CVS Health to media and entertainment leaders such as IPG and MGM Resorts. In the technology sector, companies like Hewlett Packard Enterprise are leveraging OCSF to enhance their security operations. The telecommunications industry is also recognizing the value of OCSF, with companies like Comcast adopting the framework to enhance their threat detection capabilities. In the retail sector, Amazon is leveraging OCSF to standardize security data across its vast infrastructure.
+It casts a wide evidence net across metrics, logs, and distributed traces, testing each theory against both supporting and counter-evidence:
+* *Example:* An e-commerce platform's checkout service suffers a sudden latency spike. The agent generates three hypotheses: a configuration change pushed 20 minutes prior, a slow third-party payment gateway, or a saturated database connection pool.
+* It reviews the configuration change and finds it only adjusted logging verbosity—eliminating the deployment theory. It confirms the payment gateway is returning slow responses but uncovers that this slowness started *after* the checkout latency began—proving the gateway is a symptom, not the cause. Finally, it verifies the connection pool is running at 94% capacity, correlating perfectly with the exact onset time with no contradictory data—confirming it as the Root Cause.
 
-Security vendors have already integrated OCSF into their offerings, expanding the ecosystem of OCSF-compatible tools. Industry leaders including Check Point, Cribl, CrowdStrike, CyBeats, DataBee, Discern Security, Dynatrace, SentinelOne, Splunk, Tenzir, and Trellix have integrated OCSF into their products, enabling seamless data exchange and improved interoperability. This integration is crucial for organizations looking to streamline their security operations and leverage AI-driven analytics across multiple tools. Industry analysts are also taking note of OCSF’s impact. Firms like IDC, Omdia, Enterprise Strategy Group, and S&P Global 451 Research have recognized OCSF’s potential to reshape the security landscape, highlighting its role in enabling more efficient and effective security operations.
+The AI documents this entire logical journey within an immutable audit trail called the **Investigation Journal**.
 
-## The Future of OCSF and AI in Cybersecurity
-The combination of OCSF and AI in cybersecurity shows significant potential. Mark Ehr, Principal Research Analyst at 451 Research, notes: “The Open Cybersecurity Schema Framework (OCSF) represents an industry effort to address these challenges through standardization. We see growing interest and adoption of OCSF from both enterprises and security vendors and while it’s still early, organizations exploring this framework report potential benefits in streamlining security operations and enhancing cross-tool data sharing capabilities. The collaborative nature of OCSF suggests that it could play a significant role in shaping future security data standards“.
+#### Step 3: Reduction (Mitigation) - Safe by Default
+Once the root cause is established, how do you safely fix it? The Agent automatically structures a highly detailed remediation plan including the target strategy, step-by-step execution procedures, success criteria, and most importantly, **rollback procedures** to reverse changes if things go wrong.
 
-We anticipate seeing even more sophisticated threat detection, automated response capabilities, and predictive security measures as OCSF adoption grows and AI technologies advance. The new [AWS Security Hub (Preview)](https://aws.amazon.com/security-hub/) leverages OCSF, enabling seamless data exchange across security capabilities with normalized data formats. The collaborative nature of OCSF ensures that it will continue to evolve, addressing new challenges as they emerge and shaping the future of security data standards.
+* **The Security Catch:** The Agent is **strictly safe by default (restricted write capabilities)**. Its write access is limited to creating support tickets or tracking cases. It functions solely as an expert advisor recommending code modifications or specific configuration commands; the final decision to hit the execute button remains entirely with the human operator.
 
-![author](/images/3-Blogs/Blog-6/1.png)
+#### Step 4: Proactive Actions (Prevention) - Turning Reactive into Proactive
+The value of the system extends beyond resolving single issues; it clusters historical incidents by shared underlying root causes, even when surface symptoms appear completely different.
+
+Through cross-incident pattern analysis, it can detect that various separate timeout bugs, queue spikes, or sluggish API responses all trace back to an identical database scaling issue. From there, the Agent proposes long-term architectural recommendations:
+* Tuning alerting systems and eliminating monitoring gaps.
+* Introducing highly resilient code patterns (such as retry logic, circuit breakers).
+* Embedding validation gates into the CI/CD pipeline to permanently block identical regressions.
+
+![The Incident Lifecycle](/images/image4.png)
+
+---
+
+### Conclusion
+The AWS DevOps Agent is transforming how distributed systems are operated. By delegating the heavy lifting of log parsing, topology mapping, and counter-evidence verification to autonomous AI, Backend and DevOps engineers can escape long nights of manual troubleshooting.
+
+Operational context that once lived only inside a veteran engineer's head now persists within the system, remaining fully accessible across team or staffing transitions. You can approach bug fixing with newfound confidence, knowing every hypothesis has been thoroughly tested against real data, and backed by a clear emergency exit plan.
+
+***
+
+**Original Article Link:** [How AWS DevOps Agent uses multi-agent reasoning to find root causes | AWS DevOps & Developer Productivity Blog](https://aws.amazon.com/blogs/devops/how-aws-devops-agent-uses-multi-agent-reasoning-to-find-root-causes/)

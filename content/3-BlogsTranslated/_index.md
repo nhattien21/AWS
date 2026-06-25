@@ -6,11 +6,11 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-###  [Blog 1 - Improving network observability with new AWS Outposts racks network metrics](3.4-Blog4/)
-This blog introduces two new Amazon CloudWatch metrics—VifConnectionStatus and VifBgpSessionState—designed to enhance network observability for AWS Outposts racks. These metrics help users monitor the health and performance of network connections between Outpost Networking Devices (ONDs) and Customer Network Devices (CNDs), including service link and local gateway traffic. The post explains how these metrics can reduce troubleshooting time and improve operational resilience in hybrid cloud deployments.
+###  [Blog 1 - [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey](3.4-Blog4/)
+This blog introduces an Enclave-Native Key Management model developed by Turnkey leveraging AWS Nitro Enclaves. It explains how the architecture completely isolates sensitive raw private keys in RAM during transaction signing and uses remote mathematical attestation to eliminate traditional security trade-offs, compliance risks, and confirmation bias in Web3/DeFi key management.
 
-###  [Blog 2 - How an infrastructure developer leverages AI certification to drive innovation](3.5-Blog5/)
-This blog highlights the journey of Alexandra Fernandez, an infrastructure developer at a financial firm, who proactively pursued AWS AI certifications to stay ahead of technological change. By earning credentials like AWS Certified AI Practitioner and applying them to real-world projects—such as building a virtual agent with Amazon Bedrock—she exemplifies how professionals can use certification to drive innovation, contribute to community learning, and prepare for an AI-driven future.
+###  [Blog 2 - SUMMARY: METHODS TO SECURE THE SOFTWARE SUPPLY CHAIN ACCORDING TO AWS WELL-ARCHITECTED FRAMEWORK](3.5-Blog5/)
+This blog provides a comprehensive summary of 5 core best practices to mitigate software supply chain risks based on the Security Pillar of the AWS Well-Architected Framework. It covers implementing short-lived credentials via OIDC, cryptographic artifact signing with AWS Signer, centralized dependency controls using AWS CodeArtifact, automated behavioral scanning with Amazon Inspector, and continuous logging through AWS CloudTrail.
 
-###  [Blog 3 - Powering AI-Driven Security with the Open Cybersecurity Schema Framework](3.6-Blog6/)
-This blog explores how the Open Cybersecurity Schema Framework (OCSF) enables organizations to unlock the full potential of AI in cybersecurity. By standardizing security event data across diverse tools and platforms, OCSF helps streamline threat detection, accelerate incident response, and improve overall security operations. The post highlights real-world applications, including how fintech company eightcap used OCSF to unify telemetry and enhance AI-powered threat analysis.
+###  [Blog 3 - How AWS DevOps Agent uses multi-agent reasoning to find root causes](3.6-Blog6/)
+This blog explores how the AWS DevOps Agent leverages a multi-agent reasoning architecture to overcome confirmation bias during incident investigations. Powered by a dynamic Topology Graph and an Agent Space container, the autonomous agent correlates noisy alerts during Triage, tests competing hypotheses using counter-evidence during Investigation, and recommends safe-by-default Mitigation and proactive Prevention plans.
