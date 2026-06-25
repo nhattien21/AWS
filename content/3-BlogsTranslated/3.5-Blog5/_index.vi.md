@@ -1,7 +1,7 @@
 ---
 title: "Blog 2"
 date: "2026-06-02"
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 3.2. </b> "
 ---
@@ -41,7 +41,7 @@ Giả định rằng hệ thống có thể bị xâm nhập, bạn cần có kh
 
 ---
 
-# [Security] Bảo mật chuỗi cung ứng phần mềm theo chuẩn AWS Well-Architected 🛡️☁️
+# [Security] Bảo mật chuỗi cung ứng phần mềm theo chuẩn AWS Well-Architected 
 
 Xin chào mọi người trong AWS Study Group VN! 👋
 
