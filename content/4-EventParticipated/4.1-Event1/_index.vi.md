@@ -1,190 +1,124 @@
 ---
-title: "AI/ML/GenAI on AWS Workshop"
-date: "2025-11-15"
+title: "COMMUNITY DAY"
+date: "2026-05-23"
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Summary Report: “AI/ML/GenAI on AWS Workshop”
+# Summary Report: “AWS COMMUNITY DAY”
 
 ### Event Objectives
 
-- Giới thiệu tổng quan về hệ sinh thái **AI/ML/GenAI trên AWS**.  
-- Hướng dẫn sử dụng **Amazon SageMaker** cho toàn bộ vòng đời Machine Learning.  
-- Cung cấp kiến thức nền tảng và thực hành về **Generative AI** thông qua Amazon Bedrock.  
-- Tạo cơ hội networking giữa sinh viên và chuyên gia AWS.  
-- Định hướng xu hướng AI/ML tại Việt Nam cùng các kỹ năng cần thiết để tham gia ngành.
+- Cung cấp góc nhìn thực tế về cách tối ưu hóa hiệu năng, chi phí hạ tầng và ứng dụng AI/ML vào giải quyết các bài toán doanh nghiệp.
+- Giới thiệu các công cụ tự động hóa không cần code (Amazon Quick) và mô hình hệ thống đa đại lý (Multi-Agent).
+- Chia sẻ kinh nghiệm thực chiến từ các cuộc thi Hackathon lớn và phân tích sâu về bản chất vận hành của các mô hình ngôn ngữ lớn (LLM).
+- Tạo cơ hội kết nối sâu sắc (Networking) giữa cộng đồng lập trình viên, sinh viên và các chuyên gia công nghệ hàng đầu thuộc hệ sinh thái AWS.
 
 ---
 
 ### Agenda Overview
 
-**Thời gian:** 8:30 AM – 12:00 PM, Thứ Bảy ngày 15/11/2025  
-**Địa điểm:** AWS Vietnam Office  
+**Thời gian:** 8:30 AM – 12:00 PM, Thứ Bảy ngày 15 tháng 05 năm 2026  
+**Địa điểm:** AWS Vietnam Office, Tầng 36  
 
 ---
 
 ## Key Highlights
 
-### 1. Welcome & Introduction (8:30 – 9:00 AM)
+### 1. Welcome & Check-in (8:30 – 9:00 AM)
 
-- Check-in và networking giữa người tham dự.  
-- Giới thiệu mục tiêu, nội dung trọng tâm.  
-- Hoạt động ice-breaker gắn kết nhóm.  
-- Tổng quan về xu hướng AI/ML tại Việt Nam.
+- Người tham dự check-in, ổn định chỗ ngồi tại tầng 36 và tự do giao lưu, kết nối mở rộng mối quan hệ (Networking).
 
 ---
 
-### 2. AWS AI/ML Services Overview (9:00 – 10:30 AM)
+### 2. Session 1: Context Is Everything: Making AI Actually Work for You (09:00 – 09:30 AM)
 
-Buổi workshop giới thiệu **toàn bộ hệ sinh thái AI Services của AWS**, bao gồm các dịch vụ AI “dùng ngay” (Pre-trained APIs) và các công cụ hỗ trợ phân tích dữ liệu đa phương tiện.
+- **Diễn giả:** Tinh Truong (Anh Tịnh) – Platform Engineer, GoTymeX
+- **Nội dung trọng tâm:**
 
-## **1. AI Services (Pre-trained APIs – xử lý trực tiếp không cần training)**  
-Đây là lớp dịch vụ AI fully managed cho các tác vụ nhận dạng, phân tích, xử lý ngôn ngữ và đa phương tiện.
-
----
-
-### 🔹 Computer Vision
-
-**Amazon Rekognition**  
-- Nhận diện khuôn mặt  
-- Phân tích ảnh & video  
-- Phát hiện đối tượng, cảnh  
-- Nhận diện text trong ảnh/video (Text-in-image)  
+- Lý do AI phản hồi thất bại khi thiếu bối cảnh và định nghĩa chuẩn về “Context”.
+- Quá trình tiến hóa của AI từ kỹ thuật viết prompt đơn thuần đến hệ thống quản lý bộ nhớ (Khái niệm bộ não thứ hai - Second AI Brain).
+- Phương pháp tư duy và mẹo thực tế giúp tận dụng bối cảnh tốt hơn để đạt kết quả tối ưu.
+- Định hướng nghề nghiệp và lộ trình bắt đầu xây dựng ứng dụng với AI dành cho sinh viên kèm phiên Q&A.
 
 ---
 
-### 🔹 Document AI / Text Extract
+### 3. Session 2: Friendly AI Assistant with Amazon Quick (09:30 – 09:45 AM)
 
-**Amazon Textract**  
-- Trích xuất text, bảng, form từ tài liệu scan/PDF  
-- OCR nâng cao + phân tích cấu trúc  
+- **Diễn giả:** Pham Ng Hai Anh (Hải Anh) – AWS Community Builder, G-AsiaPacific Vietnam
+- **Nội dung trọng tâm:**
 
-**Amazon Comprehend**  
-- NLP: xử lý ngôn ngữ tự nhiên  
-- Sentiment analysis  
-- Entity recognition  
-- Keyphrase extraction  
-- Topic modeling  
+- **Quick Chat Agent:** Trợ lý AI hỗ trợ khai phá dữ liệu và phân tích chuyên sâu các thông tin chuyên ngành.
+- **Quick Flows:** Tự động hóa và tạo lập các quy trình thông minh trực tiếp bằng ngôn ngữ tự nhiên mà không cần viết mã.
+- **Quick Spaces:** Không gian làm việc cộng tác chung, chuyển đổi thông tin cá nhân thành tri thức có hệ thống của toàn đội ngũ.
+- **Quick Sight:** Xây dựng các biểu đồ, báo cáo trực quan nhanh chóng từ nguồn dữ liệu thô thông qua câu lệnh tự nhiên.
 
 ---
 
-### 🔹 Speech & Voice
+### 4. Session 3: From Edge To Origin: CloudFront as Your Foundation (09:45 – 10:25 AM)
 
-**Amazon Transcribe**  
-- Speech → Text  
-- Tự động nhận dạng giọng nói  
-- Tách speaker, timestamp  
+- **Diễn giả:** Nguyen Tuan Thinh (Thịnh) – DevOps Engineer, First Cloud AI Journey
+- **Nội dung trọng tâm:**
 
-**Amazon Polly**  
-- Text → Giọng nói (TTS)  
-- Nhiều giọng đọc tự nhiên (Neural TTS)  
-
----
-
-### 🔹 Chatbot & Conversation AI
-
-**Amazon Lex**  
-- Xây dựng chatbot hội thoại tự nhiên  
-- Intent classification, slot filling  
-
-**Amazon Connect Contact Lens**  
-- Phân tích hội thoại call center  
-- Sentiment, analytics  
+- Khả năng thích ứng linh hoạt của Amazon CloudFront đối với mọi loại khối lượng công việc (Workloads).
+- Phương pháp tối ưu hóa chi phí và tiết kiệm tài nguyên hạ tầng băng thông nhờ mạng lưới CloudFront.
+- Các tính năng bảo mật chuyên sâu bảo vệ vùng biên (Giảm thiểu tấn công DDoS, Origin Cloaking ẩn giấu máy chủ gốc, và quản lý TLS).
+- Tăng cường độ sẵn sàng cao (Cơ chế Origin Failover) và tăng tốc hiệu năng đường truyền toàn cầu.
 
 ---
 
-### 🔹 Personalization & Recommendations
+### 5. Session 4: 36 hrs with LotusHacks – Building UTMorpho from Idea to Reality (10:25 – 10:55 AM)
 
-**Amazon Personalize**  
-- Gợi ý sản phẩm cá nhân hóa  
-- Công nghệ nền tảng của Amazon.com  
+- **Diễn giả:** Team VIB
+- **Nội dung trọng tâm:**
 
----
-
-### 🔹 Fraud Detection
-
-**Amazon Fraud Detector**  
-- Phát hiện gian lận  
-- Dự đoán hành vi bất thường  
+- Động lực tham gia LotusHacks — Sân chơi Hackathon có quy mô lớn hàng đầu Việt Nam.
+- Hành trình tư duy từ con số 0 đến khi thiết lập ý tưởng sơ khởi.
+- Quá trình định hình bài toán thực tế và xây dựng khung xương cho sản phẩm UTMorpho.
+- Trải nghiệm lập trình tốc lực đầy áp lực trong suốt chặng đua 36 tiếng liên tục.
+- Bài học từ những rào cản, lỗi kỹ thuật (Vượt hạn ngạch Token, AI tự sinh dữ liệu thừa - Overgeneration) và bước ngoặt thay đổi cục diện.
+- Tổng quan kiến trúc hệ thống và phiên chạy thử nghiệm (Live Demo) sản phẩm UTMorpho.
 
 ---
 
-### 🔹 Forecasting & Time-series
+### 6. Coffee Break (10:55 – 11:00 AM)
 
-**Amazon Forecast**  
-- Dự báo nhu cầu, doanh số  
-- ML không yêu cầu kinh nghiệm thuật toán  
+- Nghỉ giải lao ngắn, thưởng thức trà bánh và kết nối tự do giữa người tham dự với các AWS Mentors.
 
 ---
 
-### 🔹 Search
+### 7. Session 5: Non-Determinism of "Deterministic" LLM Settings (11:00 – 11:30 AM)
 
-**Amazon Kendra**  
-- Enterprise semantic search  
-- Natural language Q&A  
+- **Diễn giả:** Duc Dao (Đào Đức) – Solution Architect, Cloud Kinetics
+- **Nội dung trọng tâm:**
 
----
-
-### 🔹 Translation
-
-**Amazon Translate**  
-- Dịch thuật đa ngôn ngữ chất lượng cao  
+- Cơ chế tính toán và lựa chọn token tiếp theo của các mô hình ngôn ngữ (Hàm Logits, Softmax và tham số Temperature).
+- Phân tích giả định phổ biến: Liệu thiết lập `Temperature = 0` có thực sự đảm bảo tính định hình kết quả tuyệt đối?
+- Đối diện thực tế: Nguyên nhân vì sao các giải pháp tối ưu hóa suy luận hạ tầng API và toán học số dấu phẩy động trên GPU lại tạo ra sự sai lệch kết quả.
+- Hệ quả thực tế đối với các ứng dụng sản xuất nghiêm ngặt (Production) yêu cầu độ chính xác cao.
+- Chiến lược giảm thiểu sai số (Cơ chế bỏ phiếu số đông - Majority voting, ép định dạng cấu trúc đầu ra bằng tham số, điều chỉnh hình phạt lặp từ).
 
 ---
 
-### Amazon SageMaker – ML Platform
+### 8. Session 6: Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring (11:30 AM – 12:00 PM)
 
-Ngoài AI Services, sự kiện cũng trình bày hệ thống chi tiết về **Amazon SageMaker**:
+- **Diễn giả:** Cát Vy
+- **Nội dung trọng tâm:**
 
-- Data preparation & labeling  
-- Model training & tuning  
-- Deployment & monitoring  
-- Integrated MLOps pipelines  
-
-**Live Demo: SageMaker Studio**  
-- Hướng dẫn triển khai mô hình từ notebook đến endpoint.  
-
----
-
-### 3. Coffee Break (10:30 – 10:45 AM)
-
-Networking nhẹ giữa mentor và người tham dự.
-
----
-
-### 4. Generative AI with Amazon Bedrock (10:45 AM – 12:00 PM)
-
-- Giới thiệu Foundation Models: Claude, Llama, Titan  
-- Kỹ thuật Prompt Engineering & Few-shot  
-- Kiến trúc **RAG** và Knowledge Base  
-- **Bedrock Agents** cho workflow nhiều bước  
-- **Guardrails** cho ứng dụng AI an toàn  
-- **Live Demo:** Chatbot GenAI dùng Bedrock  
+- Điểm vênh cốt lõi trong cấu trúc dữ liệu giữa hệ thống ngân hàng truyền thống và thông tin nội bộ của các doanh nghiệp Startup.
+- Đơn Đại lý (Single Agent): Khi nào nên ứng dụng và khi nào sẽ gặp giới hạn quá tải.
+- Xu hướng kiến trúc Đa Đại lý (The Multi-Agent Paradigm).
+- Sơ đồ thiết kế hệ thống của một "Hội đồng tín dụng ảo" (Virtual Credit Committee).
+- Thiết lập rào cản kiểm soát hành vi (Guardrails) và tuân thủ nghiệp vụ.
+- Đo lường chỉ số hoàn vốn đầu tư vận hành (Operational ROI) cùng lộ trình triển khai hệ thống thực tế kèm phần tổng kết Hỏi đáp (Q&A).
 
 ---
 
 ## Key Takeaways
 
-### AI/ML on AWS
-- AWS cung cấp bộ AI Services đa dạng, dễ dùng và phù hợp nhiều bài toán thực tế.  
-- SageMaker giúp chuẩn hóa toàn bộ chu trình ML.  
-
-### Generative AI
-- Mỗi Foundation Model có thế mạnh riêng.  
-- RAG là chìa khóa để đưa dữ liệu nội bộ vào GenAI an toàn.  
-
-### Bedrock Ecosystem
-- Bedrock Agents cho phép tự động hóa quy trình.  
-- Guardrails đảm bảo an toàn khi triển khai ứng dụng AI.  
-
----
-
-### Some event photos
-*Add your event photos here*
-
----
-
-> Buổi workshop mang lại góc nhìn toàn diện về AI/ML/GenAI trên AWS, đặc biệt là cách ứng dụng AI Services, SageMaker và Bedrock trong thực tế doanh nghiệp. Đây là bước đệm quan trọng giúp người tham dự tự tin bước vào lĩnh vực AI/ML.
-
+- **Context quan trọng hơn Prompt:** AI không thể đọc được suy nghĩ của bạn. Câu trả lời AI tệ thường do bối cảnh đầu vào mơ hồ hoặc quá nhiễu. Cung cấp đúng mục tiêu, bằng chứng và ràng buộc mới là chìa khóa để AI làm việc hiệu quả.
+- **Tối ưu chi phí và hiệu năng từ vùng biên:** Sử dụng Amazon CloudFront giúp loại bỏ hoàn toàn rủi ro tăng sốc chi phí do traffic ảo hoặc tấn công DDoS.
+- **Sự thật về Temperature = 0:** Cài đặt này không đảm bảo 100% kết quả giống hệt nhau. Do sai số tính toán của GPU và cơ chế gộp request (batching).
+- **Ý tưởng lớn đến từ "nỗi đau" nhỏ:** Khi chịu áp lực thời gian, việc đồng bộ nhóm và chọn một ý tưởng tinh gọn để làm demo quan trọng hơn là ôm đồm nhiều tính năng.
+- **Xuuyên hướng Đại lý (Agentic AI):** Công nghệ đang dịch chuyển mạnh mẽ sang hệ thống tự động hóa không cần code bằng ngôn ngữ tự nhiên (Amazon Quick) và mô hình phối hợp đa đại lý (Multi-Agent) để giải quyết các bài toán doanh nghiệp phức tạp thay vì chỉ dùng một Agent đơn lẻ.
