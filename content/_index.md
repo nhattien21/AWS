@@ -19,7 +19,7 @@ chapter: false
 
 &emsp; **Class:** 22DTHG6 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
-&emsp; **Internship Position:** FCJ Cloud Engineer
+&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 
 &emsp; **Internship Duration:** From April 17, 2026 to July 10, 2026
 
