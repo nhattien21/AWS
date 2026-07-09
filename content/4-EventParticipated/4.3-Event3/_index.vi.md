@@ -1,6 +1,6 @@
 ﻿---
 title: "DevOps on AWS Workshop"
-date: "2026-05-23"
+date: "2026-05-27"
 weight: 2
 chapter: false
 pre: " <b> 4.3. </b> "

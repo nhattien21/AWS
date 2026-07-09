@@ -1,6 +1,6 @@
----
+﻿---
 title: "DevOps on AWS Workshop"
-date: "2026-05-23"
+date: "2026-05-27"
 weight: 2
 chapter: false
 pre: " <b> 4.3. </b> "
@@ -22,7 +22,7 @@ pre: " <b> 4.3. </b> "
 
 ### Agenda Overview
 
-**Time:** 9:00 AM – 12:00 AM, Thursday, May 23, 2025  
+**Time:** 9:00 AM – 12:00 AM, Saturday, May 27, 2025  
 **Location:** AWS Vietnam Office  
 
 ---
