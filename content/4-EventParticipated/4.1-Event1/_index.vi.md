@@ -1,124 +1,79 @@
----
-title: "COMMUNITY DAY"
-date: "2026-05-23"
+﻿---
+title: "Event 1"
+date: 2026-04-17
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Summary Report: “AWS COMMUNITY DAY”
+# Kick Off AWS First Cloud AI Journey
 
-### Event Objectives
+### Mục Đích Của Sự Kiện
 
-- Cung cấp góc nhìn thực tế về cách tối ưu hóa hiệu năng, chi phí hạ tầng và ứng dụng AI/ML vào giải quyết các bài toán doanh nghiệp.
-- Giới thiệu các công cụ tự động hóa không cần code (Amazon Quick) và mô hình hệ thống đa đại lý (Multi-Agent).
-- Chia sẻ kinh nghiệm thực chiến từ các cuộc thi Hackathon lớn và phân tích sâu về bản chất vận hành của các mô hình ngôn ngữ lớn (LLM).
-- Tạo cơ hội kết nối sâu sắc (Networking) giữa cộng đồng lập trình viên, sinh viên và các chuyên gia công nghệ hàng đầu thuộc hệ sinh thái AWS.
+- Định hình lộ trình nghiên cứu và thực hành điện toán đám mây bài bản cho các kỹ sư cũng như sinh viên trong cộng đồng.
+-Cung cấp nền tảng kiến thức cốt lõi về hệ sinh thái AWS, bao gồm Hạ tầng toàn cầu (Global Infrastructure), Quản lý định danh (IAM) và các công cụ quản trị (Management Tools).
+-Giới thiệu xu hướng và hướng dẫn cách tích hợp trí tuệ nhân tạo tạo sinh (GenAI) vào quy trình phát triển phần mềm bằng công cụ AWS Kiro.
+-Nâng cao tư duy chiến lược về thiết kế kiến trúc chuẩn hóa và tối ưu hóa chi phí (Cost Optimization) trên môi trường điện toán đám mây.
 
----
+### Danh Sách Diễn Giả
 
-### Agenda Overview
+- **Nguyen Gia Hung** - Head of Solution Architect, FCAJ
 
-**Thời gian:** 8:30 AM – 12:00 PM, Thứ Bảy ngày 23 tháng 05 năm 2026  
-**Địa điểm:** AWS Vietnam Office, Tầng 36  
+### Nội Dung Nổi Bật
 
----
+#### 1. Khởi động hành trình (Prologue & Mindset)
 
-## Key Highlights
+- Giới thiệu 6 nguyên tắc cốt lõi: Builder & Troubleshooter, Teamwork, Resilience, Hands-on & Sharing, Invest in yourself, Lifelong learning.
+- Mục tiêu thực tiễn: Thực hành "from scratch" và hoàn thành 5 projects thực tế để chứng minh năng lực chuyên môn.
 
-### 1. Welcome & Check-in (8:30 – 9:00 AM)
+#### 2. Nền tảng hạ tầng AWS
 
-- Người tham dự check-in, ổn định chỗ ngồi tại tầng 36 và tự do giao lưu, kết nối mở rộng mối quan hệ (Networking).
+- Giá trị cốt lõi từ Điện toán đám mây: Tiết kiệm ngân sách nhờ mô hình chi trả theo thực tế (Pay-as-you-go), tăng tốc độ triển khai sản phẩm và khả năng mở rộng quy mô trên toàn cầu một cách linh hoạt.
+- Tổng quan về Hạ tầng toàn cầu (Global Infrastructure): Mô hình phân cấp mạch lạc từ Trung tâm dữ liệu (Data Center) đến Cụm vùng khả dụng (Availability Zone - AZ, đảm bảo cấu hình tối thiểu 2 AZ để dự phòng rủi ro) và Vùng địa lý (Region).
+- Giới thiệu Edge Location và Local Zone để tối ưu hóa độ trễ tại Việt Nam.
 
----
+#### 3. Công cụ quản lý & Bảo mật cơ bản
 
-### 2. Session 1: Context Is Everything: Making AI Actually Work for You (09:00 – 09:30 AM)
+- 3 phương thức tương tác chính: AWS Management Console, AWS CLI (tự động hóa qua terminal) và AWS SDK.
+- Cảnh báo rủi ro nghiêm trọng khi lạm dụng tài khoản gốc (Root User). Khuyến nghị luôn luôn vận hành bằng IAM User, thiết lập bảo mật đa lớp (MFA) và quản lý nghiêm ngặt các mã khóa truy cập.
 
-- **Diễn giả:** Tinh Truong (Anh Tịnh) – Platform Engineer, GoTymeX
-- **Nội dung trọng tâm:**
+#### 4. Ứng dụng GenAI trên AWS - Trợ lý Kiro
 
-- Lý do AI phản hồi thất bại khi thiếu bối cảnh và định nghĩa chuẩn về “Context”.
-- Quá trình tiến hóa của AI từ kỹ thuật viết prompt đơn thuần đến hệ thống quản lý bộ nhớ (Khái niệm bộ não thứ hai - Second AI Brain).
-- Phương pháp tư duy và mẹo thực tế giúp tận dụng bối cảnh tốt hơn để đạt kết quả tối ưu.
-- Định hướng nghề nghiệp và lộ trình bắt đầu xây dựng ứng dụng với AI dành cho sinh viên kèm phiên Q&A.
+- Sự dịch chuyển sang phương pháp **Spec-Driven Development**: Xác định rõ các yêu cầu (Requirement/Spec) và thiết kế trước khi để AI sinh code.
+- Các tính năng vượt trội của Kiro IDE: Cơ chế Agent Hook , Quản lý ngữ cảnh thông minh và Kiểm thử dựa trên thuộc tính.
+- Hệ sinh thái Kiro CLI & Custom Agent: Đưa quyền năng AI vào môi trường dòng lệnh với các đặc vụ chuyên trách (DevOps, Database) cùng nền tảng plugin mở rộng Kiro Power.
 
----
+#### 5. Tối ưu hóa chi phí (Cost Optimization)
 
-### 3. Session 2: Friendly AI Assistant with Amazon Quick (09:30 – 09:45 AM)
+- Nguyên tắc Right-sizing: Chỉ cấp phát tài nguyên đúng với nhu cầu hiện tại, không mua dư thừa như môi trường On-premise.
+- Áp dụng linh hoạt các hình thức thanh toán: Đặt trước dài hạn, tận dụng tài nguyên nhàn rỗi giá rẻ (Spot Instances) hoặc chuyển sang kiến trúc không máy chủ.
+- Giám sát thông minh bằng công cụ: Thiết lập hạn mức và cảnh báo tự động qua AWS Budgets, kết hợp dự toán ngân sách dự án chính xác với AWS Pricing Calculator.
 
-- **Diễn giả:** Pham Ng Hai Anh (Hải Anh) – AWS Community Builder, G-AsiaPacific Vietnam
-- **Nội dung trọng tâm:**
+### Những Gì Học Được
 
-- **Quick Chat Agent:** Trợ lý AI hỗ trợ khai phá dữ liệu và phân tích chuyên sâu các thông tin chuyên ngành.
-- **Quick Flows:** Tự động hóa và tạo lập các quy trình thông minh trực tiếp bằng ngôn ngữ tự nhiên mà không cần viết mã.
-- **Quick Spaces:** Không gian làm việc cộng tác chung, chuyển đổi thông tin cá nhân thành tri thức có hệ thống của toàn đội ngũ.
-- **Quick Sight:** Xây dựng các biểu đồ, báo cáo trực quan nhanh chóng từ nguồn dữ liệu thô thông qua câu lệnh tự nhiên.
+#### Kiến Trúc Kỹ Thuật
 
----
+- **Thiết kế tính sẵn sàng cao (HA) & Khôi phục sau thảm họa (DR):** Làm chủ kỹ thuật cấu hình ứng dụng phân tán trên tối thiểu 2 AZs để duy trì uptime liên tục
+- **Tối ưu trải nghiệm với Edge Computing:** Nhận diện đúng thời điểm cần điều hướng lưu lượng dữ liệu tĩnh (media, hình ảnh) qua các Edge Location nhờ CloudFront, giảm tải trực tiếp cho máy chủ tại Region.
 
-### 4. Session 3: From Edge To Origin: CloudFront as Your Foundation (09:45 – 10:25 AM)
+#### Chiến Lược Hiện Đại Hóa Hệ Thống
 
-- **Diễn giả:** Nguyen Tuan Thinh (Thịnh) – DevOps Engineer, First Cloud AI Journey
-- **Nội dung trọng tâm:**
+- **Ưu tiên kiến trúc Serverless:** Cân nhắc thay thế hệ thống máy chủ ảo (EC2) truyền thống bằng Serverless đối với các ứng dụng có lượng truy cập biến động mạnh để tối ưu chi phí.
+- **Áp dụng Well-Architected Framework:** Biến việc dùng framework này thành một thói quen để đánh giá, sinh báo cáo (report) và cải thiện hệ thống hiện tại định kỳ.
 
-- Khả năng thích ứng linh hoạt của Amazon CloudFront đối với mọi loại khối lượng công việc (Workloads).
-- Phương pháp tối ưu hóa chi phí và tiết kiệm tài nguyên hạ tầng băng thông nhờ mạng lưới CloudFront.
-- Các tính năng bảo mật chuyên sâu bảo vệ vùng biên (Giảm thiểu tấn công DDoS, Origin Cloaking ẩn giấu máy chủ gốc, và quản lý TLS).
-- Tăng cường độ sẵn sàng cao (Cơ chế Origin Failover) và tăng tốc hiệu năng đường truyền toàn cầu.
+### Trải Nghiệm Trong Event
 
----
+Việc đồng hành cùng những nội dung khởi động của "First Cloud AI Journey" đã mang lại cho tôi những góc nhìn hoàn toàn mới, định hình lại phương pháp học tập và làm việc trong kỷ nguyên Cloud kết hợp AI. Những ấn tượng sâu sắc bao gồm:
 
-### 5. Session 4: 36 hrs with LotusHacks – Building UTMorpho from Idea to Reality (10:25 – 10:55 AM)
+- **Sức mạnh từ sự kết nối cộng đồng:** Tinh thần chia sẻ không giới hạn từ các chuyên gia thuộc AWS Study Group. Điểm giá trị không chỉ dừng lại ở kiến thức kỹ thuật, mà còn là tư duy làm nghề và triết lý "no sharing, no growing" (không chia sẻ, không phát triển).
+- **Cách tiếp cận thực hành thực chất:** Việc bắt buộc phải tự xây dựng các bài lab từ con số 0 thay vì rập khuôn theo các bước có sẵn giúp tôi thấu hiểu tận gốc bản chất của hệ thống.
+- **Sức mạnh của Kiro:** Các phần trình diễn về Kiro Autonomous Agent và Custom Agent đã mở ra một viễn cảnh thực tế, nơi lập trình viên sẽ cộng tác với AI như những người đồng nghiệp thực thụ.
 
-- **Diễn giả:** Team VIB
-- **Nội dung trọng tâm:**
+### Bài Học Rút Ra
 
-- Động lực tham gia LotusHacks — Sân chơi Hackathon có quy mô lớn hàng đầu Việt Nam.
-- Hành trình tư duy từ con số 0 đến khi thiết lập ý tưởng sơ khởi.
-- Quá trình định hình bài toán thực tế và xây dựng khung xương cho sản phẩm UTMorpho.
-- Trải nghiệm lập trình tốc lực đầy áp lực trong suốt chặng đua 36 tiếng liên tục.
-- Bài học từ những rào cản, lỗi kỹ thuật (Vượt hạn ngạch Token, AI tự sinh dữ liệu thừa - Overgeneration) và bước ngoặt thay đổi cục diện.
-- Tổng quan kiến trúc hệ thống và phiên chạy thử nghiệm (Live Demo) sản phẩm UTMorpho.
+- Lĩnh vực Cloud và GenAI đang dịch chuyển với tốc độ chóng mặt. Việc đưa AI (như Kiro) vào quy trình phát triển không còn là một giải pháp tùy chọn, mà đã trở thành yếu tố then chốt để đột phá hiệu suất làm việc.
+- Sự kiên trì (Resilience), tinh thần đồng đội (Teamwork) và việc không ngừng cọ xát thực tế qua các dự án chính là con đường ngắn nhất để vươn tới thế hệ chuyên gia AWS tiếp theo.
 
----
+### Hình Ảnh Sự Kiện
 
-### 6. Coffee Break (10:55 – 11:00 AM)
-
-- Nghỉ giải lao ngắn, thưởng thức trà bánh và kết nối tự do giữa người tham dự với các AWS Mentors.
-
----
-
-### 7. Session 5: Non-Determinism of "Deterministic" LLM Settings (11:00 – 11:30 AM)
-
-- **Diễn giả:** Duc Dao (Đào Đức) – Solution Architect, Cloud Kinetics
-- **Nội dung trọng tâm:**
-
-- Cơ chế tính toán và lựa chọn token tiếp theo của các mô hình ngôn ngữ (Hàm Logits, Softmax và tham số Temperature).
-- Phân tích giả định phổ biến: Liệu thiết lập `Temperature = 0` có thực sự đảm bảo tính định hình kết quả tuyệt đối?
-- Đối diện thực tế: Nguyên nhân vì sao các giải pháp tối ưu hóa suy luận hạ tầng API và toán học số dấu phẩy động trên GPU lại tạo ra sự sai lệch kết quả.
-- Hệ quả thực tế đối với các ứng dụng sản xuất nghiêm ngặt (Production) yêu cầu độ chính xác cao.
-- Chiến lược giảm thiểu sai số (Cơ chế bỏ phiếu số đông - Majority voting, ép định dạng cấu trúc đầu ra bằng tham số, điều chỉnh hình phạt lặp từ).
-
----
-
-### 8. Session 6: Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring (11:30 AM – 12:00 PM)
-
-- **Diễn giả:** Cát Vy
-- **Nội dung trọng tâm:**
-
-- Điểm vênh cốt lõi trong cấu trúc dữ liệu giữa hệ thống ngân hàng truyền thống và thông tin nội bộ của các doanh nghiệp Startup.
-- Đơn Đại lý (Single Agent): Khi nào nên ứng dụng và khi nào sẽ gặp giới hạn quá tải.
-- Xu hướng kiến trúc Đa Đại lý (The Multi-Agent Paradigm).
-- Sơ đồ thiết kế hệ thống của một "Hội đồng tín dụng ảo" (Virtual Credit Committee).
-- Thiết lập rào cản kiểm soát hành vi (Guardrails) và tuân thủ nghiệp vụ.
-- Đo lường chỉ số hoàn vốn đầu tư vận hành (Operational ROI) cùng lộ trình triển khai hệ thống thực tế kèm phần tổng kết Hỏi đáp (Q&A).
-
----
-
-## Key Takeaways
-
-- **Context quan trọng hơn Prompt:** AI không thể đọc được suy nghĩ của bạn. Câu trả lời AI tệ thường do bối cảnh đầu vào mơ hồ hoặc quá nhiễu. Cung cấp đúng mục tiêu, bằng chứng và ràng buộc mới là chìa khóa để AI làm việc hiệu quả.
-- **Tối ưu chi phí và hiệu năng từ vùng biên:** Sử dụng Amazon CloudFront giúp loại bỏ hoàn toàn rủi ro tăng sốc chi phí do traffic ảo hoặc tấn công DDoS.
-- **Sự thật về Temperature = 0:** Cài đặt này không đảm bảo 100% kết quả giống hệt nhau. Do sai số tính toán của GPU và cơ chế gộp request (batching).
-- **Ý tưởng lớn đến từ "nỗi đau" nhỏ:** Khi chịu áp lực thời gian, việc đồng bộ nhóm và chọn một ý tưởng tinh gọn để làm demo quan trọng hơn là ôm đồm nhiều tính năng.
-- **Xuuyên hướng Đại lý (Agentic AI):** Công nghệ đang dịch chuyển mạnh mẽ sang hệ thống tự động hóa không cần code bằng ngôn ngữ tự nhiên (Amazon Quick) và mô hình phối hợp đa đại lý (Multi-Agent) để giải quyết các bài toán doanh nghiệp phức tạp thay vì chỉ dùng một Agent đơn lẻ.
+![Hình Ảnh 1](/images/event1-1.png)
