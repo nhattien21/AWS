@@ -1,6 +1,6 @@
 ---
 title: "Chia sẻ, đóng góp ý kiến"
-date: "2026-04-17"
+date: "2026-07-09"
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
@@ -10,29 +10,29 @@ pre: " <b> 7. </b> "
 ## Bản tiếng Việt
 
 ### 1. Môi trường làm việc
-Môi trường làm việc tại FCJ rất thân thiện, cởi mở và chuyên nghiệp. Tôi cảm thấy thoải mái khi trao đổi công việc với mọi người và nhận được sự hỗ trợ khi gặp khó khăn. Không gian làm việc sạch sẽ, yên tĩnh.
+Môi trường làm việc tích cực,thân thiện,không quá gò bó.Các anh/chị trong nhóm Admin luôn giúp đỡ mỗi khi có câu hỏi,kể cả ngoài giờ hành chính.Không gian làm việc thoải mái,dễ chịu.
 
 ### 2. Hỗ trợ từ Mentor và Admin
-Mentor hướng dẫn chi tiết, giải thích rõ ràng khi tôi chưa hiểu và luôn khuyến khích tôi tự tìm cách giải quyết vấn đề. Admin rất nhiệt tình trong việc hỗ trợ các thủ tục, cung cấp tài liệu và tạo điều kiện tốt để tôi hoàn thành công việc.
+Mentor hướng dẫn chi tiết, nhiệt tình và luôn khuyến khích đặt câu hỏi.Thời gian phản hồi câu hỏi cũng rất nhanh và cặn kẽ.Ngoài ra bộ phận quản lý thực tập sinh cũng hỗ trợ chu đáo về giấy tờ,thủ tục hành chính,giúp tôi tập trung vào công việc.
 
-### 3. Liên quan công việc với chuyên ngành
-Các nhiệm vụ được giao phù hợp với kiến thức tôi học ở trường, đồng thời mở rộng thêm nhiều lĩnh vực mới mà trước đây tôi chưa từng tiếp cận. Điều này giúp tôi vừa củng cố nền tảng, vừa phát triển kỹ năng thực hành.
+### 3. Mức độ liên quan của công việc với chuyên ngành
+Các nhiệm vụ được giao khá sát với nền tảng kiến thức tôi đã được học,và cũng mở ra cơ hội tiếp cận các kiến thức mới.
 
 ### 4. Học hỏi và phát triển kỹ năng
-Tôi học được nhiều kỹ năng quan trọng như quản lý dự án, làm việc nhóm, giao tiếp chuyên nghiệp và xử lý công việc trong môi trường doanh nghiệp. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế hữu ích, giúp tôi định hướng tốt hơn cho sự nghiệp.
+Tôi học được nhiều kỹ năng quan trọng như quản lý dự án, làm việc nhóm, giao tiếp chuyên nghiệp và xử lý công việc trong môi trường doanh nghiệp.Các Mentor/Admin cũng thường chia sẻ những kinh nghiệm thực chiến quý báu giúp dễ hình dung về định hướng sau này.
 
 ### 5. Văn hóa công ty và tinh thần đồng đội
 Văn hóa công ty tích cực và thân thiện: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn duy trì không khí vui vẻ. Khi có dự án gấp, tất cả đều hỗ trợ nhau, khiến tôi cảm thấy mình là một thành viên thực thụ trong đội, dù chỉ là thực tập sinh.
 
 ### 6. Chính sách và phúc lợi
-Công ty cung cấp trợ cấp thực tập và có chính sách giờ làm linh hoạt. Ngoài ra, được tham gia các buổi đào tạo nội bộ là một cơ hội rất giá trị để học hỏi.
+Công ty cung cấp trợ cấp thực tập và có chính sách giờ làm linh hoạt. Ngoài ra, được tham gia các buổi đào tạo nội bộ là một cơ hội rất giá trị để học hỏi ngoài phạm vi công việc trực tiếp được giao.
 
-### Nhận xét bổ sung
+### 7. Điều bạn hài lòng nhất trong thời gian thực tập?
 - **Điều hài lòng nhất:** Sự hướng dẫn tận tình của mentor và tinh thần hỗ trợ từ các thành viên.
 - **Điều nên cải thiện:** Tổ chức thêm hoạt động team-building và workshop để tăng trải nghiệm thực tập.
-- **Khuyến nghị cho bạn bè:** Chắc chắn giới thiệu vì môi trường chuyên nghiệp và nhiều cơ hội học hỏi.
+- **Khuyến nghị cho bạn bè:** Chắc chắn giới thiệu vì môi trường chuyên nghiệp và nhiều cơ hội học hỏi.Đây là môi trường phù hợp cho người muốn tích lũy kinh nghiệm thực chiến chứ không chỉ dừng ở lú thuyết.
 
 ### Gợi ý & kỳ vọng
-- Tăng cường các hoạt động gắn kết nhóm và workshop kỹ năng mềm.
+- Có thể xây dựng 1 lộ trình onboarding rõ ràng hơn và mới mẻ hơn.
 - Tôi muốn tiếp tục tham gia chương trình nếu có cơ hội.
 - Chương trình mang lại trải nghiệm thực tập chất lượng và định hướng nghề nghiệp rõ ràng.

@@ -171,6 +171,8 @@ Nội dung tập trung vào xây dựng pipeline CI/CD hoàn chỉnh sử dụng
 - Định hướng nghề nghiệp DevOps  
 - Lộ trình chứng chỉ AWS dành cho DevOps Engineer (DVA-C02, DOP-C02)
 
+(/images/event2-1.png)
+
 ---
 
 ## Key Takeaways

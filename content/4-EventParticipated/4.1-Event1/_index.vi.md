@@ -19,7 +19,7 @@ pre: " <b> 4.1. </b> "
 
 ### Agenda Overview
 
-**Thời gian:** 8:30 AM – 12:00 PM, Thứ Bảy ngày 15 tháng 05 năm 2026  
+**Thời gian:** 8:30 AM – 12:00 PM, Thứ Bảy ngày 23 tháng 05 năm 2026  
 **Địa điểm:** AWS Vietnam Office, Tầng 36  
 
 ---

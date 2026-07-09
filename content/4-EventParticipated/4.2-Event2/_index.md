@@ -169,6 +169,8 @@ The session covered a complete CI/CD pipeline built with AWS-native services.
 - DevOps career directions and skill roadmap  
 - AWS DevOps certification pathways (DVA-C02, DOP-C02)
 
+(/images/event2-1.png)
+
 ---
 
 ## Key Takeaways
