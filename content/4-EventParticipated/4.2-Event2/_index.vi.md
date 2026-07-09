@@ -1,209 +1,79 @@
----
-title: "DevOps on AWS Workshop"
-date: "2026-05-23"
-weight: 2
+﻿---
+title: "Event 1"
+date: 2026-04-17
+weight: 1
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
+# Kick Off AWS First Cloud AI Journey
 
-# Summary Report: “DevOps on AWS Workshop”
+### Mục Đích Của Sự Kiện
 
-### Event Objectives
+- Định hình lộ trình nghiên cứu và thực hành điện toán đám mây bài bản cho các kỹ sư cũng như sinh viên trong cộng đồng.
+-Cung cấp nền tảng kiến thức cốt lõi về hệ sinh thái AWS, bao gồm Hạ tầng toàn cầu (Global Infrastructure), Quản lý định danh (IAM) và các công cụ quản trị (Management Tools).
+-Giới thiệu xu hướng và hướng dẫn cách tích hợp trí tuệ nhân tạo tạo sinh (GenAI) vào quy trình phát triển phần mềm bằng công cụ AWS Kiro.
+-Nâng cao tư duy chiến lược về thiết kế kiến trúc chuẩn hóa và tối ưu hóa chi phí (Cost Optimization) trên môi trường điện toán đám mây.
 
-- Giới thiệu tổng quan về DevOps trên AWS, bao gồm văn hóa, nguyên tắc và mindset.  
-- Trình bày chi tiết các dịch vụ DevOps của AWS: **CodeCommit, CodeBuild, CodeDeploy, CodePipeline**.  
-- Hướng dẫn thực hành về **Infrastructure as Code** (CloudFormation & CDK).  
-- Cung cấp kiến thức sâu về container services: **ECR, ECS, EKS, App Runner**.  
-- Thực hành quan sát hệ thống (Observability) với **CloudWatch & X-Ray**.  
-- Tìm hiểu best practices, chiến lược triển khai và lộ trình nghề nghiệp DevOps.
+### Danh Sách Diễn Giả
 
----
+- **Nguyen Gia Hung** - Head of Solution Architect, FCAJ
 
-### Agenda Overview
+### Nội Dung Nổi Bật
 
-**Thời gian:** 9:00 AM – 12:00 AM, Thứ Bảy ngày 23/05/2026  
-**Địa điểm:** AWS Vietnam Office
+#### 1. Khởi động hành trình (Prologue & Mindset)
 
----
+- Giới thiệu 6 nguyên tắc cốt lõi: Builder & Troubleshooter, Teamwork, Resilience, Hands-on & Sharing, Invest in yourself, Lifelong learning.
+- Mục tiêu thực tiễn: Thực hành "from scratch" và hoàn thành 5 projects thực tế để chứng minh năng lực chuyên môn.
 
-## Key Highlights
+#### 2. Nền tảng hạ tầng AWS
 
-## Morning Session (8:30 AM – 12:00 PM)
+- Giá trị cốt lõi từ Điện toán đám mây: Tiết kiệm ngân sách nhờ mô hình chi trả theo thực tế (Pay-as-you-go), tăng tốc độ triển khai sản phẩm và khả năng mở rộng quy mô trên toàn cầu một cách linh hoạt.
+- Tổng quan về Hạ tầng toàn cầu (Global Infrastructure): Mô hình phân cấp mạch lạc từ Trung tâm dữ liệu (Data Center) đến Cụm vùng khả dụng (Availability Zone - AZ, đảm bảo cấu hình tối thiểu 2 AZ để dự phòng rủi ro) và Vùng địa lý (Region).
+- Giới thiệu Edge Location và Local Zone để tối ưu hóa độ trễ tại Việt Nam.
 
-### 1. Welcome & DevOps Mindset (8:30 – 9:00 AM)
+#### 3. Công cụ quản lý & Bảo mật cơ bản
 
-- Recap nhanh nội dung buổi AI/ML trước đó.  
-- Giới thiệu văn hóa DevOps và các nguyên tắc cốt lõi.  
-- Trình bày lợi ích DevOps, các chỉ số hiệu suất chính:  
-  - **DORA Metrics**  
-  - **MTTR** (Mean Time to Recovery)  
-  - Deployment frequency  
+- 3 phương thức tương tác chính: AWS Management Console, AWS CLI (tự động hóa qua terminal) và AWS SDK.
+- Cảnh báo rủi ro nghiêm trọng khi lạm dụng tài khoản gốc (Root User). Khuyến nghị luôn luôn vận hành bằng IAM User, thiết lập bảo mật đa lớp (MFA) và quản lý nghiêm ngặt các mã khóa truy cập.
 
----
+#### 4. Ứng dụng GenAI trên AWS - Trợ lý Kiro
 
-### 2. AWS DevOps Services – CI/CD Pipeline (9:00 – 10:30 AM)
+- Sự dịch chuyển sang phương pháp **Spec-Driven Development**: Xác định rõ các yêu cầu (Requirement/Spec) và thiết kế trước khi để AI sinh code.
+- Các tính năng vượt trội của Kiro IDE: Cơ chế Agent Hook , Quản lý ngữ cảnh thông minh và Kiểm thử dựa trên thuộc tính.
+- Hệ sinh thái Kiro CLI & Custom Agent: Đưa quyền năng AI vào môi trường dòng lệnh với các đặc vụ chuyên trách (DevOps, Database) cùng nền tảng plugin mở rộng Kiro Power.
 
-Nội dung tập trung vào xây dựng pipeline CI/CD hoàn chỉnh sử dụng AWS-native services.
+#### 5. Tối ưu hóa chi phí (Cost Optimization)
 
-#### **Source Control**
-- **AWS CodeCommit**  
-- Chiến lược quản lý source:  
-  - GitFlow  
-  - Trunk-based development  
+- Nguyên tắc Right-sizing: Chỉ cấp phát tài nguyên đúng với nhu cầu hiện tại, không mua dư thừa như môi trường On-premise.
+- Áp dụng linh hoạt các hình thức thanh toán: Đặt trước dài hạn, tận dụng tài nguyên nhàn rỗi giá rẻ (Spot Instances) hoặc chuyển sang kiến trúc không máy chủ.
+- Giám sát thông minh bằng công cụ: Thiết lập hạn mức và cảnh báo tự động qua AWS Budgets, kết hợp dự toán ngân sách dự án chính xác với AWS Pricing Calculator.
 
-#### **Build & Test**
-- **AWS CodeBuild**  
-- Cấu hình buildspec.yml  
-- Thiết kế pipeline testing  
+### Những Gì Học Được
 
-#### **Deployment**
-- **AWS CodeDeploy** hỗ trợ nhiều chiến lược:  
-  - Blue/Green  
-  - Canary  
-  - Rolling updates  
+#### Kiến Trúc Kỹ Thuật
 
-#### **Orchestration**
-- **AWS CodePipeline**  
-- Tự động hóa CI/CD end-to-end  
+- **Thiết kế tính sẵn sàng cao (HA) & Khôi phục sau thảm họa (DR):** Làm chủ kỹ thuật cấu hình ứng dụng phân tán trên tối thiểu 2 AZs để duy trì uptime liên tục
+- **Tối ưu trải nghiệm với Edge Computing:** Nhận diện đúng thời điểm cần điều hướng lưu lượng dữ liệu tĩnh (media, hình ảnh) qua các Edge Location nhờ CloudFront, giảm tải trực tiếp cho máy chủ tại Region.
 
-#### **Live Demo**
-- Walkthrough CI/CD pipeline hoàn chỉnh từ commit → build → test → deploy.
+#### Chiến Lược Hiện Đại Hóa Hệ Thống
 
----
+- **Ưu tiên kiến trúc Serverless:** Cân nhắc thay thế hệ thống máy chủ ảo (EC2) truyền thống bằng Serverless đối với các ứng dụng có lượng truy cập biến động mạnh để tối ưu chi phí.
+- **Áp dụng Well-Architected Framework:** Biến việc dùng framework này thành một thói quen để đánh giá, sinh báo cáo (report) và cải thiện hệ thống hiện tại định kỳ.
 
-### 3. Break (10:30 – 10:45 AM)
+### Trải Nghiệm Trong Event
 
----
+Việc đồng hành cùng những nội dung khởi động của "First Cloud AI Journey" đã mang lại cho tôi những góc nhìn hoàn toàn mới, định hình lại phương pháp học tập và làm việc trong kỷ nguyên Cloud kết hợp AI. Những ấn tượng sâu sắc bao gồm:
 
-### 4. Infrastructure as Code (IaC) (10:45 AM – 12:00 PM)
+- **Sức mạnh từ sự kết nối cộng đồng:** Tinh thần chia sẻ không giới hạn từ các chuyên gia thuộc AWS Study Group. Điểm giá trị không chỉ dừng lại ở kiến thức kỹ thuật, mà còn là tư duy làm nghề và triết lý "no sharing, no growing" (không chia sẻ, không phát triển).
+- **Cách tiếp cận thực hành thực chất:** Việc bắt buộc phải tự xây dựng các bài lab từ con số 0 thay vì rập khuôn theo các bước có sẵn giúp tôi thấu hiểu tận gốc bản chất của hệ thống.
+- **Sức mạnh của Kiro:** Các phần trình diễn về Kiro Autonomous Agent và Custom Agent đã mở ra một viễn cảnh thực tế, nơi lập trình viên sẽ cộng tác với AI như những người đồng nghiệp thực thụ.
 
-#### **AWS CloudFormation**
-- Templates, stacks, change sets  
-- Drift detection  
+### Bài Học Rút Ra
 
-#### **AWS CDK (Cloud Development Kit)**
-- Constructs  
-- Reusable patterns  
-- Hỗ trợ nhiều ngôn ngữ: TypeScript, Python, Java, C#  
+- Lĩnh vực Cloud và GenAI đang dịch chuyển với tốc độ chóng mặt. Việc đưa AI (như Kiro) vào quy trình phát triển không còn là một giải pháp tùy chọn, mà đã trở thành yếu tố then chốt để đột phá hiệu suất làm việc.
+- Sự kiên trì (Resilience), tinh thần đồng đội (Teamwork) và việc không ngừng cọ xát thực tế qua các dự án chính là con đường ngắn nhất để vươn tới thế hệ chuyên gia AWS tiếp theo.
 
-#### **Live Demo**
-- Deploy hạ tầng với CloudFormation & CDK  
+### Hình Ảnh Sự Kiện
 
-#### **Thảo luận**
-- So sánh ưu/nhược điểm của CloudFormation vs CDK  
-- Tình huống chọn công cụ IaC phù hợp  
-
----
-
-### Lunch Break (12:00 – 1:00 PM)
-
----
-
-## Afternoon Session (1:00 PM – 5:00 PM)
-
-### 5. Container Services on AWS (1:00 – 2:30 PM)
-
-#### **Docker Fundamentals**
-- Microservices  
-- Containerization workflow  
-
-#### **Amazon ECR**
-- Image registry  
-- Image scanning  
-- Lifecycle policies  
-
-#### **Amazon ECS & EKS**
-- Deployment strategies  
-- Auto scaling  
-- Orchestration differences  
-  - ECS: AWS-managed  
-  - EKS: Kubernetes-native  
-
-#### **AWS App Runner**
-- Triển khai container đơn giản, fully managed  
-- Tích hợp CI/CD nhanh chóng  
-
-#### **Demo & Case Study**
-- So sánh triển khai microservices trên ECS, EKS và App Runner.
-
----
-
-### 6. Break (2:30 – 2:45 PM)
-
----
-
-### 7. Monitoring & Observability (2:45 – 4:00 PM)
-
-#### **Amazon CloudWatch**
-- Metrics  
-- Logs  
-- Alarms  
-- Dashboard  
-
-#### **AWS X-Ray**
-- Distributed tracing  
-- Hiểu rõ luồng request & điểm nghẽn hiệu năng  
-
-#### **Live Demo**
-- Thiết lập full-stack observability: logs → metrics → traces  
-
-#### **Best Practices**
-- Alerting  
-- Dashboards  
-- On-call workflow  
-
----
-
-### 8. DevOps Best Practices & Case Studies (4:00 – 4:45 PM)
-
-- Deployment strategies  
-  - Feature flags  
-  - A/B testing  
-- Automated testing → CI/CD integration  
-- Incident management & postmortems  
-- Case studies về chuyển đổi DevOps ở startup & enterprise  
-
----
-
-### 9. Q&A & Wrap-up (4:45 – 5:00 PM)
-
-- Định hướng nghề nghiệp DevOps  
-- Lộ trình chứng chỉ AWS dành cho DevOps Engineer (DVA-C02, DOP-C02)
-
-(/images/event2-1.png)
-
----
-
-## Key Takeaways
-
-### DevOps Fundamentals
-- DevOps không chỉ là toolset mà là văn hóa hợp tác giữa Dev & Ops.  
-- Các chỉ số như **DORA**, **MTTR**, **lead time** là tiêu chuẩn đánh giá hiệu quả DevOps.
-
-### AWS DevOps Services
-- AWS cung cấp bộ công cụ CI/CD mạnh mẽ và có khả năng tự động hóa toàn diện.  
-- CodePipeline + CodeBuild + CodeDeploy = Full CI/CD workflow.
-
-### Infrastructure as Code
-- IaC là nền tảng bắt buộc cho DevOps hiện đại.  
-- CloudFormation phù hợp enterprise; CDK linh hoạt và nhanh hơn cho development.
-
-### Container Orchestration
-- ECS đơn giản, dễ vận hành.  
-- EKS mạnh cho Kubernetes ecosystem.  
-- App Runner phù hợp startup, MVP, dịch vụ nhỏ.
-
-### Observability
-- CloudWatch & X-Ray cung cấp visibility end-to-end.  
-- Observability giúp giảm MTTR và hỗ trợ on-call hiệu quả.
-
----
-
-### Some event photos
-*Add your event photos here*
-
----
-
-> Đây là một workshop toàn diện giúp người tham dự hiểu rõ quy trình DevOps hiện đại trên AWS — từ CI/CD, IaC, container orchestration đến monitoring. Buổi học giúp củng cố tư duy DevOps, kỹ năng kỹ thuật và định hướng nghề nghiệp rõ ràng trong lĩnh vực Cloud & DevOps.
-
+![Hình Ảnh 1](/images/event1-1.png)

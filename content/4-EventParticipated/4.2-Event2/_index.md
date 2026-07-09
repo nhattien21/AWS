@@ -1,206 +1,80 @@
----
-title: "DevOps on AWS Workshop"
-date: "2026-05-23"
-weight: 2
+﻿---
+title: "Event 1"
+date: 2026-04-17
+weight: 1
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-
-# Summary Report: “FCAJ Community Day - Conference Call”
+# Kick Off AWS First Cloud AI Journey
 
 ### Event Objectives
 
-- Provide an overview of DevOps culture, mindset, and principles.  
-- Introduce AWS-native DevOps services: **CodeCommit, CodeBuild, CodeDeploy, CodePipeline**.  
-- Deliver hands-on knowledge on **Infrastructure as Code** using CloudFormation & CDK.  
-- Deep-dive into container platforms including **ECR, ECS, EKS, App Runner**.  
-- Explore monitoring and observability with **CloudWatch & AWS X-Ray**.  
-- Share best practices, deployment strategies, and DevOps career directions.
+- Shape a systematic research and practice roadmap for cloud computing for engineers and students in the community.
+- Provide core knowledge base about AWS ecosystem, including Global Infrastructure, Identity and Access Management (IAM), and Management Tools.
+- Introduce trends and guide how to integrate Generative AI (GenAI) into software development processes using AWS Kiro tools.
+- Enhance strategic thinking about standardized architecture design and Cost Optimization in cloud computing environments.
 
----
+### Speakers
 
-### Agenda Overview
+- **Nguyen Gia Hung** - Head of Solution Architect, FCAJ
 
-**Time:** 9:00 AM – 12:00 AM, Thursday, May 23, 2025  
-**Location:** AWS Vietnam Office  
+### Key Highlights
 
----
+#### 1. Journey Kickoff (Prologue & Mindset)
 
-## Key Highlights
+- Introduction to 6 core principles: Builder & Troubleshooter, Teamwork, Resilience, Hands-on & Sharing, Invest in yourself, Lifelong learning.
+- Practical goal: Practice "from scratch" and complete 5 real projects to demonstrate professional competence.
 
-## Morning Session (8:30 AM – 12:00 PM)
+#### 2. AWS Infrastructure Foundation
 
-### 1. Welcome & DevOps Mindset (8:30 – 9:00 AM)
+- Core value from Cloud Computing: Budget savings through pay-as-you-go model, faster product deployment speed, and flexible global scalability.
+- Overview of Global Infrastructure: Clear hierarchical model from Data Center → Availability Zone (AZ - ensuring minimum 2 AZs for redundancy) → Region.
+- Introduction to Edge Locations and Local Zones for latency optimization in Vietnam.
 
-- Short recap of the previous AI/ML session.  
-- Introduction to DevOps culture and core principles.  
-- Benefits of DevOps and key performance metrics:  
-  - **DORA Metrics**  
-  - **MTTR** (Mean Time to Recovery)  
-  - Deployment frequency  
+#### 3. Management Tools & Basic Security
 
----
+- 3 main interaction methods: AWS Management Console, AWS CLI (automation via terminal), and AWS SDK.
+- Critical security warning about Root User abuse. Always recommend operating with IAM User, setting up multi-factor authentication (MFA), and strictly managing access keys.
 
-### 2. FCAJ Community Day - Conference Call (9:00 – 12:00 AM)
+#### 4. GenAI Application on AWS - Kiro Assistant
 
-The session covered a complete CI/CD pipeline built with AWS-native services.
+- Shift to **Spec-Driven Development**: Clearly define requirements (Requirement/Spec) and design before letting AI generate code.
+- Outstanding features of Kiro IDE: Agent Hook mechanism, intelligent context management, and property-based testing.
+- Kiro CLI & Custom Agent ecosystem: Bring AI power to terminal environment with specialized agents (DevOps, Database) and Kiro Power plugin expansion platform.
 
-#### **Source Control**
-- **AWS CodeCommit**  
-- Git strategies:  
-  - GitFlow  
-  - Trunk-based development  
+#### 5. Cost Optimization
 
-#### **Build & Test**
-- **AWS CodeBuild**  
-- Buildspec configuration  
-- Designing automated testing pipelines  
+- Right-sizing principle: Only allocate resources matching current needs, avoid over-purchasing like on-premise environments.
+- Flexibly apply payment models: Long-term prepayment, leverage cheap idle resources (Spot Instances), or switch to serverless architecture.
+- Smart monitoring with tools: Set up limits and automatic alerts via AWS Budgets, combine accurate budget forecasting with AWS Pricing Calculator.
 
-#### **Deployment**
-- **AWS CodeDeploy** and deployment strategies:  
-  - Blue/Green  
-  - Canary  
-  - Rolling updates  
+### What I Learned
 
-#### **Orchestration**
-- **AWS CodePipeline** for end-to-end automation  
+#### Technical Architecture
 
-#### **Live Demo**
-- Full CI/CD pipeline walkthrough from commit → build → test → deploy.
+- **High Availability (HA) & Disaster Recovery (DR) design:** Master techniques for configuring applications distributed on minimum 2 AZs to maintain continuous uptime.
+- **Optimize experience with Edge Computing:** Correctly identify when to route static data traffic (media, images) through Edge Locations via CloudFront, reducing direct load on Region servers.
 
----
+#### System Modernization Strategy
 
-### 3. Break (10:30 – 10:45 AM)
+- **Prioritize Serverless architecture:** Consider replacing traditional virtual server systems (EC2) with Serverless for applications with strong traffic fluctuations to optimize costs.
+- **Apply Well-Architected Framework:** Make using this framework a habit to evaluate, generate reports, and continuously improve current systems.
 
----
+### Event Experience
 
-### 4. Infrastructure as Code (IaC) (10:45 AM – 12:00 PM)
+Participating in the kickoff sessions of "First Cloud AI Journey" gave me completely new perspectives, reshaping my learning and working methods in the Cloud combined with AI era. Notable impressions include:
 
-#### **AWS CloudFormation**
-- Templates, stacks, change sets  
-- Drift detection and management  
+- **Power of community connection:** Unlimited sharing spirit from AWS Study Group experts. The value extends beyond technical knowledge to professional mindset and the philosophy of "no sharing, no growing".
+- **Practical hands-on approach:** The requirement to build labs from scratch instead of following pre-made steps helped me understand the fundamental nature of systems.
+- **Power of Kiro:** Demonstrations of Kiro Autonomous Agent and Custom Agent opened a realistic vision where programmers will collaborate with AI as true colleagues.
 
-#### **AWS CDK (Cloud Development Kit)**
-- Constructs and reusable patterns  
-- Multi-language support: TypeScript, Python, Java, C#  
+### Lessons Learned
 
-#### **Live Demo**
-- Deploying infrastructure using CloudFormation & CDK  
+- Cloud and GenAI fields are shifting at breakneck speed. Integrating AI (like Kiro) into development is no longer an optional solution, but has become a key factor to breakthrough work efficiency.
+- Resilience (Resilience), teamwork spirit (Teamwork), and continuous grinding through real projects are the shortest path to reaching the next generation of AWS experts.
 
-#### **Discussion**
-- When to choose CloudFormation vs CDK  
-- Advantages and limitations of each IaC approach  
+### Event Photos
 
----
-
-### Lunch Break (12:00 – 1:00 PM)
-
----
-
-## Afternoon Session (1:00 PM – 5:00 PM)
-
-### 5. Container Services on AWS (1:00 – 2:30 PM)
-
-#### **Docker Fundamentals**
-- Microservices architecture  
-- Containerization concepts  
-
-#### **Amazon ECR**
-- Container image registry  
-- Image scanning & security  
-- Lifecycle policies  
-
-#### **Amazon ECS & EKS**
-- Deployment strategies  
-- Auto scaling  
-- Key differences:  
-  - ECS: AWS-managed  
-  - EKS: Kubernetes-native  
-
-#### **AWS App Runner**
-- Simplified container deployment  
-- Ideal for quick deployments and small services  
-
-#### **Demo & Case Study**
-- Comparison of microservices deployment on ECS, EKS, and App Runner.
-
----
-
-### 6. Break (2:30 – 2:45 PM)
-
----
-
-### 7. Monitoring & Observability (2:45 – 4:00 PM)
-
-#### **Amazon CloudWatch**
-- Metrics  
-- Logs  
-- Alarms  
-- Custom dashboards  
-
-#### **AWS X-Ray**
-- Distributed tracing  
-- Request flows and performance bottlenecks visibility  
-
-#### **Live Demo**
-- Setting up a full-stack observability pipeline  
-
-#### **Best Practices**
-- Effective alerting  
-- Dashboard design  
-- On-call and incident response workflow  
-
----
-
-### 8. DevOps Best Practices & Case Studies (4:00 – 4:45 PM)
-
-- Deployment strategies:  
-  - Feature flags  
-  - A/B testing  
-- Automated testing integration in CI/CD  
-- Incident management & postmortems  
-- Case studies from startups and enterprise DevOps transformations  
-
----
-
-### 9. Q&A & Wrap-up (4:45 – 5:00 PM)
-
-- DevOps career directions and skill roadmap  
-- AWS DevOps certification pathways (DVA-C02, DOP-C02)
-
-(/images/event2-1.png)
-
----
-
-## Key Takeaways
-
-### DevOps Fundamentals
-- DevOps is rooted in collaboration, culture, and continuous improvement.  
-- Key metrics such as **DORA** and **MTTR** measure DevOps performance effectively.
-
-### CI/CD on AWS
-- CodePipeline + CodeBuild + CodeDeploy empower scalable, automated pipelines.  
-- CI/CD standardizes delivery and reduces deployment risks.
-
-### IaC Principles
-- IaC is essential for modern DevOps workflows.  
-- CloudFormation excels in enterprise templates; CDK offers developer-friendly flexibility.
-
-### Container Orchestration
-- ECS is simple and fully managed; EKS is powerful for Kubernetes workloads.  
-- App Runner is ideal for fast, simplified container deployment.
-
-### Observability
-- CloudWatch & X-Ray provide deep visibility across logs, metrics, and traces.  
-- Strong observability practices improve system reliability and reduce MTTR.
-
----
-
-### Some event photos
-*Add your event photos here*
-
----
-
-> The workshop provided a comprehensive journey through modern DevOps practices on AWS — from CI/CD pipelines and IaC to containers and observability. Participants gained both technical knowledge and practical understanding needed to pursue a DevOps career successfully.
+![Event Photo 1](/images/event1-1.png)
 

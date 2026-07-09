@@ -1,4 +1,4 @@
----
+﻿---
 title: "COMMUNITY DAY"
 date: "2026-05-23"
 weight: 1
