@@ -23,7 +23,7 @@ pre: " <b> 1.08 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **Terraform Apply & Variables**: Chạy `terraform apply` để tạo S3 bucket. Refactor code, thêm `variable` và file `.tfvars` để quản lý tên bucket. | 05/06/2026 | 05/06/2026 | |
+| 1 (Thứ Hai) | **Terraform Apply & Variables**: Chạy `terraform apply` để tạo S3 bucket. Refactor code, thêm `variable` và file `.tfvars` để quản lý tên bucket. | 07/06/2026 | 07/06/2026 | |
 | 2 (Thứ Ba) | **Terraform Practice**: (Tiếp tục thực hành và củng cố kiến thức về Terraform variables và `.tfvars` từ ngày hôm trước). | 08/06/2026 | 08/06/2026 | |
 | 3 (Thứ Tư) | **Tìm hiểu CI/CD & CodePipeline**: Cấu hình pipeline CI/CD cơ bản (từ CodeCommit đến S3) bằng **AWS CodePipeline**. Bắt đầu tìm hiểu về **AWS CodeDeploy**. | 09/06/2026 | 09/06/2026 | |
 | 4 (Thứ Năm) | **Tích hợp Testing vào Pipeline**: Tìm hiểu và cấu hình các bước kiểm tra tự động (automated testing, vd: unit tests) vào CodePipeline (sử dụng AWS CodeBuild). | 10/06/2026 | 10/06/2026 | |

@@ -23,7 +23,7 @@ pre: " <b> 1.09 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **Learn AWS Lambda**: Study Serverless, create a simple Lambda function (S3-triggered), and evaluate its use in CI/CD. | 12/06/2026 | 12/06/2026 | |
+| 1 (Mon) | **Learn AWS Lambda**: Study Serverless, create a simple Lambda function (S3-triggered), and evaluate its use in CI/CD. | 14/06/2026 | 14/06/2026 | |
 | 2 (Tue) | **Learn CI & Jenkins**: Research CI tools (Jenkins, Travis CI), practice installing and configuring **Jenkins** (creating a pipeline). | 15/06/2026 | 15/06/2026 | |
 | 3 (Wed) | **Learn Docker**: Study container concepts. Practice writing a **Dockerfile** for a Node.js app, building (`docker build`), and running (`docker run`). | 16/06/2026 | 16/06/2026 | |
 | 4 (Thu) | **Learn AWS CodeDeploy**: Study the CodeDeploy service. Practice deploying an app from CodeCommit to EC2 and debugging the scripts. | 17/06/2026 | 17/06/2026 | |

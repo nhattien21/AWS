@@ -26,6 +26,6 @@ pre: " <b> 1. </b> "
 
 **Week 10:** [Kubernetes Introduction (Pods, Deployments) & Backup (Velero)](1.10-week10/)
 
-**Week 11:** [Advanced K8s (HPA, NetworkPolicy, RBAC) & Advanced ALB Routing](1.11-week11/)
+**Week 11:** [Advanced K8s, CORS Optimization, Lambda Layer & E2E Testing](1.11-week11/)
 
-**Week 12:** [Advanced ALB (WebSocket, Sticky Sessions) & Performance Testing](1.12-week12/)
+**Week 12:** [React EditPanel Integration, Backend API Upgrade & ALB Performance Testing](1.12-week12/)

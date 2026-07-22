@@ -20,11 +20,10 @@ pre: " <b> 1.7 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **Learn Serverless**: Study AWS Lambda, write CloudFormation (for IAM Role, Lambda Function) and integrate API Gateway. | 29/05/2026 | 29/05/2026 | |
-| 2 (Tue) | **CloudFormation StackSets**: Learn StackSets, write an S3 template, and deploy it to multiple accounts/regions. | 01/06/2026 | 01/06/2026 | |
-| 3 (Wed) | **Start Terraform**: Write the first `main.tf` file (AWS provider, `aws_s3_bucket` resource). Run `terraform init` and `plan`. | 02/06/2026 | 02/06/2026 | |
-| 4 (Thu) | **CloudFormation Cleanup**: (Consolidation day) Deploy, test (SSH/HTTP), and delete a complete stack (`delete-stack`). | 03/06/2026 | 03/06/2026 | |
-| 5 (Fri) | **Complete Terraform Intro**: Run `terraform apply` to create S3 bucket. Learn to use `variables` and `.tfvars` files. | 04/06/2026 | 04/06/2026 | |
+| 1 (Tue) | **CloudFormation StackSets**: Learn StackSets, write an S3 template, and deploy it to multiple accounts/regions. | 01/06/2026 | 01/06/2026 | |
+| 2 (Wed) | **Start Terraform**: Write the first `main.tf` file (AWS provider, `aws_s3_bucket` resource). Run `terraform init` and `plan`. | 02/06/2026 | 02/06/2026 | |
+| 3 (Thu) | **CloudFormation Cleanup**: (Consolidation day) Deploy, test (SSH/HTTP), and delete a complete stack (`delete-stack`). | 03/06/2026 | 03/06/2026 | |
+| 4 (Fri) | **Complete Terraform Intro**: Run `terraform apply` to create S3 bucket. Learn to use `variables` and `.tfvars` files. | 04/06/2026 | 04/06/2026 | |
 
 ---
 

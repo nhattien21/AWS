@@ -10,9 +10,9 @@ pre: " <b> 1.12 </b> "
 
 ### **Week 12 Objectives**
 
-* Hoàn thiện và tối ưu hóa cấu hình **AWS Application Load Balancer (ALB)**.
-* Tìm hiểu và cấu hình thành công các tính năng nâng cao của ALB bao gồm **HTTP/2**, **WebSocket**, và **Sticky Sessions**.
-* Thực hiện kiểm tra hiệu suất (Performance Testing) cho ALB để đánh giá khả năng chịu tải.
+* Tích hợp giao diện `EditPanel` và nâng cấp backend API hỗ trợ cập nhật node properties.
+* Khắc phục các lỗi về state management, component lifecycle và tối ưu hóa CSS cho ứng dụng.
+* Thực hiện kiểm tra hiệu suất (Performance Testing) cho ALB bằng các công cụ tạo tải để đánh giá khả năng chịu tải.
 * Hoàn thành workshop và chuẩn bị báo cáo tổng kết kỳ thực tập.
 
 ---
@@ -21,19 +21,14 @@ pre: " <b> 1.12 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **Tìm hiểu & Cấu hình HTTP/2**: Nghiên cứu và cấu hình ALB Listener (HTTPS) để hỗ trợ **HTTP/2**. Nghiên cứu sơ bộ về **WebSocket**. | 03/07/2026 | 03/07/2026 | |
-| 2 (Thứ Ba) | **Cấu hình WebSocket**: Cấu hình ALB Listener để hỗ trợ **WebSocket** và kiểm tra kết nối. Tối ưu hóa cài đặt timeout. | 06/07/2026 | 06/07/2026 | |
-| 3 (Thứ Tư) | **Cấu hình Sticky Sessions (Phần 1)**: Cấu hình **Sticky Sessions** (Target Group Attributes) để duy trì phiên làm việc. Thực hiện **Health Checks**. | 07/07/2026 | 07/07/2026 | |
-| 4 (Thứ Năm) | **Cấu hình Sticky Sessions (Phần 2)**: (Nội dung lặp lại) Kiểm tra và xác nhận tính năng Sticky Sessions hoạt động. | 08/07/2026 | 08/07/2026 | |
-| 5 (Thứ Sáu) | **Kiểm thử Hiệu suất (Performance Testing)**: Sử dụng công cụ (JMeter/Gatling) để kiểm thử tải ALB. Phân tích kết quả và hoàn thành báo cáo. | 10/07/2026 | 10/07/2026 | |
+| 1 (Thứ Ba) | - Tích hợp `EditPanel` vào layout chính của ứng dụng<br>- Nâng cấp backend API hỗ trợ cập nhật node properties<br>- Fix các lỗi liên quan đến state management và component lifecycle<br>- Cập nhật CSS cho giao diện người dùng | 06/07/2026 | 09/07/2026 | https://developer.mozilla.org/en-US/docs/Web/JavaScript |
+| 2 (Thứ Sáu) | **Kiểm thử Hiệu suất (Performance Testing)**: Sử dụng công cụ (JMeter/Gatling) để kiểm thử tải ALB. Phân tích kết quả và hoàn thành báo cáo. | 10/07/2026 | 10/07/2026 | |
 
 ---
 
 ### **Week 12 Achievements**
 
-* Cấu hình thành công **Application Load Balancer (ALB)** để hỗ trợ giao thức **HTTP/2** (qua listener HTTPS), hiểu rõ lợi ích về hiệu suất của nó.
-* Cấu hình thành công ALB để hỗ trợ kết nối **WebSocket**, cho phép giao tiếp hai chiều (real-time) và khắc phục được sự cố về `idle timeout`.
-* Cấu hình và kiểm tra thành công tính năng **Sticky Sessions** (Application-based cookie) trên Target Group, đảm bảo các yêu cầu từ một client được chuyển hướng đến cùng một instance.
-* Thực hiện thành công các bài kiểm tra **Health Checks** để đảm bảo các instance trong Target Group ở trạng thái khỏe mạnh.
-* Thực hiện **Kiểm thử hiệu suất (Performance Testing)** cho ALB bằng cách sử dụng các công cụ tạo tải (như JMeter), phân tích các chỉ số (thời gian phản hồi, tỷ lệ lỗi) và xác định các điểm cần tối ưu.
-* Hoàn thành workshop cuối cùng và chuẩn bị báo cáo tổng kết cho toàn bộ 12 tuần thực tập .
+* **Nâng cấp Backend & Xử lý Dữ liệu Node**
+* **Tối ưu State Management & Component Lifecycle**: Khắc phục triệt để các lỗi liên quan giúp ứng dụng hoạt động ổn định không bị re-render thừa.
+* **Kiểm thử Hiệu suất ALB**
+* **Tổng kết Thực tập**: Hoàn thành bài workshop cuối cùng và chuẩn bị hoàn tất báo cáo tổng kết cho toàn bộ 12 tuần thực tập.

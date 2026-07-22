@@ -19,7 +19,7 @@ pre: " <b> 1.5 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **S3 Integration (Part 1)**: Create an S3 Bucket and configure its Bucket Policy for public read access. | 15/05/2026 | 15/05/2026 | |
+| 1 (Mon) | **S3 Integration (Part 1)**: Create an S3 Bucket and configure its Bucket Policy for public read access. | 17/05/2026 | 17/05/2026 | |
 | 2 (Tue) | **Deploy AWS WAF**: Create a Web ACL, add basic security rules (e.g., block suspicious IPs), and associate it with the ALB. | 18/05/2026 | 18/05/2026 | |
 | 3 (Wed) | **Review & Document**: Check Security Groups (least privilege), review EC2 Right-sizing, and write architecture documentation. | 19/05/2026 | 19/05/2026 | |
 | 4 (Thu) | **S3 Integration (Part 2)**: Update the application's HTML/CSS source code to use image links from the S3 Bucket. | 20/05/2026 | 20/05/2026 | |

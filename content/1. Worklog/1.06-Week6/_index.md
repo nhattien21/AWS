@@ -20,7 +20,7 @@ pre: " <b> 1.6 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **Learn CloudFormation & YAML**: Study sections (Parameters, Resources) and YAML syntax. Write a simple S3 Bucket template. | 22/05/2026 | 22/05/2026 | |
+| 1 (Mon) | **Learn CloudFormation & YAML**: Study sections (Parameters, Resources) and YAML syntax. Write a simple S3 Bucket template. | 24/05/2026 | 24/05/2026 | |
 | 2 (Tue) | **Deploy Stack & Parameters**: Deploy the S3 stack. Add `Parameters` (e.g., custom bucket name) to the template and learn to update the stack. | 25/05/2026 | 25/05/2026 | |
 | 3 (Wed) | **Write Network Template**: Write a new template for network infrastructure (VPC, Public Subnet, IGW, Route Table). Use `Outputs`. | 26/05/2026 | 26/05/2026 | |
 | 4 (Thu) | **Write EC2 Template**: Extend the network template, adding `Resources` for a Security Group (SSH, HTTP) and an EC2 instance (specifying AMI). | 27/05/2026 | 27/05/2026 | |

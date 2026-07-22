@@ -23,7 +23,7 @@ pre: " <b> 1.09 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **Tìm hiểu AWS Lambda**: Nghiên cứu về Serverless, tạo một hàm Lambda đơn giản (kích hoạt từ S3) và đánh giá cách tích hợp vào CI/CD. | 12/06/2026 | 12/06/2026 | |
+| 1 (Thứ Hai) | **Tìm hiểu AWS Lambda**: Nghiên cứu về Serverless, tạo một hàm Lambda đơn giản (kích hoạt từ S3) và đánh giá cách tích hợp vào CI/CD. | 14/06/2026 | 14/06/2026 | |
 | 2 (Thứ Ba) | **Tìm hiểu CI & Jenkins**: Nghiên cứu các công cụ CI (Jenkins, Travis CI), thực hành cài đặt và cấu hình **Jenkins** (tạo pipeline) để kiểm tra tự động. | 15/06/2026 | 15/06/2026 | |
 | 3 (Thứ Tư) | **Tìm hiểu Docker**: Nghiên cứu về container. Thực hành viết **Dockerfile** cho ứng dụng Node.js, build image (`docker build`) và chạy container (`docker run`). | 16/06/2026 | 16/06/2026 | |
 | 4 (Thứ Năm) | **Tìm hiểu AWS CodeDeploy**: Nghiên cứu dịch vụ CodeDeploy. Thực hành triển khai ứng dụng mẫu (từ CodeCommit) lên EC2 và gỡ lỗi tập lệnh (script). | 17/06/2026 | 17/06/2026 | |

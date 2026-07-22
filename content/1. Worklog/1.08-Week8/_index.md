@@ -22,7 +22,7 @@ pre: " <b> 1.08 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **Terraform Apply & Variables**: Run `terraform apply` to create S3. Refactor code to use `variables` and a `.tfvars` file. | 05/06/2026 | 05/06/2026 | |
+| 1 (Mon) | **Terraform Apply & Variables**: Run `terraform apply` to create S3. Refactor code to use `variables` and a `.tfvars` file. | 07/06/2026 | 07/06/2026 | |
 | 2 (Tue) | **Terraform Practice**: (Consolidation day) Continue practicing and reinforcing knowledge of Terraform variables and `.tfvars`. | 08/06/2026 | 08/06/2026 | |
 | 3 (Wed) | **Learn CI/CD & CodePipeline**: Configure a basic CI/CD pipeline (CodeCommit to S3) using **AWS CodePipeline**. Begin learning **AWS CodeDeploy**. | 09/06/2026 | 09/06/2026 | |
 | 4 (Thu) | **Integrate Testing in Pipeline**: Learn and configure an automated testing stage in CodePipeline (using **AWS CodeBuild**). | 10/06/2026 | 10/06/2026 | |

@@ -10,10 +10,10 @@ pre: " <b> 1.12 </b> "
 
 ### **Week 12 Objectives**
 
-* Finalize and optimize the **AWS Application Load Balancer (ALB)** configuration.
-* Learn and successfully configure advanced ALB features: **HTTP/2**, **WebSocket**, and **Sticky Sessions**.
-* Conduct **Performance Testing** on the ALB to evaluate its load-handling capabilities.
-* Complete the final workshop and prepare the final internship report.
+* Integrate the `EditPanel` component and upgrade the backend API to support updating node properties.
+* Fix issues related to state management, component lifecycle, and refine application UI with CSS updates.
+* Conduct Performance Testing for ALB using load testing tools to evaluate capacity and behavior under load.
+* Complete the final workshop and prepare the internship summary report.
 
 ---
 
@@ -21,19 +21,14 @@ pre: " <b> 1.12 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **Configure HTTP/2**: Set up the ALB Listener (HTTPS) to support **HTTP/2**. Conduct initial research on **WebSocket**. | 03/07/2026 | 03/07/2026 | |
-| 2 (Tue) | **Configure WebSocket**: Configure the ALB Listener to support **WebSocket** and test the connection. Optimize timeout settings. | 06/07/2026 | 06/07/2026 | |
-| 3 (Wed) | **Configure Sticky Sessions (Part 1)**: Configure **Sticky Sessions** (Target Group Attributes) to maintain user sessions. Run **Health Checks**. | 07/07/2026 | 07/07/2026 | |
-| 4 (Thu) | **Configure Sticky Sessions (Part 2)**: (Repeated) Verify and confirm that the Sticky Sessions feature is working correctly. | 08/07/2026 | 08/07/2026 | |
-| 5 (Fri) | **Performance Testing**: Use a tool (JMeter/Gatling) to load test the ALB. Analyze the results and prepare the final report. | 10/07/2026 | 10/07/2026 | |
+| 1 (Tuesday) | - Integrate `EditPanel` into the main application layout<br>- Upgrade backend API to support updating node properties<br>- Fix issues related to state management and component lifecycle<br>- Update CSS for the user interface | 06/07/2026 | 09/07/2026 | https://developer.mozilla.org/en-US/docs/Web/JavaScript |
+| 2 (Friday) | **Performance Testing**: Use load testing tools (JMeter/Gatling) to test ALB load. Analyze performance results and complete the final report. | 10/07/2026 | 10/07/2026 | |
 
 ---
 
 ### **Week 12 Achievements**
 
-* Successfully configured an **Application Load Balancer (ALB)** to support the **HTTP/2** protocol (via an HTTPS listener).
-* Successfully configured the ALB to support **WebSocket** connections for real-time communication and troubleshot `idle timeout` issues.
-* Configured and verified **Sticky Sessions** (Application-based cookie) on the Target Group, ensuring requests from a single client are routed to the same instance.
-* Successfully ran **Health Checks** to ensure all instances in the Target Group were healthy and ready to receive traffic.
-* Conducted **Performance Testing** against the ALB using load-generation tools (like JMeter/Gatling) to analyze key metrics (response time, error rate).
-* Completed the final workshop and prepared the final summary report for the 12-week internship .
+* **Backend API Upgrade for Node Properties**
+* **State Management & Lifecycle Fixes**: Resolved critical issues ensuring application stability and eliminating unnecessary re-renders.
+* **ALB Performance Testing**
+* **Internship Wrap-up**: Completed the final workshop session and finalized the summary report covering the entire 12-week internship journey.

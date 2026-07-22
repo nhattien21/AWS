@@ -19,7 +19,7 @@ pre: " <b> 1.4 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Mon) | **Project Ideation & Requirements**: Research, select a topic, and list functional/technical requirements for the final project. | 08/05/2026 | 08/05/2026 | |
+| 1 (Mon) | **Project Ideation & Requirements**: Research, select a topic, and list functional/technical requirements for the final project. | 10/05/2026 | 10/05/2026 | |
 | 2 (Tue) | **Design AWS Architecture**: Draw the architecture diagram (VPC, Subnets, EC2, S3, IAM) and design a naming/tagging policy. | 11/05/2026 | 11/05/2026 | |
 | 3 (Wed) | **Deploy Network Infrastructure**: Create VPC, Public/Private Subnets, Internet Gateway, NAT Gateway, and configure Route Tables. | 12/05/2026 | 12/05/2026 | |
 | 4 (Thu) | **Deploy Web Server**: Launch EC2 instance, configure Security Group (HTTP/HTTPS), and install NGINX web server. | 13/05/2026 | 13/05/2026 | |

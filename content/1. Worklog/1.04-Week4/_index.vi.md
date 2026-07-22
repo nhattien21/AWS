@@ -19,7 +19,7 @@ pre: " <b> 1.4 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **Lên ý tưởng & Yêu cầu dự án**: Nghiên cứu, chọn đề tài, và liệt kê các yêu cầu chức năng/kỹ thuật cho dự án cuối khóa. | 08/05/2026 | 08/05/2026 | |
+| 1 (Thứ Hai) | **Lên ý tưởng & Yêu cầu dự án**: Nghiên cứu, chọn đề tài, và liệt kê các yêu cầu chức năng/kỹ thuật cho dự án cuối khóa. | 10/05/2026 | 10/05/2026 | |
 | 2 (Thứ Ba) | **Thiết kế kiến trúc AWS**: Vẽ sơ đồ kiến trúc (VPC, Subnets, EC2, S3, IAM Roles) và thiết kế chính sách đặt tên/gắn thẻ. | 11/05/2026 | 11/05/2026 | |
 | 3 (Thứ Tư) | **Triển khai hạ tầng mạng (Networking)**: Tạo VPC, Public/Private Subnets, Internet Gateway, NAT Gateway, và cấu hình Route Tables. | 12/05/2026 | 12/05/2026 | |
 | 4 (Thứ Năm) | **Triển khai máy chủ web**: Tạo EC2 instance, cấu hình Security Group (HTTP/HTTPS), và cài đặt web server NGINX. | 13/05/2026 | 13/05/2026 | |

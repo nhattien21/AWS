@@ -23,7 +23,7 @@ pre: " <b> 1.1 </b> "
 | 2 (Tue) | **Learn & Deploy Amazon EC2**: Launch EC2 instances (Windows & Linux); install Apache web server; practice creating Snapshots & AMIs. | 21/04/2026 | 21/04/2026 | |
 | 3 (Wed) | **Security Group Lab**: Configure Security Groups (stateful firewall) to allow and block access (HTTP, SSH) to an EC2 instance. | 22/04/2026 | 22/04/2026 | |
 | 4 (Thu) | **Deploy Auto-Scaling System**: Configure Launch Template, Auto Scaling Group (with CPU-based policy), and Application Load Balancer (ALB). | 23/04/2026 | 23/04/2026 | |
-| 5 (Fri) | **Lab: Assign IAM Role to EC2 for S3 Access**: Create an S3 read-only IAM Role, assign it to EC2; use AWS CLI to test secure access. | 24/04/2026 | 24/04/2026 | |
+| 5 (Fri) | **Lab: Assign IAM Role to EC2 for S3 Access**: Create an S3 read-only IAM Role, assign it to EC2; use AWS CLI to test secure access. | 24/04/2026 | 24/04/2026 |https://000002.awsstudygroup.com/4-switch-roles/ |
 
 ---
 

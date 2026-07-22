@@ -20,11 +20,10 @@ pre: " <b> 1.7 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **Tìm hiểu Serverless**: Học về AWS Lambda, viết template CloudFormation (tạo IAM Role, Lambda Function) và tích hợp API Gateway. | 29/05/2026 | 29/05/2026 | |
-| 2 (Thứ Ba) | **CloudFormation StackSets**: Tìm hiểu StackSets, viết template (tạo S3) và deploy StackSet ra nhiều tài khoản/region. | 01/06/2026 | 01/06/2026 | |
-| 3 (Thứ Tư) | **Bắt đầu với Terraform**: Viết file `main.tf` đầu tiên (khai báo provider "aws", resource "aws_s3_bucket"). Chạy `terraform init` và `plan`. | 02/06/2026 | 02/06/2026 | |
-| 4 (Thứ Năm) | **Hoàn thiện & Dọn dẹp (CloudFormation)**: Triển khai, kiểm tra (SSH/HTTP) một stack hoàn chỉnh (VPC+EC2) và học cách xóa stack (`delete-stack`). | 03/06/2026 | 03/06/2026 | |
-| 5 (Thứ Sáu) | **Hoàn thành Terraform**: Chạy `terraform apply` để tạo S3 bucket. Học cách dùng **variables** và file `.tfvars` để quản lý tên bucket. | 04/06/2026 | 04/06/2026 | |
+| 1 (Thứ Ba) | **CloudFormation StackSets**: Tìm hiểu StackSets, viết template (tạo S3) và deploy StackSet ra nhiều tài khoản/region. | 01/06/2026 | 01/06/2026 | |
+| 2 (Thứ Tư) | **Bắt đầu với Terraform**: Viết file `main.tf` đầu tiên (khai báo provider "aws", resource "aws_s3_bucket"). Chạy `terraform init` và `plan`. | 02/06/2026 | 02/06/2026 | |
+| 3 (Thứ Năm) | **Hoàn thiện & Dọn dẹp (CloudFormation)**: Triển khai, kiểm tra (SSH/HTTP) một stack hoàn chỉnh (VPC+EC2) và học cách xóa stack (`delete-stack`). | 03/06/2026 | 03/06/2026 | |
+| 4 (Thứ Sáu) | **Hoàn thành Terraform**: Chạy `terraform apply` để tạo S3 bucket. Học cách dùng **variables** và file `.tfvars` để quản lý tên bucket. | 04/06/2026 | 04/06/2026 | |
 
 ---
 

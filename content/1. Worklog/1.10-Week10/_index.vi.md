@@ -23,7 +23,7 @@ pre: " <b> 1.10 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **Tìm hiểu Kubernetes**: Học về kiến trúc (Pod, Node, Cluster). Viết file `deployment.yaml` và deploy ứng dụng (`kubectl apply`) lên Minikube. | 19/06/2026 | 19/06/2026 | |
+| 1 (Thứ Hai) | **Tìm hiểu Kubernetes**: Học về kiến trúc (Pod, Node, Cluster). Viết file `deployment.yaml` và deploy ứng dụng (`kubectl apply`) lên Minikube. | 21/06/2026 | 21/06/2026 | |
 | 2 (Thứ Ba) | **Tìm hiểu Monitoring & Báo cáo CI/CD**: (Nội dung lặp lại) Ôn tập tài liệu CI/CD. Tìm hiểu về các công cụ giám sát (Prometheus, Grafana). | 22/06/2026 | 22/06/2026 | |
 | 3 (Thứ Tư) | **Tìm hiểu Monitoring & Báo cáo CI/CD**: (Nội dung lặp lại) Ôn tập tài liệu CI/CD. Tìm hiểu về các công cụ giám sát (Prometheus, Grafana). | 23/06/2026 | 23/06/2026 | |
 | 4 (Thứ Năm) | **Tìm hiểu Monitoring & Báo cáo CI/CD**: (Nội dung lặp lại) Ôn tập tài liệu CI/CD. Tìm hiểu về các công cụ giám sát (Prometheus, Grafana). | 24/06/2026 | 24/06/2026 | |

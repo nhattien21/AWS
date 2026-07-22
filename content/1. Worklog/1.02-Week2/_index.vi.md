@@ -30,10 +30,5 @@ pre: " <b> 1.2 </b> "
 
 * Nắm vững cách theo dõi, tạo cảnh báo (Alarms) và trực quan hóa (Dashboards) cho tài nguyên EC2 bằng **CloudWatch Metrics**.
 * Cài đặt và cấu hình thành công **CloudWatch Agent** để thu thập và đẩy logs từ EC2 lên **CloudWatch Logs** một cách tập trung.
-* Hiểu rõ sự khác biệt và tầm quan trọng của Metrics (giám sát) và Logs (ghi log) trong vận hành hệ thống.
-* Nắm vững khái niệm và lợi ích của **AWS Organizations** trong việc quản lý đa tài khoản.
-* Thực hành thành công việc tạo mới tài khoản (member account) và mời tài khoản có sẵn vào Organization.
-* Hiểu và cấu trúc được các tài khoản bằng **Organizational Units (OUs)**.
-* Thực hành thành công việc truy cập chéo (switch role) giữa tài khoản quản lý (management) và tài khoản thành viên (member).
 * Triển khai và cấu hình cơ bản thành công **AWS Storage Gateway** trên một EC2 instance.
 * Khắc phục được các sự cố kết nối liên quan đến **IAM Roles** và **Security Groups** khi EC2 tương tác với các dịch vụ khác (S3, CloudWatch, Storage Gateway), củng cố kiến thức Tuần 1.

@@ -30,10 +30,5 @@ pre: " <b> 1.2 </b> "
 
 * Mastered how to monitor, create Alarms, and visualize (Dashboards) EC2 resources using **CloudWatch Metrics**.
 * Successfully installed and configured the **CloudWatch Agent** to collect and centralize logs from EC2 into **CloudWatch Logs**.
-* Clearly understood the difference and importance of Metrics (monitoring) vs. Logs (logging).
-* Mastered the concepts and benefits of **AWS Organizations** for multi-account management.
-* Successfully practiced creating new member accounts and inviting existing accounts into an Organization.
-* Understood and structured accounts using **Organizational Units (OUs)**.
-* Successfully practiced cross-account access using **Switch Role**.
 * Performed a basic deployment and configuration of **AWS Storage Gateway** on an EC2 instance.
 * Troubleshot and resolved connectivity issues related to **IAM Roles** and **Security Groups**, reinforcing Week 1 knowledge.

@@ -26,6 +26,6 @@ pre: " <b> 1. </b> "
 
 **Tuần 10:** [Giới thiệu về Kubernetes (Pods, Deployments) & Backup (Velero)](1.10-week10/)
 
-**Tuần 11:** [K8s Nâng cao (HPA, NetworkPolicy, RBAC) & ALB Routing Nâng cao](1.11-week11/)
+**Tuần 11:** [K8s nâng cao, Tối ưu hóa CORS, Lambda Layer & Kiểm thử E2E](1.11-week11/)
 
-**Tuần 12:** [ALB Nâng cao (WebSocket, Sticky Sessions) & Kiểm thử Hiệu năng](1.12-week12/)
+**Tuần 12:** [Tích hợp React EditPanel, Nâng cấp Backend API & Kiểm thử hiệu suất ALB](1.12-week12/)

@@ -19,7 +19,7 @@ pre: " <b> 1.5 </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 (Thứ Hai) | **Tích hợp S3 (Phần 1)**: Tạo S3 Bucket và cấu hình Bucket Policy cho phép truy cập công khai (public read). | 15/05/2026 | 15/05/2026 | |
+| 1 (Thứ Hai) | **Tích hợp S3 (Phần 1)**: Tạo S3 Bucket và cấu hình Bucket Policy cho phép truy cập công khai (public read). | 17/05/2026 | 17/05/2026 | |
 | 2 (Thứ Ba) | **Triển khai AWS WAF**: Tạo một Web ACL, thêm các Rule bảo mật cơ bản (chặn IP) và gắn vào tài nguyên (ALB). | 18/05/2026 | 18/05/2026 | |
 | 3 (Thứ Tư) | **Rà soát & Viết tài liệu**: Kiểm tra Security Group (chỉ mở port cần thiết), xem xét EC2 Right-sizing, viết tài liệu kiến trúc. | 19/05/2026 | 19/05/2026 | |
 | 4 (Thứ Năm) | **Tích hợp S3 (Phần 2)**: Cập nhật mã nguồn ứng dụng (HTML/CSS) để sử dụng link ảnh từ S3 Bucket đã tạo. | 20/05/2026 | 20/05/2026 | |
