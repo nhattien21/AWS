@@ -1,58 +1,51 @@
-baseURL = "https://nhattien21.github.io/AWS/"
+baseURL = "https://nhattien21.github.io/AWS/"  
 relativeURLs = false
 canonifyURLs = true
 buildFuture = true
 
+# Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
 
+# For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
 [params]
-  themeVariant = "red"
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "workshop"
+  # Git hub repo link
   editURL = ""
-  description = "TechMart electronic store"
-  author = "support@techmart.vn"
+  description = ""
+  author = "nhattienys20gg@gmail.com"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
   ordersectionsby = "weight"
+  # Thêm dòng này để ép hiển thị tất cả các thư mục con trên menu trái
   menu_show_all = true
-
+  
 [Languages]
 [Languages.en]
-title = "TechMart Store"
+title = "Internship Report"
 weight = 1
 languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-phone'></i> Hotline"
-identifier = "Hotline"
-url = "tel:+84987654321"
+name = "<i class='fab fa-facebook'></i> AWS Study Group"
+identifier = "AWS Study Group FB"
+url = "https://www.facebook.com/groups/awsstudygroupfcj/"
 weight = 20
 
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-facebook'></i> Facebook"
-identifier = "Facebook"
-url = "https://facebook.com"
-weight = 21
-
 [Languages.vi]
-title = "Cửa hàng TechMart"
+title = "Báo cáo thực tập"
 weight = 2
 languageName = "Tiếng Việt"
 
 [[Languages.vi.menu.shortcuts]]
-name = "<i class='fas fa-phone'></i> Hotline"
-identifier = "Hotline"
-url = "tel:+84987654321"
+name = "<i class='fab fa-facebook'></i> AWS Study Group"
+identifier = "AWS Study Group FB"
+url = "https://www.facebook.com/groups/awsstudygroupfcj/"
 weight = 20
-
-[[Languages.vi.menu.shortcuts]]
-name = "<i class='fab fa-facebook'></i> Facebook"
-identifier = "Facebook"
-url = "https://facebook.com"
-weight = 21
 
 [markup]
   [markup.goldmark]
