@@ -1,60 +1,281 @@
 .highlight-code {
-  color: #CD5C5C; /* Màu đỏ */
-  font-family: monospace; /* Font chữ cố định */
-  /* Thêm các thuộc tính khác nếu muốn: background-color, padding, border-radius, v.v. */
-  background-color: #f7f7f7; /* Ví dụ: nền xám nhạt */
+  color: #CD5C5C;
+  font-family: monospace;
+  background-color: #f7f7f7;
   padding: 2px 4px;
   border-radius: 3px;
 }
 
 ul {
-  padding-left: 20px; /* Thêm padding vào bên trái danh sách */
+  padding-left: 20px;
 }
 
 ul ul {
-  padding-left: 20px; /* Đảm bảo danh sách lồng nhau vẫn có padding */
+  padding-left: 20px;
 }
 
 .author-bio-container {
-    display: flex; /* Bật Flexbox */
-    align-items: center; /* Căn chỉnh nội dung theo chiều dọc (center) */
+    display: flex;
+    align-items: center;
     margin-top: 20px;
-    gap: 15px; /* Tạo khoảng cách giữa ảnh và chữ */
+    gap: 15px;
 }
 
 .author-bio-image {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    /* Bỏ float: left */
 }
 
-/* Buộc chữ in đậm hiển thị đúng trong toàn bộ nội dung */
 strong, b {
     font-weight: bold !important;
 }
 
-/* Tùy chọn: Nếu chữ in đậm là một phần của list hoặc đoạn code: */
 li strong, p strong, code strong {
     font-weight: bold !important;
 }
 
-/* Buộc danh sách đánh số thụt lề cơ bản */
 ol {
     padding-left: 30px !important;
 }
 
-/* Quy tắc QUAN TRỌNG: 
-   Tất cả các danh sách (ul hoặc ol) nằm bên trong một danh sách khác 
-   sẽ được thêm khoảng đệm bên trái (thụt lề).
-*/
 ol ul, ol ol, ul ul, ul ol {
-    /* Đảm bảo chúng có thêm một khoảng thụt lề nữa */
-    padding-left: 30px !important; 
+    padding-left: 30px !important;
 }
 
-/* Màu xám đậm cho thông tin bài viết/tác giả */
 .meta-info {
-    color: #666666 !important; /* Màu xám đậm. Bạn có thể thử #555555 nếu muốn đậm hơn */
-    font-size: 0.95em; /* Tùy chọn: làm chữ nhỏ hơn một chút so với văn bản chính */
+    color: #666666 !important;
+    font-size: 0.95em;
+}
+
+body {
+    background: #f5f7fb;
+    color: #1f2937;
+}
+
+#body {
+    background: #f5f7fb;
+}
+
+#body-inner {
+    background: transparent;
+}
+
+.store-promo-bar {
+    background: linear-gradient(90deg, #111827, #2563eb);
+    color: #fff;
+    text-align: center;
+    padding: 12px 16px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.store-hero {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 24px;
+    align-items: center;
+    padding: 32px 18px 18px;
+    margin: 18px 0 26px;
+}
+
+.store-hero-copy {
+    background: linear-gradient(135deg, #111827 0%, #1d4ed8 100%);
+    color: white;
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: 0 12px 30px rgba(37, 99, 235, 0.22);
+}
+
+.store-hero-copy h3,
+.store-hero-copy h4,
+.store-hero-copy p {
+    color: white;
+}
+
+.store-cta {
+    display: inline-block;
+    background: #f59e0b;
+    color: #111827;
+    padding: 12px 22px;
+    border-radius: 999px;
+    font-weight: 700;
+    margin-top: 12px;
+    text-decoration: none !important;
+}
+
+.store-cta.secondary {
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.45);
+    margin-left: 10px;
+}
+
+.store-hero-panel {
+    background: #fff;
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    border: 1px solid #e5e7eb;
+}
+
+.store-search {
+    display: flex;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.store-search input {
+    width: 100%;
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    padding: 12px 14px;
+    font-size: 0.95rem;
+}
+
+.store-search button,
+.store-button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.store-grid,
+.category-grid,
+.feature-grid,
+.review-grid,
+.benefit-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.store-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    margin: 25px 0;
+}
+
+.category-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    margin: 20px 0 30px;
+}
+
+.feature-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    margin: 20px 0 30px;
+}
+
+.review-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    margin: 20px 0 30px;
+}
+
+.benefit-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    margin: 20px 0 30px;
+}
+
+.store-card,
+.category-card,
+.feature-card,
+.review-card,
+.benefit-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+}
+
+.store-card h4,
+.category-card h4,
+.feature-card h4,
+.review-card h4,
+.benefit-card h4 {
+    margin-top: 0;
+}
+
+.store-price {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #111827;
+}
+
+.store-tag {
+    display: inline-block;
+    background: #eef2ff;
+    color: #3730a3;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.store-old-price {
+    color: #6b7280;
+    text-decoration: line-through;
+    margin-left: 8px;
+    font-size: 0.9rem;
+}
+
+.store-section {
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+.store-section h2 {
+    margin-bottom: 8px;
+}
+
+.rating {
+    color: #f59e0b;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.newsletter {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border: 1px solid #bfdbfe;
+    border-radius: 20px;
+    padding: 28px;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+
+.newsletter input {
+    flex: 1;
+    border: 1px solid #bfdbfe;
+    border-radius: 12px;
+    padding: 12px 14px;
+}
+
+.footer-shop {
+    background: #111827;
+    color: #e5e7eb;
+    padding: 28px 16px;
+    border-radius: 14px;
+    margin-top: 28px;
+}
+
+.footer-shop a {
+    color: #dbeafe;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .store-hero {
+        grid-template-columns: 1fr;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        align-items: stretch;
+    }
 }
